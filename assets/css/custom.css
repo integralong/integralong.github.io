@@ -1,6 +1,0 @@
-.author__avatar {
-  border-radius: 0; /* Removes the circular border if there’s one */
-  width: 200px; /* You can specify a custom width */
-  height: 100px; /* Adjust the height */
-  overflow: hidden; /* Ensures the image fits within the box */
-}
