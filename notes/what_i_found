@@ -1,2 +1,3 @@
 //avatar image changes color on mouseover
 //go to _sidebar.scss, change "opacity: 0.75" to "opacity: 1"
+//refer to this: "https://talk.jekyllrb.com/t/avatar-image-changes-color-on-mouseover/7798"
