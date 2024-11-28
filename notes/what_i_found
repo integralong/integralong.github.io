@@ -1,0 +1,2 @@
+//avatar image changes color on mouseover
+//go to _sidebar.scss, change "opacity: 0.75" to "opacity: 1"
