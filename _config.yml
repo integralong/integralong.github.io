@@ -115,9 +115,9 @@ analytics:
 author:
   name             : "Lauren Song"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "@**UF**."
+  bio              : "Wecome :)"
   location         : "Somewhere in FL"
-  email            : "mailto: ahyeonsong@ufl.edu"
+  email            : "mailto: integrlong@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
