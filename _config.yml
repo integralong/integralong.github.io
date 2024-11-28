@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Lauren Song"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/cat.jpg"
   bio              : "Wecome :)"
   location         : "Somewhere in FL"
   email            : "mailto: integrlong@gmail.com"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/integralong"
+      # url: "https://github.com/integralong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
