@@ -1,13 +1,34 @@
 ---
-title: "이 블로그 설명서"
+title: "About me"
 permalink: /about/
 layout: single
 ---
 
-## integralong.github.io 블로그
+## integralong.github.io 
 
-이 블로그는 GitHub Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
+Welcome!
+My name is A Hyeon (Lauren) Song
+I'm currently Junior at University of Florida majoring in Mathematics and Computer Science with strong interests in Artificial Intelligence especially Medical AI! Always open to new opportunities and experiences.
 
-진짜 블로그인 <https://devinlife.com>을 방문해보자.
-이 곳에서 이 샘플 블로그를 같이 만들어보는 GitHub Pages 블로그 따라하기 시리즈의
-모든 글을 볼 수 있다.
+# Education
+B.S. Computer Science, University of South Florida 2022 - 2024
+B.S. Mathematics and Computer Science, University of Florida 2025 - Expected 2027
+
+# Experience
+
+Research Student, Undergraduate Research Society.                                               Oct 2023 – April 2024, Tampa
+• Worked on a group research project analyzing in the potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas worldwide.
+• Integrated insights on mobile imaging technologies, emphasizing how telehealth can provide enhanced diagnostic capabilities through portable devices, even in remote settings.
+• Participated and presented at the University of South Florida Undergraduate Research Conference.
+Research Student, Undergraduate Research Society                                                   Aug 2024 – Current, Tampa
+• Currently conducting research on assessing the clinical effectiveness of Cologuard versus Colonoscopy in the early detection of colorectal cancer.
+
+# Projects
+
+Modular Arithmetic w/ Applications to Cryptography                                                               May 2024, Tampa
+• Hands-on mathematical calculation with given data p, q, and e applied the concepts of GCD, The RSA Algorithm, and Euclidean Algorithm in order to analyze and understand the relationship.
+Manufacturing Educational Robot                                                                                               April 2024, Tampa
+• Lead the activity to work with teammate to manufacture and develop educational robot, contributed design and program for 3D printing of the robot, resulting its performance under $40 based on the given work order.
+
+
+
