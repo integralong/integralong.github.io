@@ -4,19 +4,19 @@ permalink: /about/
 layout: single
 ---
 
-# integralong.github.io 
+## integralong.github.io 
 
 Welcome!  
 My name is A Hyeon (Lauren) Song.  
 I'm currently a Junior at the University of Florida majoring in Mathematics and Computer Science, with strong interests in Artificial Intelligence, especially Medical AI! Always open to new opportunities and experiences.
 
-## Education
+### Education
 - **B.S. Computer Science**, University of South Florida  
   *2022 - 2024*  
 - **B.S. Mathematics and Computer Science**, University of Florida  
   *2025 - Expected 2027*  
 
-## Experience
+### Experience
 
 - **Research Student**, Undergraduate Research Society  
   *Oct 2023 – April 2024, Tampa*  
@@ -28,7 +28,7 @@ I'm currently a Junior at the University of Florida majoring in Mathematics and 
   *Aug 2024 – Current, Tampa*  
   - Currently conducting research on assessing the clinical effectiveness of Cologuard versus Colonoscopy in the early detection of colorectal cancer.  
 
-## Projects
+### Projects
 
 - **Modular Arithmetic w/ Applications to Cryptography**  
   *May 2024, Tampa*  
