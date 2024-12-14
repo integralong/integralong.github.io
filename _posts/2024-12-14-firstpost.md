@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to first post!"
 date:   2024-12-14 15:09:49 -0500
 permalink: /posts/
