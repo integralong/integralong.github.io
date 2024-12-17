@@ -1,9 +1,9 @@
 ---
 title: "Blog"
-permalink: /categories/blog-posts/
+permalink: /categories/posts/
 layout: category
 author_profile: true
-taxonomy: blog-posts
+taxonomy: posts
 ---
 
 Here's my blog posts:
