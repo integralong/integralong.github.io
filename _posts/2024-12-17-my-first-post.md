@@ -1,9 +1,8 @@
 ---
-title: "welcome to my blog post!"
-date: 2024-12-14
+title: "My First Post"
+date: 2024-12-17
 categories: blog-posts
-permalink: /categories/
+permalink: /categories/blog-posts/my-first-post/
 layout: single
 ---
-
-welcome to my first post!
+Welcome to my first post!
