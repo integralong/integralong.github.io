@@ -1,9 +1,8 @@
 ---
 title: "numberonegirl"
 date: 2024-12-17
-categoreis: blog-posts
-permalink: /categories/
+categories: blog-posts
+permalink: /categories/blog-posts/numberonegirl/
 layout: single
 ---
-
-Tell me that I'm special, tell me I look pretty. 
+Tell me that I'm special, tell me I look pretty...
