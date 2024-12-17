@@ -6,8 +6,6 @@ layout: single
 
 ## integralong.github.io 
 
-Welcome!  
-
 Happy Holidays!
 
 
