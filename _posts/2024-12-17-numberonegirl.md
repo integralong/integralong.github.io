@@ -1,7 +1,6 @@
 ---
-title: numberonegirl
+title: "numberonegirl"
 date: 2024-12-17
-excerpt: first track
 categoreis: blog-posts
 permalink: /categories/
 layout: single
