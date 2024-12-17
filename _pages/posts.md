@@ -5,4 +5,4 @@ layout: category
 author_profile: true
 ---
 
-Here's my blog posts:
+Here's my posts:
