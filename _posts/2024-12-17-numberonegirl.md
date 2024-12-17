@@ -1,7 +1,7 @@
 ---
 title: "numberonegirl"
 date: 2024-12-17
-categories: blog
+categories: rosè
 permalink: /categories/posts/numberonegirl/
 layout: single
 ---
