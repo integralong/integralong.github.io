@@ -8,7 +8,6 @@ permalink: /map/
 # Welcome to My Map 🌍
 
 <div style="text-align: center;">
-
     Below is an interactive map showing the places I’ve visited and my favorite spots!
 </div>
 
