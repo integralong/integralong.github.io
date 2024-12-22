@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: My Map
 permalink: /map/
 ---
