@@ -1,8 +1,8 @@
 ---
-layout: splash
+layout: single
+classes: wide
 title: My Map 🌍
 permalink: /map/
-author_profile: true
 ---
 
 
