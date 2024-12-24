@@ -1,14 +1,14 @@
 ---
 title: "Installation Art"
-permalink: /portfolio/installation_art
+layout: collection
 collection: portfolio
-layout: single
-classes: wide
-header:
-  teaser: path-to-teaser-image.jpg
+permalink: /portfolio/installation_art/
+
+#header:
+  #teaser: path-to-teaser-image.jpg
 
 ---
 
-## Installation Art
+## Escape from Reality
 
 The motivation: 
