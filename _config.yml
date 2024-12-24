@@ -333,5 +333,5 @@ defaults:
       type: portfolio
     values: 
       layout: single
-      author_porfile: false
+      author_porfile: true
       share: true
