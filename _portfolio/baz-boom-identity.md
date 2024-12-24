@@ -1,5 +1,6 @@
 ---
 title: "Baz Boom Identity"
+url: /portfolio/baz-boom-identity/
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
   image: /assets/images/cat.jpg
