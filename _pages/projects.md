@@ -1,9 +1,7 @@
 ---
 title: "Projects"
 permalink: /categories/projects/
-layout: collection
-collection: portfolio
-entries_layout: grid
+layout: category
 author_profile: true
 taxonomy: projects
 ---
