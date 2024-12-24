@@ -3,12 +3,12 @@ title: "Undergraduate Research Society - Project #1"
 date: 2024-12-24
 categories: projects
 permalink: /categories/first-project/
-layout: single
+layout: post
 ---
 
-## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally.
+## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
-### <Timeline>
+### Timeline
 #### Narrowed down topic
 
 #### Data Collection
