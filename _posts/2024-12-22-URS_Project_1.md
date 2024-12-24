@@ -1,8 +1,8 @@
 ---
 title: "Research #1"
 date: 2024-12-22
-categories: blog-posts
-permalink: /categories/my-first-post/
+categories: projects
+permalink: /categories/first-project/
 layout: single
 ---
 

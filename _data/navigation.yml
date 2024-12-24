@@ -4,8 +4,8 @@ main:
     url: https://integralong.github.io
   - title: "About"
     url: /about/
-  - title: "Posts"
-    url: /categories/blog-posts/
+  - title: "Projects"
+    url: /categories/projects/
   - title: "Map"
     url: /map/
   - title: "Category"
