@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: My Map 🌍
 permalink: /map/
 author_profile: true
