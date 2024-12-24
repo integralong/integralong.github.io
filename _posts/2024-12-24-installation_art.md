@@ -1,6 +1,6 @@
 ---
 title: "Installation Art"
-layout: collection
+layout: single
 collection: portfolio
 permalink: /portfolio/installation_art/
 
