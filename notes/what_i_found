@@ -1,3 +1,6 @@
 //avatar image changes color on mouseover
 //go to _sidebar.scss, change "opacity: 0.75" to "opacity: 1"
 //refer to this: "https://talk.jekyllrb.com/t/avatar-image-changes-color-on-mouseover/7798"
+
+//share icon and link outside of page, 
+//go to _layouts and single.html. and add footer -> "{% if page. share %}{% include social-share.html %}{% endif %}" above of {% include post_pagination.html %} 
