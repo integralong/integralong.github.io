@@ -12,7 +12,7 @@ toc_label: "My Table of Contents"
 toc_icon: "cog"
 
 header:
-  image: /assets/images/telemedicine.jpg
+  image: /assets/images/URS.png
 
 ---
 
