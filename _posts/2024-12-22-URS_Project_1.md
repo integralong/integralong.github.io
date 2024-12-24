@@ -5,7 +5,7 @@ description: >
 date: 2024-12-24
 categories: projects
 permalink: /categories/first-project/
-layout: post
+layout: posts
 ---
 
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
