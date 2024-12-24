@@ -1,6 +1,5 @@
 ---
 title: "Undergraduate Research Society - Project #1"
-description: "Public Health"
 classes: wide
 date: 2024-12-24
 categories: projects
