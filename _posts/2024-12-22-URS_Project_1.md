@@ -6,6 +6,5 @@ permalink: /categories/first-project/
 layout: single
 ---
 
-# URS Research Project #1
+## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally.
 
-Subject: Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally.
