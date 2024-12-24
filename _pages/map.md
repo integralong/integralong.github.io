@@ -2,6 +2,7 @@
 layout: single
 title: My Map 🌍
 permalink: /map/
+author_profile: true
 ---
 
 
