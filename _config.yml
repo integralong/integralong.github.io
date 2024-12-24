@@ -218,6 +218,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:
@@ -289,10 +294,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
