@@ -1,6 +1,7 @@
 ---
 title: "Installation Art"
-excerpt: "all time installation art"
+layout: single
+collection: portfolio
 permalink: /portfolio/installation_art/
 
 header:
