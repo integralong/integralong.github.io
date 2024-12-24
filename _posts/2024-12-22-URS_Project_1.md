@@ -1,7 +1,6 @@
 ---
 title: "Undergraduate Research Society - Project #1"
-description: >
-    Public Health
+description: "Public Health"
 date: 2024-12-24
 categories: projects
 permalink: /categories/first-project/
