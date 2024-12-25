@@ -11,8 +11,8 @@ permalink: /map/
 </div>
 
 <div style="display: flex; justify-content: center;align-items: center; height: 100vh;">
-    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1L3pLbmAMhDYFOkN9HmM-LWPGjrvTUJ0&ehbc=2E312F&noprof=1&hl=en" width="80%" 
-    height="80%"
+    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1L3pLbmAMhDYFOkN9HmM-LWPGjrvTUJ0&ehbc=2E312F&noprof=1&hl=en" width="100%" 
+    height="50%"
     style="border: 0;">
     </iframe>
 </div>
