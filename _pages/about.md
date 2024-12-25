@@ -3,7 +3,7 @@ title: "About me"
 date: "2024-12-24"
 permalink: /about/
 layout: single
-classes: wide
+author_profile: true
 ---
 
 ## integralong.github.io 

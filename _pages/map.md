@@ -1,6 +1,6 @@
 ---
 layout: single
-classes: wide
+author_profile: true
 title: My Map 🌍
 permalink: /map/
 ---
