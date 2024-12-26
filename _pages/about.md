@@ -8,13 +8,4 @@ author_profile: true
 
 ## integralong.github.io 
 
-Happy Holidays 🎄
-
-### Education
-University of South Florida | Tampa, 2022 - 2024 Dec
-
-    B.S. Computer Science 
-
-University of Florida | Gainesville, 2025 Jan - expected 2027
-
-    B.S. Mathematics
+Happy New Year 2025 2️⃣0️⃣2️⃣5️⃣🧧
