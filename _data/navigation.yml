@@ -6,8 +6,6 @@ main:
     url: /about/
   - title: "Projects"
     url: /categories/projects/
-  - title: "Portfolio"
-    url: /portfolio/
   - title: "Map"
     url: /map/
   - title: "Category"
