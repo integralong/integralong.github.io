@@ -17,8 +17,12 @@ header:
 
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
-### Timeline
-This post was written step by step through timeline
+### Project Info
+
+2023 Oct – 2024 April, Undergraduate Research Society at University of South Florida 
+
+
+Team | Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, Lauren Song, Gayathri Mannem
 
 #### Narrowed down topic
 The topic on this project is potential role and effectiveness of telehealth for helathcare-deprived or low-resource areas globally
