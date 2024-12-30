@@ -47,6 +47,8 @@ Telehealth has particularly shown promise in reaching people who cannot access i
 -	Specific conditions (medical conditions)
 
 #### Explorations
+
+
 Methods and Materials | Articles discussing the effects of telehealth on
 healthcare-deprived and low-resource communities
 were collected and screened through Rayyan. A
@@ -57,7 +59,7 @@ determine relevancy to the research topic.
 
 #### Recap
 
-< Conclution >
+Conclution
 
 Telehealth initiatives have demonstrated significant strides
 in extending their reach to underserved populations,
