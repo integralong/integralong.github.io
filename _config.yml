@@ -324,12 +324,3 @@ defaults:
       comments: # true
       share: #true
       related: true
-
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      related: true
