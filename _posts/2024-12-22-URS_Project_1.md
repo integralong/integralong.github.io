@@ -48,7 +48,7 @@ Telehealth has particularly shown promise in reaching people who cannot access i
 
 #### Explorations
 
-Methods and Materials | Articles discussing the effects of telehealth on healthcare-deprived and low-resource communities were collected Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, Lauren Song, Gayathri Mannem
+Methods and Materials | Articles discussing the effects of telehealth on healthcare-deprived and low-resource communities were collected and screened through Rayyan. A systematic review was then conducted to filter through various study methods and variables to determine relevancy to the research topic.
 
 
 Methods and Materials | Articles discussing the effects of telehealth on
@@ -61,7 +61,9 @@ determine relevancy to the research topic.
 
 #### Recap
 
-Conclution
+Conclusion
+
+----------
 
 Telehealth initiatives have demonstrated significant strides
 in extending their reach to underserved populations,
