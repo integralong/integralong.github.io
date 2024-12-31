@@ -48,6 +48,8 @@ Telehealth has particularly shown promise in reaching people who cannot access i
 
 #### Explorations
 
+Team | Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, Lauren Song, Gayathri Mannem
+
 
 Methods and Materials | Articles discussing the effects of telehealth on
 healthcare-deprived and low-resource communities

@@ -9,3 +9,6 @@ layout: single
 ## integralong.github.io 
 
 Happy New Year 
+
+Full-time stem student, part-time designer
+
