@@ -1,13 +1,13 @@
 # main links
 main:
-  #- title: "Home"
-  #  url: https://integralong.github.io
+  - title: "Home"
+    url: https://integralong.github.io
   - title: "About"
     url: /about/
   - title: "Projects"
     url: /categories/projects/
-  - title: "Map"
-    url: /map/
+  #- title: "Map"
+  #  url: /map/
   - title: "Category"
     url: /categories/
   - title: "Search"
