@@ -7,7 +7,7 @@ layout: single
 ---
 
 ## integralong.github.io 
----
+
 
 ### Lauren A Hyeon Song
 ---
