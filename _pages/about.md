@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: "2024-12-24"
+date: "2024-01-02"
 permalink: /about/
 layout: single
 #author_profile: true
@@ -8,10 +8,10 @@ layout: single
 
 ## integralong.github.io 
 
-## Lauren A Hyeon Song
+### Lauren A Hyeon Song
 
 Lauren is a rising junior at University of Florida studying math with strong interests in Artificial Intelligence. She is eager to explore ever-changing fields, especially Medical AI! Always open to new opportunities and experiences.
 
-Outside work, you can find her travelling, collecting arts, or in the snow doing varios winter sports. 
+Outside work, you can find her travelling, collecting arts, or in the snow doing various winter sports. 
 
 
