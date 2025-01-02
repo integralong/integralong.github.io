@@ -7,8 +7,9 @@ layout: single
 ---
 
 ## integralong.github.io 
+---
 
-### Lauren A Hyeon Song
+### > Lauren A Hyeon Song
 ---
 
 Lauren is a rising junior at University of Florida studying math with strong interests in Artificial Intelligence. She is eager to explore ever-changing fields, especially Medical AI! Always open to new opportunities and experiences.
