@@ -8,7 +8,10 @@ layout: single
 
 ## integralong.github.io 
 
-Happy New Year 
+## Lauren A Hyeon Song
 
-Full-time stem student, part-time designer
+Lauren is a rising junior at University of Florida studying math with strong interests in Artificial Intelligence. She is eager to explore ever-changing fields, especially Medical AI! Always open to new opportunities and experiences.
+
+Outside work, you can find her travelling, collecting arts, or in the snow doing varios winter sports. 
+
 

@@ -8,6 +8,7 @@ author_profile: true
 
 
 <div style="text-align: center; font-family: Arial, font-size: 10px; margin-bottom: 10px;">
+    Here's some hidden gems that she has visited over around the world.
 
 </div>
 
