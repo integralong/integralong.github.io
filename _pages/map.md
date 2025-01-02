@@ -1,13 +1,15 @@
 ---
 layout: single
 classes: wide
-title: 🌍
+title: Map
 permalink: /map/
 author_profile: true
 ---
 
 
 <div style="text-align: center; font-family: Arial, font-size: 10px; margin-bottom: 10px;">
+    🌍
+    
     Here are some hidden gems she has visited around the world.
 
 </div>
