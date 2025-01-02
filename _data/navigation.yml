@@ -12,5 +12,5 @@ main:
     url: /categories/
   - title: "Search"
     url: /search/
-    icon: fas fa-search
+    icon: "fab fa-fw fa-search"
   
