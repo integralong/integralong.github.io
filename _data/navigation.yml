@@ -12,5 +12,5 @@ main:
     url: /categories/
   - title: "Search"
     url: /search/
-    icon: "fas fa-search"
+    icon: "fa-solid fa-magnifying-glass"
   
