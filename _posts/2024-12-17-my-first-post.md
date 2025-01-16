@@ -6,3 +6,4 @@ permalink: /categories/first-blog-post/
 layout: single
 ---
 Welcome to my first post!
+
