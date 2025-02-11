@@ -1,7 +1,7 @@
 ---
 title: "Undergraduate Research Society - Project #1"
-classes: wide
-date: 2024-12-30
+#classes: wide
+date: 2024-02-11
 categories: projects
 permalink: /categories/first-project/
 layout: post
@@ -14,6 +14,8 @@ toc_icon: "cog"
   #image: /assets/images/URS.png
 
 ---
+
+![Telehealth Header Image](/assets/images/telemedicine.jpg)
 
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
