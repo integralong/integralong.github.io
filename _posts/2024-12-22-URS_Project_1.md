@@ -4,7 +4,7 @@ classes: wide
 date: 2024-12-30
 categories: projects
 permalink: /categories/first-project/
-layout: single
+layout: post
 
 toc: true
 toc_label: "My Table of Contents"
