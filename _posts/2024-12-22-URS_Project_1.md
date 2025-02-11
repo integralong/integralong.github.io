@@ -1,10 +1,10 @@
 ---
 title: "Undergraduate Research Society - Project #1"
-#classes: wide
+classes: wide
 date: 2024-02-11
 categories: projects
 permalink: /categories/first-project/
-layout: post
+layout: single
 
 toc: true
 toc_label: "My Table of Contents"
