@@ -15,7 +15,7 @@ toc_icon: "cog"
 
 ---
 
-#![Telehealth Header Image](/assets/images/telemedicine.jpg)
+![Telehealth Header Image](/assets/images/telemedicine.jpg)
 
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 

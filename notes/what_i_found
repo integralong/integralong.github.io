@@ -4,3 +4,7 @@
 
 //share icon and link outside of page, 
 //go to _layouts and single.html. and add footer -> "{% if page. share %}{% include social-share.html %}{% endif %}" above of {% include post_pagination.html %} 
+
+
+//![Telehealth Header Image](/assets/images/telemedicine.jpg)
+//header image 
