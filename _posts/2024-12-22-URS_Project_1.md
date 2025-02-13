@@ -15,7 +15,7 @@ toc_icon: "cog"
 
 ---
 
-![Telehealth Header Image](/assets/images/telemedicine.jpg)
+
 
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
@@ -141,4 +141,4 @@ Our systematic review reveals the transformative potential of telehealth in addr
 #### Research Poser Presentation
 
 ### Poster Overview
-![Research Poster: The Potential Role and Effectiveness of Telehealth](/assets/images/URSTelehealthGroupPoster-2.jpg)
+![Research Poster: The Potential Role and Effectiveness of Telehealth](/assets/images/URSTelehealthGroupPoster-2.jpg)(https://uflorida-my.sharepoint.com/:b:/r/personal/ahyeonsong_ufl_edu/Documents/URS_telehealth/URSTelehealthGroupPoster.pdf?csf=1&web=1&e=W8yt5r)
