@@ -6,8 +6,8 @@ main:
     url: /about/
   - title: "Projects"
     url: /categories/projects/
-  - title: "Book Shelf"
-    url: /bookshelf/
+  - title: "Books"
+    url: /books/
   - title: "Category"
     url: /categories/
   - title: "Search"

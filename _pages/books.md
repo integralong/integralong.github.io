@@ -1,7 +1,7 @@
 ---
 title: "Books"
-permalink: /categories/book/
+permalink: /categories/books/
 layout: category
 #author_profile: true
-taxonomy: book
+taxonomy: books
 ---
