@@ -7,7 +7,7 @@ main:
   - title: "Projects"
     url: /categories/projects/
   - title: "Books"
-    url: /books/
+    url: /categories/books/
   - title: "Category"
     url: /categories/
   - title: "Search"
