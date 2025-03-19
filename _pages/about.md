@@ -1,5 +1,5 @@
 ---
-title: "About"
+#title: "About"
 date: "2025-01-02"
 permalink: /about/
 layout: single
@@ -8,8 +8,7 @@ layout: single
 
 <div class="animation-container">
   <span class="integralong">integralong</span>
-  <span class="integral">integral</span>
-  <span class="symbol">∫</span>
+  <span class="integral">∫ong</span>
   <span class="song">song</span>
 </div>
 
@@ -21,93 +20,89 @@ layout: single
   height: 30vh;
   font-size: 2.5rem;
   font-weight: bold;
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 
+/* ----- 1. integralong 물결처럼 흐릿해지며 사라짐 ----- */
 .integralong {
+  position: absolute;
   opacity: 1;
-  animation: fadeOut 1.5s 1s forwards;
+  animation: waveFadeOut 2s ease-out forwards;
 }
 
+/* ----- 2. ∫ong이 자연스럽게 나타남 ----- */
 .integral {
   position: absolute;
-  left: 0;
-  opacity: 1;
-  animation: erase 1.5s 2s forwards;
-}
-
-.symbol {
-  position: absolute;
-  left: 0;
   opacity: 0;
-  transform: scale(0.5);
-  animation: fillSymbol 1.5s 3.5s forwards, morphToS 1.5s 5s forwards;
+  animation: waveIn 2s 2s ease-out forwards;
 }
 
+/* ----- 3. ∫이 꿈틀거리면서 s로 변형 ----- */
+.integral::before {
+  content: '∫';
+  display: inline-block;
+  animation: morphToS 2s 4s ease-out forwards;
+}
+
+/* ----- 4. song이 출렁거리며 강조 ----- */
 .song {
   position: absolute;
-  left: 0;
   opacity: 0;
-  animation: fadeIn 1.5s 6.5s forwards;
+  animation: fadeIn 2s 6s ease-out forwards, waveBounce 1.5s 8s infinite ease-in-out;
 }
 
 /* ----- 애니메이션 정의 ----- */
 
-/* 'integralong' → 사라지기 */
-@keyframes fadeOut {
+/* waveFadeOut: 물결처럼 흐릿해지면서 사라짐 */
+@keyframes waveFadeOut {
   0% {
     opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/* 'integral' → 지워지기 (칠판 지우듯이) */
-@keyframes erase {
-  0% {
-    opacity: 1;
-    clip-path: inset(0 0 0 0);
-  }
-  100% {
-    opacity: 0;
-    clip-path: inset(0 0 0 100%);
-  }
-}
-
-/* ∫ 채워지기 */
-@keyframes fillSymbol {
-  0% {
-    opacity: 0;
-    transform: scale(0.5) translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-}
-
-/* ∫ → s로 변형 (꿈틀거리듯이) */
-@keyframes morphToS {
-  0% {
-    transform: scale(1) rotate(0deg);
-    opacity: 1;
+    transform: translateX(0) translateY(0);
   }
   50% {
-    transform: scale(1.2) rotate(20deg);
+    transform: translateX(-10px) translateY(5px) rotate(-3deg);
+    opacity: 0.5;
   }
-  75% {
-    transform: scale(0.8) rotate(-20deg);
+  100% {
+    opacity: 0;
+    transform: translateX(-20px) translateY(10px) rotate(-5deg);
+  }
+}
+
+/* waveIn: 물결처럼 등장 */
+@keyframes waveIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px) translateY(-10px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-10px) translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+}
+
+/* morphToS: ∫ → s로 부드럽게 변형 */
+@keyframes morphToS {
+  0% {
+    content: '∫';
+    transform: rotate(0deg);
+  }
+  50% {
+    content: '∫';
+    transform: rotate(180deg);
   }
   100% {
     content: 's';
-    transform: scale(1) rotate(0deg);
-    opacity: 1;
+    transform: rotate(360deg);
   }
 }
 
-/* song 등장 */
+/* fadeIn: song이 자연스럽게 등장 */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -118,6 +113,17 @@ layout: single
     transform: translateY(0);
   }
 }
+
+/* waveBounce: song이 물결처럼 출렁출렁 강조 */
+@keyframes waveBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
 </style>
 
 ## [integralong.github.io](https://integralong.github.io)
