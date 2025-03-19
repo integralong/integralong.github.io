@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: "2025-03-19"
+date: "2025-01-02"
 permalink: /about/
 layout: single
 #author_profile: true
@@ -8,8 +8,11 @@ layout: single
 
 <div class="animation-container">
   <span class="integral">integral</span>
+  <span class="symbol">∫</span>
+  <span class="ong">ong</span>
   <span class="s">s</span>
-  <span class="song">송</span>
+  <span class="song">ong</span>
+  <span class="lauren">Lauren Song</span>
 </div>
 
 <style>
@@ -17,57 +20,110 @@ layout: single
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh; /* 높이 살짝 늘림 */
+  height: 30vh;
+  overflow: hidden;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .integral {
-  font-size: 2.5rem; /* 살짝 키움 */
   opacity: 1;
   animation: fadeOut 1.5s forwards;
 }
 
-.s {
-  font-size: 2.5rem; /* 크기 통일 */
-  transform: scale(0);
+.symbol {
   opacity: 0;
-  animation: growAndTransform 2s 1.5s forwards;
+  transform: translateX(30px);
+  animation: symbolFadeIn 1.5s 1.5s forwards;
+}
+
+.ong {
+  opacity: 0;
+  animation: ongFadeIn 1.5s 2.5s forwards;
+}
+
+.s {
+  opacity: 0;
+  position: absolute;
+  animation: sTransform 1.5s 4s forwards;
 }
 
 .song {
-  font-size: 2.5rem;
   opacity: 0;
-  transform: scale(0);
-  animation: fadeIn 1.5s 3s forwards;
+  position: absolute;
+  animation: songFadeIn 1.5s 4s forwards;
 }
 
+.lauren {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: laurenFadeIn 1.5s 5.5s forwards;
+}
+
+/* 애니메이션 정의 */
 @keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@keyframes growAndTransform {
   0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1.5) rotate(360deg);
     opacity: 1;
+    transform: translateX(0);
   }
   100% {
-    transform: scale(1);
-    opacity: 1;
+    opacity: 0;
+    transform: translateX(-30px);
   }
 }
 
-@keyframes fadeIn {
+@keyframes symbolFadeIn {
   0% {
-    transform: scale(0);
     opacity: 0;
+    transform: translateX(30px) scale(0.5);
   }
   100% {
-    transform: scale(1);
     opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes ongFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes sTransform {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(-30px);
+  }
+}
+
+@keyframes songFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes laurenFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 </style>
@@ -77,10 +133,12 @@ layout: single
 🎉 **Happy New Year!**  
 
 ### Lauren A Hyeon Song  
-Lauren is a rising junior at the **University of Florida** studying **Mathematics** with a strong interest in **Bioinformatics** and **Artificial Intelligence**. She is eager to explore the ever-changing fields of medical AI and bioinformatics. Always open to new opportunities and experiences!  
+Lauren is a rising junior at the University of Florida studying Mathematics with a strong interest in Bioinformatics and Medical AI.  
+She is eager to explore the ever-changing fields of medical AI and bioinformatics. Always open to new opportunities and experiences!  
 
 Outside of work, you can find her traveling, reading books, or enjoying winter sports in the snow.  
 
 ---
+
 
 
