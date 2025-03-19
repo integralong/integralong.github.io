@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About"
 date: "2025-01-02"
 permalink: /about/
 layout: single
@@ -7,12 +7,10 @@ layout: single
 ---
 
 <div class="animation-container">
+  <span class="integralong">integralong</span>
   <span class="integral">integral</span>
   <span class="symbol">∫</span>
-  <span class="ong">ong</span>
-  <span class="s">s</span>
-  <span class="song">ong</span>
-  <span class="lauren">Lauren Song</span>
+  <span class="song">song</span>
 </div>
 
 <style>
@@ -21,102 +19,96 @@ layout: single
   justify-content: center;
   align-items: center;
   height: 30vh;
-  overflow: hidden;
   font-size: 2.5rem;
   font-weight: bold;
+  overflow: hidden;
+  position: relative;
+}
+
+.integralong {
+  opacity: 1;
+  animation: fadeOut 1.5s 1s forwards;
 }
 
 .integral {
+  position: absolute;
+  left: 0;
   opacity: 1;
-  animation: fadeOut 1.5s forwards;
+  animation: erase 1.5s 2s forwards;
 }
 
 .symbol {
-  opacity: 0;
-  transform: translateX(30px);
-  animation: symbolFadeIn 1.5s 1.5s forwards;
-}
-
-.ong {
-  opacity: 0;
-  animation: ongFadeIn 1.5s 2.5s forwards;
-}
-
-.s {
-  opacity: 0;
   position: absolute;
-  animation: sTransform 1.5s 4s forwards;
+  left: 0;
+  opacity: 0;
+  transform: scale(0.5);
+  animation: fillSymbol 1.5s 3.5s forwards, morphToS 1.5s 5s forwards;
 }
 
 .song {
-  opacity: 0;
   position: absolute;
-  animation: songFadeIn 1.5s 4s forwards;
-}
-
-.lauren {
+  left: 0;
   opacity: 0;
-  transform: translateY(20px);
-  animation: laurenFadeIn 1.5s 5.5s forwards;
+  animation: fadeIn 1.5s 6.5s forwards;
 }
 
-/* 애니메이션 정의 */
+/* ----- 애니메이션 정의 ----- */
+
+/* 'integralong' → 사라지기 */
 @keyframes fadeOut {
   0% {
     opacity: 1;
-    transform: translateX(0);
   }
   100% {
     opacity: 0;
-    transform: translateX(-30px);
   }
 }
 
-@keyframes symbolFadeIn {
+/* 'integral' → 지워지기 (칠판 지우듯이) */
+@keyframes erase {
+  0% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    opacity: 0;
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+/* ∫ 채워지기 */
+@keyframes fillSymbol {
   0% {
     opacity: 0;
-    transform: translateX(30px) scale(0.5);
+    transform: scale(0.5) translateY(20px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0) scale(1);
+    transform: scale(1) translateY(0);
   }
 }
 
-@keyframes ongFadeIn {
+/* ∫ → s로 변형 (꿈틀거리듯이) */
+@keyframes morphToS {
   0% {
-    opacity: 0;
-    transform: translateX(-10px);
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2) rotate(20deg);
+  }
+  75% {
+    transform: scale(0.8) rotate(-20deg);
   }
   100% {
+    content: 's';
+    transform: scale(1) rotate(0deg);
     opacity: 1;
-    transform: translateX(0);
   }
 }
 
-@keyframes sTransform {
-  0% {
-    opacity: 0;
-    transform: scale(0) translateX(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateX(-30px);
-  }
-}
-
-@keyframes songFadeIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes laurenFadeIn {
+/* song 등장 */
+@keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(20px);
