@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: "2025-01-02"
+date: "2025-03-19"
 permalink: /about/
 layout: single
 #author_profile: true
