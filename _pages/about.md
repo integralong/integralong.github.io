@@ -8,7 +8,7 @@ layout: single
 
 <div class="animation-container">
   <span class="integralong">integralong</span>
-  <span class="integral">∫ong</span>
+  <span class="integral">ong</span>
   <span class="song">song</span>
 </div>
 
