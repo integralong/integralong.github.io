@@ -31,11 +31,11 @@ layout: single
   animation: fadeOutLeft 2s ease-out forwards;
 }
 
-/* ----- 2. ∫ong이 자연스럽게 나타남 ----- */
+/* ----- 2. ∫ong이 직선으로 나타남 ----- */
 .integral {
   position: absolute;
   opacity: 0;
-  animation: waveIn 2s 2s ease-out forwards;
+  animation: slideInRight 2s 2s ease-out forwards;
 }
 
 /* ----- 3. ∫이 꿈틀거리면서 s로 변형 ----- */
@@ -66,19 +66,15 @@ layout: single
   }
 }
 
-/* waveIn: 물결처럼 등장 */
-@keyframes waveIn {
+/* slideInRight: 직선으로 오른쪽에서 등장 */
+@keyframes slideInRight {
   0% {
     opacity: 0;
-    transform: translateX(20px) translateY(-10px);
-  }
-  50% {
-    opacity: 0.5;
-    transform: translateX(-10px) translateY(5px);
+    transform: translateX(100%);
   }
   100% {
     opacity: 1;
-    transform: translateX(0) translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -88,7 +84,39 @@ layout: single
     content: '∫';
     transform: rotate(0deg);
   }
-  5
+  50% {
+    content: '∫';
+    transform: rotate(180deg);
+  }
+  100% {
+    content: 's';
+    transform: rotate(360deg);
+  }
+}
+
+/* fadeIn: song이 자연스럽게 등장 */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* waveBounce: song이 물결처럼 출렁출렁 강조 */
+@keyframes waveBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+</style>
 
 
 ## [integralong.github.io](https://integralong.github.io)
