@@ -24,11 +24,11 @@ layout: single
   overflow: hidden;
 }
 
-/* ----- 1. integralong 물결처럼 흐릿해지며 사라짐 ----- */
+/* ----- 1. integralong 직선으로 왼쪽으로 페이드아웃 ----- */
 .integralong {
   position: absolute;
   opacity: 1;
-  animation: waveFadeOut 2s ease-out forwards;
+  animation: fadeOutLeft 2s ease-out forwards;
 }
 
 /* ----- 2. ∫ong이 자연스럽게 나타남 ----- */
@@ -54,19 +54,15 @@ layout: single
 
 /* ----- 애니메이션 정의 ----- */
 
-/* waveFadeOut: 물결처럼 흐릿해지면서 사라짐 */
-@keyframes waveFadeOut {
+/* fadeOutLeft: 직선으로 왼쪽으로 페이드 아웃 */
+@keyframes fadeOutLeft {
   0% {
     opacity: 1;
-    transform: translateX(0) translateY(0);
-  }
-  50% {
-    transform: translateX(-10px) translateY(5px) rotate(-3deg);
-    opacity: 0.5;
+    transform: translateX(0);
   }
   100% {
     opacity: 0;
-    transform: translateX(-20px) translateY(10px) rotate(-5deg);
+    transform: translateX(-100%);
   }
 }
 
@@ -92,39 +88,8 @@ layout: single
     content: '∫';
     transform: rotate(0deg);
   }
-  50% {
-    content: '∫';
-    transform: rotate(180deg);
-  }
-  100% {
-    content: 's';
-    transform: rotate(360deg);
-  }
-}
+  5
 
-/* fadeIn: song이 자연스럽게 등장 */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* waveBounce: song이 물결처럼 출렁출렁 강조 */
-@keyframes waveBounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-
-</style>
 
 ## [integralong.github.io](https://integralong.github.io)
 
