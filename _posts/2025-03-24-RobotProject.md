@@ -195,7 +195,7 @@ As of **April 5th**, there are no issues regarding:
 
 ### 3D Printing Process
 Below are images of the 3D printing process:  
-![3D Printing Process - Step 1](/assests/images/3d_printing_process.gif)  
+![3D Printing Process - Step 1](/assets/images/3d_printing_process.gif)  
 *Description of Step 1.*  
 
 
