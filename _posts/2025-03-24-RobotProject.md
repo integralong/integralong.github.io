@@ -58,13 +58,13 @@ Project-based learning primarily utilizes modular robot kits. These kits resembl
 format but feature limited design space to minimize assembly time. This provides students with a
 sense of satisfaction in assembly, while teachers can allocate sufficient time to introduce activity
 processes. Utilizing open-source platforms like Arduino further enhances the suitability for K-12
-STEM education by offering reasonable pricing and expandable design space. [1]
+STEM education by offering reasonable pricing and expandable design space. [1](#references-1)
 
 Utilizing robots as learning tools in technology-based education grants students the right to
 explore their skills and knowledge during the learning process, thus fostering independence.
 Moreover, through such activities, knowledge can be advanced. As a result, the development of
 affordable educational robots over the past few years has demonstrated the promotion of STEM
-education by enabling the cultivation of various technological skills. [2]
+education by enabling the cultivation of various technological skills. [2](#references-2)
 
 Job-centered hands-on STEM learning in robotics engineering. Task-centered hands-on STEM
 learning approaches are effective in students' educational robot learning. STEM education aims
@@ -75,7 +75,7 @@ project-based or problem-based learning approaches, emphasizing learners and enc
 students to integrate what they have learned to solve problems. For example, Arduino Uno is
 highly scalable among controllers, being smaller, lighter, cheaper, and easier to obtain learning
 resources and materials for programming. Learning materials emphasize that students can spend
-limited time and money applying what they have learned in practical tasks and building robots. [3]
+limited time and money applying what they have learned in practical tasks and building robots. [3](#references-3)
 
 The core technology used in our project is Arduino Uno R3, which falls under mechanical
 engineering. This includes an H-bridge for motor control, a sensor, and geared motors. Arduino
@@ -124,8 +124,10 @@ Below are images of the 3D printing process:
 [1] M. E. Karim, S. Lemaignan and F. Mondada, A review: Can robots reshape K-12 STEM
 education?, 2015 IEEE International Workshop on Advanced Robotics and its Social Impacts
 (ARSO), Lyon, France, 2015
+
 [2] Z Abidin, R Arifudin, and W Hardyanto, Low-cost educational robotics for promoting STEM
 education, IOP, 2021.
+
 [3] C Chi-Cheng, C Yiching, Using mastery learning theory to develop task-centered hands-
 on STEM learning of Arduino-based educational robotics: psychomotor performance and
 perception by a convergent parallel mixed method, Taylor & Francis Online, 2020
