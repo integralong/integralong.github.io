@@ -127,7 +127,8 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 ![Final Candidate - Figure 2](assets/images/final_candidate.gif)  
 
 *Final Candidate Design*
-![Final Candidate - Figure 3](assets/images/picture1.png)
+![Final Candidate - Figure 3](assets/images/Picture1.png)
+
 
 ## Product Development
 *Describe the assembly process, challenges, and optimizations.*
@@ -140,7 +141,7 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 
 ### 3D Printing Process
 Below are images of the 3D printing process:  
-![3D Printing Process - Step 1](images/3d_printing_step1.jpg)  
+![3D Printing Process - Step 1](assest/images/3d_printing_step1.jpg)  
 *Description of Step 1.*  
 
 ![3D Printing Process - Step 2](images/3d_printing_step2.jpg)  
