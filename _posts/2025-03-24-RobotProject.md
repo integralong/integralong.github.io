@@ -121,10 +121,10 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 - Arduino Uno
 
 
-![Final Candidate - Figure 1](/assets/images/final_design.png)
-
-
-![Final Candidate - Figure 3](/assets/images/Picture1.png)
+<div style="display: flex; justify-content: space-around;">
+    <img src="/assets/images/final_design.png" alt="Final Candidate - Figure 1" width="45%" />
+    <img src="/assets/images/Picture1.png" alt="Final Candidate - Figure 2" width="45%" />
+</div>
 
 
 ## Product Development
