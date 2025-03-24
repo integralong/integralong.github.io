@@ -3,7 +3,7 @@
 date: "2025-01-02"
 permalink: /about/
 layout: single
-classes: wide
+#classes: wide
 #author_profile: true
 ---
 
