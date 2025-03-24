@@ -81,7 +81,7 @@ The core technology used in our project is Arduino Uno R3, which falls under mec
 engineering. This includes an H-bridge for motor control, a sensor, and geared motors. Arduino
 facilitates user interaction and accessibility, making it easy to build prototypes for the project.
 Moreover, Arduino’s ease of access allows for the sharing of tutorials in the market, enabling us
-to implement programming tha
+to implement programming that displays interactive emojis through an LCD screen, enhancing the efficiency of the project.
 
 ## Project Plan
 ### Bill of Materials
