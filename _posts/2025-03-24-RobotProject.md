@@ -84,6 +84,9 @@ Moreover, Arduino’s ease of access allows for the sharing of tutorials in the 
 to implement programming that displays interactive emojis through an LCD screen, enhancing the efficiency of the project.
 
 ## Project Plan
+
+The total cost of our prototype is $39.11, maintainig the ottal budget just under $40.00. The Bill of Materials (Table 1) is attached below with the list of materials that were used and their cost for more details.
+
 ### Bill of Materials
 
 | Material                  | Amount |
@@ -98,8 +101,27 @@ to implement programming that displays interactive emojis through an LCD screen,
 | **Total**                | **$39.11** |
 
 ## Prototype Design
+
+The chosen design, called Wheelie, was selected over other ideas for several reasons. Its
+box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly
+within a few minutes by any user, unlike other candidates that are harder to assemble.
+Additionally, Wheelie incorporates three wheels for stability, making it suitable for navigating
+indoor environments typically found in schools. Lastly, considering the customer’s budgetary
+constraints, our candidate design ensures cost-effectiveness, with the cost expected to be under
+$40.
+
 ### Final Candidate Design Calculations and Specific Components
-*Include technical calculations, component choices, and justification.*
+Based on the Figure 1, our final candidate design calculations and specific components are:
+- Box-shaped body (5.4” x 5.4” x 5.4”)
+- LCD Screen face (3.15” x 2.76” x 3.46”)
+- Two wheels (Diameter: 8cm)
+- One fixed wheel (Diameter: 3”)
+- Ultrasonic Sensor
+- Two motors
+- Power source such as 5V battery
+- Arduino Uno
+![Final Candidate - Figure 1](assets/images/final_candidate.gif)  
+
 
 ## Product Development
 *Describe the assembly process, challenges, and optimizations.*
