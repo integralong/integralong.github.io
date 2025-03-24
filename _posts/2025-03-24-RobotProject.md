@@ -74,7 +74,7 @@ project-based or problem-based learning approaches, emphasizing learners and enc
 students to integrate what they have learned to solve problems. For example, Arduino Uno is
 highly scalable among controllers, being smaller, lighter, cheaper, and easier to obtain learning
 resources and materials for programming. Learning materials emphasize that students can spend
-limited time and money applying what they have learned in practical tasks and building robots. [([3](#ref-3))](#ref-3)
+limited time and money applying what they have learned in practical tasks and building robots. [((#[3]))](#3)
 
 The core technology used in our project is Arduino Uno R3, which falls under mechanical
 engineering. This includes an H-bridge for motor control, a sensor, and geared motors. Arduino
@@ -222,7 +222,7 @@ education?, 2015 IEEE International Workshop on Advanced Robotics and its Social
 [<span id="ref-2">2</span>] Z. Abidin, R. Arifudin, and W. Hardyanto, Low-cost educational robotics for promoting STEM  
 education, IOP, 2021.  
 
-[<span id="ref-3">3</span>] C. Chi-Cheng, C. Yiching, Using mastery learning theory to develop task-centered hands-  
+[<span id="3">3</span>] C. Chi-Cheng, C. Yiching, Using mastery learning theory to develop task-centered hands-  
 on STEM learning of Arduino-based educational robotics: psychomotor performance and  
 perception by a convergent parallel mixed method, Taylor & Francis Online, 2020  
 
