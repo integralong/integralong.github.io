@@ -121,13 +121,14 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 - Arduino Uno
 
 *Final Design*
-![Final Candidate - Figure 1](_assets/images/final_design.png)  
+![Final Candidate - Figure 1](/assets/images/final_design.png)
+
 
 *Final Candidate*
-![Final Candidate - Figure 2](_assets/images/final_candidate.gif)
+![Final Candidate - Figure 2](/assets/images/final_candidate.gif)
 
 *Final Candidate Design*
-![Final Candidate - Figure 3](_assets/images/Picture1.png)
+![Final Candidate - Figure 3](/assets/images/Picture1.png)
 
 
 ## Product Development
