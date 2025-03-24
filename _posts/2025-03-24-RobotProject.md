@@ -57,13 +57,13 @@ Project-based learning primarily utilizes modular robot kits. These kits resembl
 format but feature limited design space to minimize assembly time. This provides students with a
 sense of satisfaction in assembly, while teachers can allocate sufficient time to introduce activity
 processes. Utilizing open-source platforms like Arduino further enhances the suitability for K-12
-STEM education by offering reasonable pricing and expandable design space. [([1](#ref-1))](#ref-1)
+STEM education by offering reasonable pricing and expandable design space. [(#[1])](#1)
 
 Utilizing robots as learning tools in technology-based education grants students the right to
 explore their skills and knowledge during the learning process, thus fostering independence.
 Moreover, through such activities, knowledge can be advanced. As a result, the development of
 affordable educational robots over the past few years has demonstrated the promotion of STEM
-education by enabling the cultivation of various technological skills. [([2](#ref-2))](#ref-2)
+education by enabling the cultivation of various technological skills. [(#[2])](#2)
 
 Job-centered hands-on STEM learning in robotics engineering. Task-centered hands-on STEM
 learning approaches are effective in students' educational robot learning. STEM education aims
@@ -74,7 +74,7 @@ project-based or problem-based learning approaches, emphasizing learners and enc
 students to integrate what they have learned to solve problems. For example, Arduino Uno is
 highly scalable among controllers, being smaller, lighter, cheaper, and easier to obtain learning
 resources and materials for programming. Learning materials emphasize that students can spend
-limited time and money applying what they have learned in practical tasks and building robots. [((#[3]))](#3)
+limited time and money applying what they have learned in practical tasks and building robots. [(#[3])](#3)
 
 The core technology used in our project is Arduino Uno R3, which falls under mechanical
 engineering. This includes an H-bridge for motor control, a sensor, and geared motors. Arduino
@@ -120,14 +120,14 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 - Power source such as 5V battery
 - Arduino Uno
 
-*Final Design*
+
 ![Final Candidate - Figure 1](/assets/images/final_design.png)
 
 
-*Final Candidate*
+
 ![Final Candidate - Figure 2](/assets/images/final_candidate.gif)
 
-*Final Candidate Design*
+
 ![Final Candidate - Figure 3](/assets/images/Picture1.png)
 
 
@@ -216,11 +216,11 @@ Below are images of the 3D printing process:
 The primary objective of our project is to develop our robot to be suitable for K-12 education. Each field leader considered how to structure the robot, and ultimately, through the survey results of our final candidate design, we were able to better understand the customers' needs. However, since we 3D printed the main body of the robot, we were limited by the size constraints of the 3D printer, but we were able to create a prototype that aligned with the customer's work order and engineering specifications.
 
 ## References
-[<span id="ref-1">1</span>] M. E. Karim, S. Lemaignan and F. Mondada, A review: Can robots reshape K-12 STEM  
+[<span id="1">1</span>] M. E. Karim, S. Lemaignan and F. Mondada, A review: Can robots reshape K-12 STEM  
 education?, 2015 IEEE International Workshop on Advanced Robotics and its Social Impacts  
 (ARSO), Lyon, France, 2015  
 
-[<span id="ref-2">2</span>] Z. Abidin, R. Arifudin, and W. Hardyanto, Low-cost educational robotics for promoting STEM  
+[<span id="2">2</span>] Z. Abidin, R. Arifudin, and W. Hardyanto, Low-cost educational robotics for promoting STEM  
 education, IOP, 2021.  
 
 [<span id="3">3</span>] C. Chi-Cheng, C. Yiching, Using mastery learning theory to develop task-centered hands-  
