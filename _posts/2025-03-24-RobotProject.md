@@ -5,26 +5,15 @@ date: 2024-03-24
 categories: projects
 permalink: /categories/robotproject/
 layout: single
+
+
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 ## Engineering Lab Course - Manufacturing Education Robot Project
 
-
-# Robot Design Project
-
-## Table of Contents
-1. [Executive Summary](#executive-summary)  
-2. [Introduction](#introduction)  
-3. [Project Plan](#project-plan)  
-   - [Bill of Materials](#bill-of-materials)  
-4. [Prototype Design](#prototype-design)  
-   - [Final Candidate Design Calculations and Specific Components](#final-candidate-design-calculations-and-specific-components)  
-5. [Product Development](#product-development)  
-6. [Software Development](#software-development)  
-7. [Prototype Testing](#prototype-testing)  
-8. [Recommendations](#recommendations)  
-9. [Conclusions](#conclusions)  
-10. [References](#references)  
 
 ---
 
