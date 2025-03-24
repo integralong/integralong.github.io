@@ -120,6 +120,8 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 - Two motors
 - Power source such as 5V battery
 - Arduino Uno
+![Final Candidate - Figure 1](assets/images/final_design.png)  
+
 ![Final Candidate - Figure 1](assets/images/final_candidate.gif)  
 
 
