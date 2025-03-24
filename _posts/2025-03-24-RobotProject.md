@@ -131,13 +131,70 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 
 
 ## Product Development
-*Describe the assembly process, challenges, and optimizations.*
+The components are below:
+- Box-shaped body
+- LCD Screen face
+- Two wheels
+- One fixed wheel
+- Ultrasonic Sensor
+- Two motors
+- Power source such as 5V battery
+- Arduino Uno
+
+The fabrication method is below:
+1. Take the base component of the robot (chassis) and mount the Arduino Uno containing
+loaded in code.
+2. Mount each rotor in place using zip ties through the corresponding holes.
+3. Wire all hardware components to the Arduino Uno (left rotor, right rotor, LCD screen, ultra-
+sonic sensor, 5V battery) via color coded wires given.
+4. Attach wheels to both rotors.
+5. Mount ultra-sonic sensor to the corresponding marker in the front of the chassis.
+6. Mount LCD screen to the top piece of the robot designated by the corresponding marker.
+7. Connect top piece and chassis together via 3D printed pegs
+
+
+One challenge encountered was optimizing time management to meet the project deadline
+due to the extensive use of rafts and supports during 3D printing. Because our candidate design
+features a rounded box-shaped structure without flat surfaces, requiring numerous rafts and
+supports, the printing process took significantly longer.
 
 ## Software Development
-*Explain the software structure, control algorithms, and implementation details.*
+The first few lines of our code begin with including libraries for the motor control, ultrasonic sensor, and LCD screen. After that we declare a variable to store the measurement speed and distance, as well as setting all the pins for our motors. In our loop function, we have a while loop that makes sure the robot performs its functions while the distance measured is less than 30cm. When the distance is less than 30cm the robot will move forward until it gets too close to the user and continues to move in a different direction. Also, in the same loop our screen will display something as the robot performs its functions. (add pictures of the final code). 
+
+Because Wheelie is a two-wheel robot the movement is similar to the origami bot that was created earlier in the semester. The team would like to use the origami bot as a baseline for Wheelie but build upon and improve it, so it matches our specific goals. Here is the link for the function of the robot https://youtu.be/XMGxLdt6mHs?si=BQpDG6n1_YaJc_7K.
+
+The biggest challenge in programming the robot was putting all the different functions together. Since we know how we want each individual part to function and have the code for some of the parts, making it all work as one is challenging. For example, having the code for the motors and sensors individually, writing a program that can implement the two together and work how we want is challenging.
 
 ## Prototype Testing
-*Describe test cases, results, and improvements.*
+## Prototype Overview  
+The prototype for Wheelie operates within the established parameters, such as compatibility with different environments like solid and carpet flooring. The risk of harm is minimal due to the limited exposed operating components (wheels) and the overall lightweight design. The hollowed plastic shell, measuring **5” x 5” x 5”**, is sturdy enough to support the technological components and will not break unless subjected to significant force, such as being dropped or impacted by a heavy object.  
+
+### Technical Specifications  
+
+| Net Weight | Actual Dimensions | Maximum Speed | Assembly Time | Power Requirement |
+|------------|------------------|---------------|--------------|------------------|
+| 2 lbs | 5” x 5” x 5” | 5 MPH | 10 Minutes | 6000 mAh USB Power Bank |
+
+The prototype meets the **course engineering specifications** for several reasons:  
+
+- **Size Compliance:** The packaging size does not exceed delivery requirements.  
+- **Cost Efficiency:** The incorporated technology is valued at **$39.11**, aligning with pricing constraints.  
+- **Safety Standards:** Wheelie’s speed, weight, and components ensure it is a **safe toy for children**, meeting ethical and engineering expectations.  
+
+---
+
+## Current Progress & Improvements  
+As of **April 5th**, there are no issues regarding:  
+✅ **Construction**  
+✅ **Assembly**  
+✅ **Pricing**  
+✅ **Sourcing of Components**  
+
+### Software Optimization  
+- The **LCD screen** required software refinement due to differences in **size, pixel count, and brand**.  
+- Without these refinements, custom images or text might not display correctly.  
+- The software has been optimized to ensure **proper image and text rendering**.  
+
 
 ### 3D Printing Process
 Below are images of the 3D printing process:  
@@ -154,7 +211,7 @@ Below are images of the 3D printing process:
 *Suggest improvements and future developments.*
 
 ## Conclusions
-*Summarize the project's outcomes and significance.*
+The primary objective of our project is to develop our robot to be suitable for K-12 education. Each field leader considered how to structure the robot, and ultimately, through the survey results of our final candidate design, we were able to better understand the customers' needs. However, since we 3D printed the main body of the robot, we were limited by the size constraints of the 3D printer, but we were able to create a prototype that aligned with the customer's work order and engineering specifications.
 
 ## References
 [<span id="ref-1">1</span>] M. E. Karim, S. Lemaignan and F. Mondada, A review: Can robots reshape K-12 STEM  
