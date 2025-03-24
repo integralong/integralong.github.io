@@ -15,7 +15,6 @@ toc_icon: "cog"
 ## Engineering Lab Course - Manufacturing Education Robot Project
 
 
----
 
 ## Executive Summary
 Our project focuses on the development of Wheelie, a kid friendly robot designed for K-12 STEM education. The objective is to create an accesible learning tool that encourages engagement and exploration among students while also addressing the barreirs to entry into engineering education.
@@ -120,10 +119,15 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 - Two motors
 - Power source such as 5V battery
 - Arduino Uno
+
+*Final Design*
 ![Final Candidate - Figure 1](assets/images/final_design.png)  
 
-![Final Candidate - Figure 1](assets/images/final_candidate.gif)  
+*Final Candidate*
+![Final Candidate - Figure 2](assets/images/final_candidate.gif)  
 
+*Final Candidate Design*
+![Final Candidate - Figure 3](assets/images/picture1.png)
 
 ## Product Development
 *Describe the assembly process, challenges, and optimizations.*
