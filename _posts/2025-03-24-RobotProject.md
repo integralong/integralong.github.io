@@ -124,10 +124,6 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 ![Final Candidate - Figure 1](/assets/images/final_design.png)
 
 
-
-![Final Candidate - Figure 2](/assets/images/final_candidate.gif)
-
-
 ![Final Candidate - Figure 3](/assets/images/Picture1.png)
 
 
@@ -199,14 +195,14 @@ As of **April 5th**, there are no issues regarding:
 
 ### 3D Printing Process
 Below are images of the 3D printing process:  
-![3D Printing Process - Step 1](assest/images/3d_printing_step1.jpg)  
+![3D Printing Process - Step 1](/assests/images/3d_printing_process.gif)  
 *Description of Step 1.*  
 
 
-![3D Printing Process - Step 2](images/3d_printing_step2.jpg)  
+![3D Printing Process - Step 2](/assets/images/3d_printing.png)  
 *Description of Step 2.*  
 
-![Final 3D Printed Part](images/final_3d_part.jpg)  
+![Final 3D Printed Part](/assets/images/fabrication_timeline.gif)  
 *Final printed part and its application in the robot.*
 
 ## Recommendations
@@ -228,5 +224,5 @@ on STEM learning of Arduino-based educational robotics: psychomotor performance 
 perception by a convergent parallel mixed method, Taylor & Francis Online, 2020  
 
 ---
-*Last updated: YYYY-MM-DD*
+*Last updated: 2025-03-24*
 
