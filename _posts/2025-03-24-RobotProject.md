@@ -195,14 +195,14 @@ As of **April 5th**, there are no issues regarding:
 
 ### 3D Printing Process
 Below are images of the 3D printing process:  
-![3D Printing Process - Step 1](/assets/images/3d_printing_process.gif)  
+<img src="/assets/images/3d_printing_process.gif" alt="3D Printing Process - Step 1" width="100%" />  
 *Description of Step 1.*  
 
 
-![3D Printing Process - Step 2](/assets/images/3d_printing.png)  
+<img src="/assets/images/3d_printing.png" alt="3D Printing Process - Step 2" width="100%" />  
 *Description of Step 2.*  
 
-![Final 3D Printed Part](/assets/images/fabrication_timeline.gif)  
+<img src="/assets/images/fabrication_timeline.gif" alt="Final 3D Printed Part" width="100%" /> 
 *Final printed part and its application in the robot.*
 
 ## Recommendations
