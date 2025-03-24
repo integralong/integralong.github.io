@@ -122,8 +122,7 @@ Based on the Figure 1, our final candidate design calculations and specific comp
 
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/assets/images/final_design.png" alt="Final Candidate - Figure 1" width="45%" />
-    <img src="/assets/images/Picture1.png" alt="Final Candidate - Figure 2" width="45%" />
+    <img src="/assets/images/final_design_both.png" alt="Final Candidate - Figure 1" width="100%" />
 </div>
 
 
