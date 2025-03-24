@@ -85,10 +85,17 @@ to implement programming tha
 
 ## Project Plan
 ### Bill of Materials
-| Component | Quantity | Description |
-|-----------|----------|-------------|
-| Example Part | 2 | Description here |
-| Example Motor | 1 | Description here |
+
+| Material                  | Amount |
+|---------------------------|--------|
+| Arduino                  | $4.27  |
+| Ultrasonic Sensor        | $3.40  |
+| Battery                  | $2.00  |
+| 2-Pack DC Motors         | $1.80  |
+| 2-Pack of Wheels        | $3.32  |
+| 8GB Micro SD Card        | $8.29  |
+| 3.5” TFT LCD Display     | $17.83 |
+| **Total**                | **$39.11** |
 
 ## Prototype Design
 ### Final Candidate Design Calculations and Specific Components
