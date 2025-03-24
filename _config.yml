@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Lauren Song"
   avatar           : "/assets/images/sparkle.PNG"
-  bio              : "Mathematics [@UF](https://www.ufl.edu/)"
+  bio              : "Mathematics <a href='https://www.ufl.edu/' style='color:1E90FF;'>@UF</a>"
   location         : "Somewhere in FL"
   email            : "mailto: ahyeonsong@ufl.edu"
   links:
