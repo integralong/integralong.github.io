@@ -1,4 +1,4 @@
----
+<!-- ---
 ---
 
 <!doctype html>
@@ -18,6 +18,56 @@
     <div class="initial-content">
       {{ content }}
       {% include after-content.html %}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+    
+
+    {% include scripts.html %}
+  </body>
+</html> -->
+
+
+---
+---
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+    
+    {% include_cached skip-links.html %}
+    {% include_cached masthead.html %}
+
+    <div class="content-wrapper">
+      <main class="post-content">
+        <div class="initial-content">
+          {{ content }}
+          {% include after-content.html %}
+        </div>
+      </main>
+
+      <aside class="toc-sidebar">
+        <h3>Table of Contents</h3>
+        {% toc %}
+      </aside>
     </div>
 
     {% if site.search == true %}
