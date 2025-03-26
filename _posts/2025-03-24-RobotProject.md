@@ -15,6 +15,12 @@ toc_icon: "cog"
 ## Engineering Lab Course - Manufacturing Education Robot Project
 
 
+### Project Info
+
+2023 Oct – 2024 April, Engineering Lab Course - EGN 3000  at University of South Florida 
+
+
+🔬 Team | Lauren Song, Fabian Martin, Robert Tortolo, RC Wyatte, Erik Langschwager
 
 ## Executive Summary
 Our project focuses on the development of Wheelie, a kid friendly robot designed for K-12 STEM education. The objective is to create an accesible learning tool that encourages engagement and exploration among students while also addressing the barreirs to entry into engineering education.
@@ -179,12 +185,6 @@ The prototype meets the **course engineering specifications** for several reason
 
 ---
 
-## Current Progress & Improvements  
-As of **April 5th**, there are no issues regarding:  
-✅ **Construction**  
-✅ **Assembly**  
-✅ **Pricing**  
-✅ **Sourcing of Components**  
 
 ### Software Optimization  
 - The **LCD screen** required software refinement due to differences in **size, pixel count, and brand**.  

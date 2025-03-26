@@ -19,7 +19,7 @@ toc_icon: "cog"
 
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
----
+
 
 ### Project Info
 
