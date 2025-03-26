@@ -1,5 +1,5 @@
 ---
-title: "Undergraduate Research Society - Project #1"
+title: "Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally"
 classes: wide
 date: 2024-02-11
 categories: projects
