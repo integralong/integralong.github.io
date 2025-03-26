@@ -12,7 +12,7 @@ toc_label: "My Table of Contents"
 toc_icon: "cog"
 ---
 
-## Engineering Lab Course - Manufacturing Education Robot Project
+## Manufacturing Education Robot Project
 
 
 ### Project Info
