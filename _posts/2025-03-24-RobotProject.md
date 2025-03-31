@@ -20,7 +20,7 @@ toc_icon: "cog"
 2023 Oct – 2024 April, Engineering Lab Course - EGN 3000  at University of South Florida 
 
 
-🔬 Team | Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, Lauren Song, Gayathri Mannem
+🔬 Team | Lauren Song, Fabian Martin, Robert Tortolo, RC Wyatte, Erik Langschwager
 
 ## Executive Summary
 Our project focuses on the development of Wheelie, a kid friendly robot designed for K-12 STEM education. The objective is to create an accesible learning tool that encourages engagement and exploration among students while also addressing the barreirs to entry into engineering education.
