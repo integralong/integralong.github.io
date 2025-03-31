@@ -3,7 +3,7 @@ title: "Potential role and effectiveness of telehealth for healthcare-deprived o
 classes: wide
 date: 2024-02-11
 categories: projects
-permalink: /categories/first-project/
+permalink: /categories/URS-Project1/
 layout: single
 
 toc: true
