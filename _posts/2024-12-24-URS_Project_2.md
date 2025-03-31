@@ -8,4 +8,3 @@ layout: single
 
 ## Assessing the clinical effectiveness of cologuard versus Colonoscopty in the early detetion of colorectal cancer.
 
-
