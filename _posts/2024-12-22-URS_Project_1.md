@@ -15,15 +15,6 @@ toc_icon: "cog"
 
 ---
 
-
-
-# Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
-
-<div style="display: flex; justify-content: space-around;">
-    <img src="/assets/images/URSTelehealthGroupPoster.jpg" alt="Research Poster" width="100%" />
-</div>
-
-
 ### Project Info
 
 2023 Oct – 2024 April, Undergraduate Research Society at University of South Florida 
@@ -36,6 +27,10 @@ toc_icon: "cog"
 *Published on: April 1, 2025*
 
 ### Overview
+
+<div style="display: flex; justify-content: space-around;">
+    <img src="/assets/images/URSTelehealthGroupPoster.jpg" alt="Research Poster" width="100%" />
+</div>
 
 Welcome to my first research project! This post documents our exploration of telehealth's effectiveness in reaching underserved populations. This is an interactive research blog where I encourage readers to contribute their thoughts and insights about telehealth experiences.
 
