@@ -6,5 +6,5 @@ permalink: /categories/project2/
 layout: single
 ---
 
-## Assessing the clinical effectiveness of cologuard versus Colonoscopty in the early detetion of colorectal cancer.
-
+The post is coming soon!
+**Stay tuned**

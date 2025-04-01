@@ -20,7 +20,7 @@ toc_icon: "cog"
 ## Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/assets/images/URSTelehealthGroupPoster-2.jpg" alt="Research Poster" width="100%" />
+    <img src="/assets/images/URSTelehealthGroupPoster.jpg" alt="Research Poster" width="100%" />
 </div>
 
 
