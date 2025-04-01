@@ -23,7 +23,9 @@ toc_icon: "cog"
     <img src="/assets/images/URSTelehealthGroupPoster.jpg" alt="Research Poster" width="100%" />
 </div>
 
-
+<div style="display: flex; justify-content: space-around;">
+    <img src="/assets/images/URSTelehealthGroupPoster-2.jpg" alt="Research Poster-2" width="100%" />
+</div>
 
 ### Project Info
 
