@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Lauren Song"
-  avatar           : "/assets/images/sparkle.PNG"
-  bio              : "Mathematics <a href='https://www.ufl.edu/' style='color: black;'>@UF</a>"
+  avatar           : "!/assets/images/integralong-color.gif" # "/assets/images/sparkle.PNG"
+  bio              : "Mathematics <a href='https://www.ufl.edu/' style='color: grey;'>@UF</a>"
   location         : "Somewhere in FL"
   email            : "mailto: ahyeonsong@ufl.edu"
   links:
