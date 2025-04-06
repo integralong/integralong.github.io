@@ -124,11 +124,11 @@ layout: single
 
  ☻ **Welcome!**  
 
-#### Lauren A Hyeon Song  
+#### Lauren Song  (A Hyeon Song)
 Lauren is a rising junior at the University of Florida studying Mathematics with a strong interest in Bioinformatics and Medical AI.  
 She is eager to explore the ever-changing fields of medical AI and bioinformatics. Always open to new opportunities and experiences!  
 
-Outside of work, you can find her traveling, reading books, or enjoying winter sports in the snow.  
+Outside of work, you can find her traveling, watching movies and dramas, or enjoying winter sports in the snow.
 
 ---
 
