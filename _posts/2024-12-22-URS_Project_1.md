@@ -65,7 +65,7 @@ Articles discussing the effects of telehealth on healthcare-deprived or low-reso
 We performed a systematic filtering through various study methods and variables to determine relevancy to our research topic. Our analysis evaluated telehealth's role in enhancing accessibility, quality of care, and its potential in mitigating healthcare disparities.
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/assets/images/URS1-Method.jpg" alt="Research Poster" width="100%" />
+    <img src="/assets/images/URS1-Method.png" alt="Research Poster" width="100%" />
 </div>
 
 
