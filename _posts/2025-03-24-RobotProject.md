@@ -208,7 +208,7 @@ Below are images of the 3D printing process:
 
 
 
-<img src="/assets/images/Robot_moving.mp4" alt="Robot Moving Part" width="100%" /> 
+<img src="/assets/images/Robot_moving.gif" alt="Robot Moving Part" width="100%" /> 
 
 
 
