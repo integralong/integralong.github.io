@@ -12,28 +12,40 @@ search: false
 
 
 
-/* Hide teaser images by default */
+/* ========== HIDE teaser images by default ========== */
 .hover-image-multiple {
     display: flex;
     gap: 0.5rem;
     margin-top: 0.5rem;
+  
+    /* Hiding logic */
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: all 0.4s ease;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 
+      max-height 0.4s ease,
+      opacity 0.4s ease,
+      visibility 0.4s ease,
+      transform 0.4s ease;
   }
   
-  /* Reveal on hover of the link */
+  /* ========== REVEAL teaser images on HOVER of title link ========== */
   .hover-reveal:hover .hover-image-multiple {
-    max-height: 220px;
+    max-height: 300px;           /* enough for multiple images */
     opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
   
-  /* Style each image */
+  /* ========== STYLING for each image (GIF or JPG/PNG) ========== */
   .hover-image-multiple img {
-    width: calc(33.333% - 0.5rem);
+    width: calc(33.333% - 0.5rem);  /* 3 images in a row with gaps */
     height: 200px;
-    object-fit: cover;
+    object-fit: cover;              /* fills the frame, crops if needed */
     border-radius: 8px;
+    display: block;
   }
+  
   
