@@ -10,6 +10,13 @@ layout: single
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
+
+
+thumbnails:
+  - /assets/images/3d_printing_process.gif
+  - /assets/images/fabrication_timeline.gif
+  - /assets/images/Robot_moving.gif
+
 ---
 
 ## Manufacturing Education Robot Project
