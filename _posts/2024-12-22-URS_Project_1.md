@@ -10,14 +10,16 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 
-thumbnail: /assets/images/telehealth_gettyimages.jpg
-subtitle: "Understanding how telehealth improves access to care"
+thumbnails:
+  - /assets/images/telehealth_gettyimages.jpg
+  - /assets/images/URSTelehealthGroupPoster.jpg
+  - /assets/images/URS1-Method.png
+#subtitle: "Understanding how telehealth improves access to care"
 #header:
   #image: /assets/images/URS.png
 
 ---
 
-URS - Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
 ### Project Info
 
