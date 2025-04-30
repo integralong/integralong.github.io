@@ -122,13 +122,16 @@ layout: single
 
 ## [integralong.github.io](https://integralong.github.io)
 
- ☻ **Welcome!**  
+**Welcome ☻**  
 
-#### Lauren Song  (A Hyeon Song)
+#### Lauren Song (A Hyeon Song)
+
+
 Lauren is a rising junior at the University of Florida studying Mathematics with a strong interest in Bioinformatics and Medical AI.  
-She is eager to explore the ever-changing fields of medical AI and bioinformatics. Always open to new opportunities and experiences!  
 
-Outside of work, you can find her traveling, watching movies and dramas, or enjoying winter sports in the snow.
+She is eager to explore the ever-changing fields of technology and healthcare. Always open to new opportunities and experiences!  
+
+Outside of work, you can find her exploring new destinations, watching movies, or enjoying sports.
 
 ---
 
