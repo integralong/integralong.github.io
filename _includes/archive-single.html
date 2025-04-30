@@ -19,7 +19,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
+<!-- <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
     {% if teaser %}
       <div class="archive__item-teaser">
@@ -36,5 +36,26 @@
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
+</div> -->
+
+<div class="archive__card">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if teaser %}
+      <div class="archive__item-teaser">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ teaser | relative_url }}" alt="Thumbnail for {{ post.title }}">
+        </a>
+      </div>
+    {% endif %}
+    <div class="archive__item-content">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      </h2>
+      {% if post.subtitle %}
+        <p class="archive__item-subtitle">{{ post.subtitle }}</p>
+      {% endif %}
+    </div>
+  </article>
 </div>
+
 

@@ -11,6 +11,7 @@ toc_label: "My Table of Contents"
 toc_icon: "cog"
 
 thumbnail: /assets/images/telehealth_gettyimages.jpg
+subtitle: "Understanding how telehealth improves access to care"
 #header:
   #image: /assets/images/URS.png
 
