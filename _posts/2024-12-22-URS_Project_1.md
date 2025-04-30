@@ -10,6 +10,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 
+thumbnail: /assets/images/telehealth_gettyimages.jpg
 #header:
   #image: /assets/images/URS.png
 
@@ -25,6 +26,8 @@ URS - Potential role and effectiveness of telehealth for healthcare-deprived or 
 🔬 Team | Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, Lauren Song, Gayathri Mannem
 
 ---
+
+
 
 
 ### Overview
