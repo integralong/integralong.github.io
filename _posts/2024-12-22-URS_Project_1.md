@@ -26,7 +26,6 @@ URS - Potential role and effectiveness of telehealth for healthcare-deprived or 
 
 ---
 
-*Published on: April 1, 2025*
 
 ### Overview
 

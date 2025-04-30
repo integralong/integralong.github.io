@@ -127,7 +127,7 @@ layout: single
 #### Lauren Song (A Hyeon Song)
 
 
-Lauren is a rising junior at the <a href='https://www.ufl.edu/' style='color: grey;'>University of Florida</a> studying Mathematics with a strong interest in Bioinformatics and Medical AI.  
+Lauren is a rising junior at the <a href='https://www.ufl.edu/'style='color: black;'>University of Florida</a> studying Mathematics with a strong interest in Bioinformatics and Medical AI.  
 
 She is eager to explore the ever-changing fields of technology and healthcare. Always open to new opportunities and experiences!  
 

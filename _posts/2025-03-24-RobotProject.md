@@ -211,10 +211,6 @@ Below are images of the 3D printing process:
 <img src="/assets/images/Robot_moving.gif" alt="Robot Moving Part" width="100%" /> 
 
 
-
-## Recommendations
-*Suggest improvements and future developments.*
-
 ## Conclusions
 The primary objective of our project is to develop our robot to be suitable for K-12 education. Each field leader considered how to structure the robot, and ultimately, through the survey results of our final candidate design, we were able to better understand the customers' needs. However, since we 3D printed the main body of the robot, we were limited by the size constraints of the 3D printer, but we were able to create a prototype that aligned with the customer's work order and engineering specifications.
 
