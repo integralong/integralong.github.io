@@ -13,3 +13,25 @@
 //title: "🎬 | Playtime" 
 //if you add this above line in the md(for the posts) 
 making looks like the undeline the title and and smaller fonts.
+
+
+
+//in the archive-single.html, 
+
+<div class="{{ include.type | default: 'list' }}__item">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+      {% if include.type == "grid" and teaser %}
+        <div class="archive__item-teaser">
+          <img src="{{ teaser | relative_url }}" alt="">
+        </div>
+      {% endif %}
+
+    //you can change the default: list to grid so that you can see the teaser image.
+
+    <div class="{{ include.type | default: 'list' }}__item">
+        <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+          {% if teaser %}
+            <div class="archive__item-teaser">
+              <img src="{{ teaser | relative_url }}" alt="">
+            </div>
+            {% endif %}
