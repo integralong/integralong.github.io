@@ -38,24 +38,23 @@
   </article>
 </div> -->
 
-<div class="archive__card">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<div class="archive__item archive__item--interactive">
+  <article itemscope itemtype="https://schema.org/CreativeWork">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      <a href="{{ post.url | relative_url }}">{{ title }}</a>
+    </h2>
+
     {% if teaser %}
-      <div class="archive__item-teaser">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ teaser | relative_url }}" alt="Thumbnail for {{ post.title }}">
-        </a>
+      <div class="archive__item-teaser-wrapper">
+        <img class="archive__item-teaser" src="{{ teaser | relative_url }}" alt="Teaser for {{ post.title }}">
       </div>
     {% endif %}
-    <div class="archive__item-content">
-      <h2 class="archive__item-title no_toc" itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      </h2>
-      {% if post.subtitle %}
-        <p class="archive__item-subtitle">{{ post.subtitle }}</p>
-      {% endif %}
-    </div>
+
+    {% if post.subtitle %}
+      <p class="archive__item-subtitle">{{ post.subtitle }}</p>
+    {% endif %}
   </article>
 </div>
+
 
 
