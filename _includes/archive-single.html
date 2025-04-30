@@ -46,12 +46,13 @@
         {% if post.thumbnails %}
           <div class="hover-image-multiple">
             {% for img in post.thumbnails %}
-              <img src="{{ img | relative_url }}" alt="Teaser image for {{ post.title }}">
+              <img src="{{ img | relative_url }}" alt="Teaser for {{ post.title }}">
             {% endfor %}
           </div>
         {% endif %}
       </a>
     </h2>
+    
     
 
     {% if post.subtitle %}

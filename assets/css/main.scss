@@ -12,38 +12,39 @@ search: false
 
 
 
-/* ========== HIDE teaser images by default ========== */
+/* Wrapper for teaser images (hidden initially) */
 .hover-image-multiple {
     display: flex;
     gap: 0.5rem;
     margin-top: 0.5rem;
   
-    /* Hiding logic */
+    /* Completely hide teaser container until hover */
     max-height: 0;
     overflow: hidden;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
-    transition: 
+    transition:
       max-height 0.4s ease,
       opacity 0.4s ease,
       visibility 0.4s ease,
       transform 0.4s ease;
   }
   
-  /* ========== REVEAL teaser images on HOVER of title link ========== */
+  /* On hover over the title link, reveal the teaser container */
   .hover-reveal:hover .hover-image-multiple {
-    max-height: 300px;           /* enough for multiple images */
+    max-height: 300px;           /* expand enough to show all images or GIFs */
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
   }
   
-  /* ========== STYLING for each image (GIF or JPG/PNG) ========== */
   .hover-image-multiple img {
-    width: calc(33.333% - 0.5rem);  /* 3 images in a row with gaps */
-    height: 200px;
-    object-fit: cover;              /* fills the frame, crops if needed */
+    flex: 1 1 0;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;      /* This ensures entire image fits inside */
     border-radius: 8px;
     display: block;
   }
