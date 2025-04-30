@@ -12,25 +12,23 @@ search: false
 
 
 
-/* Hide teaser by default */
-.archive__item-teaser-wrapper {
-    max-height: 0;
+.hover-reveal .hover-image {
+    display: block;
     opacity: 0;
+    max-height: 0;
     overflow: hidden;
     transition: all 0.4s ease;
+    margin-top: 0.5rem;
   }
   
-  /* Only show teaser when hovering over the title <a> tag */
-  .hover-title-link:hover + .archive__item-teaser-wrapper {
-    max-height: 300px;
+  .hover-reveal:hover .hover-image {
     opacity: 1;
+    max-height: 300px;
   }
   
-  /* Optional: Style teaser image */
-  .archive__item-teaser {
+  .hover-image img {
     width: 100%;
     height: auto;
-    margin-top: 0.75rem;
     border-radius: 8px;
     object-fit: cover;
   }

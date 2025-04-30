@@ -38,23 +38,25 @@
   </article>
 </div> -->
 
-<div class="archive__item archive__item--interactive">
+<div class="archive__item archive__item--hover-on-title">
   <article itemscope itemtype="https://schema.org/CreativeWork">
     <h2 class="archive__item-title no_toc" itemprop="headline">
-      <a href="{{ post.url | relative_url }}">{{ title }}</a>
+      <a href="{{ post.url | relative_url }}" class="hover-reveal">
+        {{ title }}
+        {% if teaser %}
+          <span class="hover-image">
+            <img src="{{ teaser | relative_url }}" alt="Teaser for {{ post.title }}">
+          </span>
+        {% endif %}
+      </a>
     </h2>
-
-    {% if teaser %}
-      <div class="archive__item-teaser-wrapper">
-        <img class="archive__item-teaser" src="{{ teaser | relative_url }}" alt="Teaser for {{ post.title }}">
-      </div>
-    {% endif %}
 
     {% if post.subtitle %}
       <p class="archive__item-subtitle">{{ post.subtitle }}</p>
     {% endif %}
   </article>
 </div>
+
 
 
 
