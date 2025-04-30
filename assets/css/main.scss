@@ -5,13 +5,26 @@ search: false
 
 @charset "utf-8";
 
+/*
 //@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; // main partials 
+*/
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin 
 
 
 
+/*@media (max-width: 600px) {
+    .hover-image-multiple {
+      flex-direction: column;
+    }
+  
+    .hover-image-multiple img {
+      max-height: 150px;
+    }
+  }
+*/
+  
 /* Wrapper for teaser images (hidden initially) */
 .hover-image-multiple {
     display: flex;
@@ -48,5 +61,6 @@ search: false
     border-radius: 8px;
     display: block;
   }
+  
   
   
