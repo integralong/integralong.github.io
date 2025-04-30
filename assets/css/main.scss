@@ -12,25 +12,21 @@ search: false
 
 
 
-/* Container */
-.archive__item--interactive {
-    position: relative;
-    margin-bottom: 2rem;
-  }
-  
-  /* Teaser wrapper (hidden by default) */
-  .archive__item-teaser-wrapper {
+/* Hide teaser by default */
+.archive__item-teaser-wrapper {
     max-height: 0;
+    opacity: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-out;
+    transition: all 0.4s ease;
   }
   
-  /* When hovering on title, reveal image */
-  .archive__item-title:hover + .archive__item-teaser-wrapper {
-    max-height: 300px; /* height of image */
+  /* Only show teaser when hovering over the title <a> tag */
+  .hover-title-link:hover + .archive__item-teaser-wrapper {
+    max-height: 300px;
+    opacity: 1;
   }
   
-  /* Image styling */
+  /* Optional: Style teaser image */
   .archive__item-teaser {
     width: 100%;
     height: auto;
