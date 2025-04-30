@@ -5,26 +5,13 @@ search: false
 
 @charset "utf-8";
 
-/*
 //@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials 
-*/
+@import "minimal-mistakes"; // main partials
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin 
-
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin  > this is my main.scss
 
 
-/*@media (max-width: 600px) {
-    .hover-image-multiple {
-      flex-direction: column;
-    }
-  
-    .hover-image-multiple img {
-      max-height: 150px;
-    }
-  }
-*/
-  
+
 /* Wrapper for teaser images (hidden initially) */
 .hover-image-multiple {
     display: flex;
@@ -52,15 +39,12 @@ search: false
     transform: translateY(0);
   }
   
+  /* Every image or GIF: same size, same style */
   .hover-image-multiple img {
-    flex: 1 1 0;
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: contain;      /* This ensures entire image fits inside */
+    width: calc(33.333% - 0.5rem); /* 3 items in one row */
+    height: 200px;
+    object-fit: cover;             /* fills & crops nicely */
     border-radius: 8px;
     display: block;
   }
-  
-  
   
