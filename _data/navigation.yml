@@ -6,8 +6,8 @@ main:
     url: /about/
   - title: "Projects"
     url: /categories/projects/
-  - title: "Arts"
-    url: /categories/arts/
+  # - title: "Arts"
+  #   url: /categories/arts/
   - title: "Category"
     url: /categories/
   - title: "Search"
