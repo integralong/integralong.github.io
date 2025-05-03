@@ -1,6 +1,6 @@
 ---
 title: "Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally"
-date: 2024-02-11
+date: 2024-04-11
 categories: projects
 permalink: /categories/project1/
 layout: single
