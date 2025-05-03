@@ -52,7 +52,7 @@ search: false
 
 .hover-image-multiple {
   display: flex;
-  flex-wrap: wrap;              /* Allow multiple rows */
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.5rem;
 
@@ -69,20 +69,24 @@ search: false
 }
 
 .hover-reveal:hover .hover-image-multiple {
-  max-height: 1000px;          /* Enough space for many rows */
+  max-height: 1000px;
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
 .hover-image-multiple img {
-  flex: 1 1 calc(33.333% - 0.5rem); /* Responsive: 3 per row, shrink if needed */
+  flex: 1 1 calc(33.333% - 0.5rem);
   max-width: calc(33.333% - 0.5rem);
   height: 200px;
+
+  /* This part ensures the image keeps its ratio and aligns LEFT */
+  object-fit: contain;
+  object-position: left center;
+
+  /* Padding space will be transparent if image doesn't fill */
   background-color: transparent;
-  object-fit: contain;              /* Show full image */
-  object-position: center;
+
   border-radius: 8px;
   display: block;
-  background-color: rgba(255, 255, 255, 0); /* Optional: visual buffer */
 }
