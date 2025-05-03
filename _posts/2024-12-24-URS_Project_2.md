@@ -15,7 +15,7 @@ toc_icon: "cog"
 
 thumbnails:
   - /assets/images/Colorectalcacner.png
-  - /assets/images/fabrication_timeline.gif
+  - /assets/images/URS_Project_2.png
   - /assets/images/Robot_moving.gif
 
 ---
@@ -31,9 +31,6 @@ URS - Assessing the Clinical Effectiveness of Cologuard versus Colonoscopy in Ea
 
 ---
 
-Welcome to my second research project! This post documents our exploration of telehealth's effectiveness in reaching underserved populations. This is an interactive research blog where I encourage readers to contribute their thoughts and insights about telehealth experiences.
-
-
 
 
 ### Overview
@@ -42,3 +39,5 @@ Welcome to my second research project! This post documents our exploration of te
     <img src="/assets/images/URS_Project_2.png" alt="Research Poster" width="100%" />
 </div>
 
+
+Welcome to my second research project! This post documents our exploration of telehealth's effectiveness in reaching underserved populations. This is an interactive research blog where I encourage readers to contribute their thoughts and insights about telehealth experiences.
