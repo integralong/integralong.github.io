@@ -13,10 +13,10 @@ toc_icon: "cog"
 
 
 
-header:
+#header:
   #image: /assets/images/URS.
-  overlay_image: /assets/images/RobotDesign-header.png
-  overlay_filter: 0.3
+  #overlay_image: /assets/images/RobotDesign-header.png
+  #overlay_filter: 0.3
   
 #subtitle: "Understanding how telehealth improves access to care"
 

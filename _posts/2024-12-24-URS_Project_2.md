@@ -10,10 +10,10 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "flask-conical"
 
-header:
+#header:
   #image: /assets/images/URS.png
-  overlay_image: /assets/images/Colorectalcancer.png
-  overlay_filter: 0.7
+  #overlay_image: /assets/images/Colorectalcancer.png
+  #overlay_filter: 0.7
 
 #subtitle: "Understanding how telehealth improves access to care"
 
