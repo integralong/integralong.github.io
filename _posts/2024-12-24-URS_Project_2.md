@@ -13,7 +13,7 @@ toc_icon: "flask-conical"
 header:
   #image: /assets/images/URS.png
   overlay_image: /assets/images/Colorectalcancer.png
-  overlay_filter: 0.3
+  overlay_filter: 0.7
 
 #subtitle: "Understanding how telehealth improves access to care"
 

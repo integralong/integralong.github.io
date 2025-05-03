@@ -12,6 +12,14 @@ toc_label: "My Table of Contents"
 toc_icon: "cog"
 
 
+
+header:
+  #image: /assets/images/URS.
+  overlay_image: /assets/images/RobotDesign-header.png
+  overlay_filter: 0.3
+  
+#subtitle: "Understanding how telehealth improves access to care"
+
 thumbnails:
   - /assets/images/3d_printing_process.gif
   - /assets/images/fabrication_timeline.gif
