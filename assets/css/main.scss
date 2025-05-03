@@ -96,13 +96,13 @@ search: false
 
 // /* this below code is for the header in the post (related to overlay images)*/
 
-// .page__hero--overlay {
-//   background-color: transparent;
-//   background-size: contain;      /* Ensures full image is shown */
-//   background-repeat: no-repeat;
-//   background-position: left center; /* Aligns image to the left */
-// }
+ .page__hero--overlay {
+  background-color: transparent;
+   background-size: contain;      /* Ensures full image is shown */
+   background-repeat: no-repeat;
+//   background-position: center; /* Aligns image to the left */
+ }
 
-// .page__hero--overlay::before {
-//   background-color: rgba(255,255,255,0);  /* Keeps background transparent */
-// }
+ .page__hero--overlay::before {
+  background-color: rgba(255,255,255,0);  /* Keeps background transparent */
+}

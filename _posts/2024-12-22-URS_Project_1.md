@@ -15,7 +15,7 @@ header:
   #image: /assets/images/URS.
   #overlay_image: /assets/images/telehealth_gettyimages.jpg
   overlay_color: "#FDFEFE"  # solid black (or any hex code)
-  overlay_filter: 0.5       # adjust opacity (0 = transparent, 1 = fully opaque)
+  overlay_filter: 0.3       # adjust opacity (0 = transparent, 1 = fully opaque)
 
   overlay_filter: 0.7
   
