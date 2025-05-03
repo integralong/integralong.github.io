@@ -18,7 +18,9 @@ header:
 thumbnails:
   - /assets/images/Colorectalcancer.png
   - /assets/images/URS_Project_2.png
-  - /assets/images/Robot_moving.gif
+  - /assets/images/URS2-Figure-2.png
+  - /assets/images/URS2-Figure-3.png
+  - /assets/images/URS2-Figure-4.png
 
 ---
 
@@ -79,9 +81,9 @@ We reviewed published literature, including clinical trials and meta-analyses co
 
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/assets/images/URS2-Figure2.png" alt="Figure 2" width="100%" />
-    <img src="/assets/images/URS2-Figure3.png" alt="Figure 3" width="100%" />
-    <img src="/assets/images/URS2-Figure4.png" alt="Figure 4" width="100%" /> 
+    <img src="/assets/images/URS2-Figure-2.png" alt="Figure 2" width="100%" />
+    <img src="/assets/images/URS2-Figure-3.png" alt="Figure 3" width="100%" />
+    <img src="/assets/images/URS2-Figure-4.png" alt="Figure 4" width="100%" /> 
 </div>
 
 

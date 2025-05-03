@@ -1,25 +1,31 @@
 ---
 title: "Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally"
-classes: wide
 date: 2024-02-11
 categories: projects
 permalink: /categories/project1/
 layout: single
+classes: wide
 
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 
+
+header:
+  #image: /assets/images/URS.
+  overlay_image: /assets/images/telehealth_gettyimages.jpg
+  overlay_filter: 0.7
+  
+#subtitle: "Understanding how telehealth improves access to care"
+
 thumbnails:
   - /assets/images/telehealth_gettyimages.jpg
   - /assets/images/URSTelehealthGroupPoster.jpg
   - /assets/images/URS1-Method.png
-#subtitle: "Understanding how telehealth improves access to care"
-#header:
-  #image: /assets/images/URS.png
 
 ---
 
+URS - Potential role and effectiveness of telehealth for healthcare-deprived or low-resource areas globally
 
 ### Project Info
 
