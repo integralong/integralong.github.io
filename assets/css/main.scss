@@ -12,39 +12,77 @@ search: false
 
 
 
-/* Wrapper for teaser images (hidden initially) */
+// /* Wrapper for teaser images (hidden initially) */
+// .hover-image-multiple {
+//     display: flex;
+//     gap: 0.5rem;
+//     margin-top: 0.5rem;
+  
+//     /* Completely hide teaser container until hover */
+//     max-height: 0;
+//     overflow: hidden;
+//     opacity: 0;
+//     visibility: hidden;
+//     transform: translateY(-10px);
+//     transition:
+//       max-height 0.4s ease,
+//       opacity 0.4s ease,
+//       visibility 0.4s ease,
+//       transform 0.4s ease;
+//   }
+  
+//   /* On hover over the title link, reveal the teaser container */
+//   .hover-reveal:hover .hover-image-multiple {
+//     max-height: 300px;           /* expand enough to show all images or GIFs */
+//     opacity: 1;
+//     visibility: visible;
+//     transform: translateY(0);
+//   }
+  
+//   /* Every image or GIF: same size, same style */
+//   .hover-image-multiple img {
+//     width: calc(33.333% - 0.5rem); /* 3 items in one row */
+//     height: 200px;
+//     object-fit: cover;             /* fills & crops nicely */
+//     border-radius: 8px;
+//     display: block;
+//   }
+  
+
+
 .hover-image-multiple {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-  
-    /* Completely hide teaser container until hover */
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px);
-    transition:
-      max-height 0.4s ease,
-      opacity 0.4s ease,
-      visibility 0.4s ease,
-      transform 0.4s ease;
-  }
-  
-  /* On hover over the title link, reveal the teaser container */
-  .hover-reveal:hover .hover-image-multiple {
-    max-height: 300px;           /* expand enough to show all images or GIFs */
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  
-  /* Every image or GIF: same size, same style */
-  .hover-image-multiple img {
-    width: calc(33.333% - 0.5rem); /* 3 items in one row */
-    height: 200px;
-    object-fit: cover;             /* fills & crops nicely */
-    border-radius: 8px;
-    display: block;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;              /* Allow multiple rows */
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition:
+    max-height 0.4s ease,
+    opacity 0.4s ease,
+    visibility 0.4s ease,
+    transform 0.4s ease;
+}
+
+.hover-reveal:hover .hover-image-multiple {
+  max-height: 1000px;          /* Enough space for many rows */
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.hover-image-multiple img {
+  flex: 1 1 calc(33.333% - 0.5rem); /* Responsive: 3 per row, shrink if needed */
+  max-width: calc(33.333% - 0.5rem);
+  height: 200px;
+  background-color: transparent;
+  object-fit: contain;              /* Show full image */
+  object-position: center;
+  border-radius: 8px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0); /* Optional: visual buffer */
+}
