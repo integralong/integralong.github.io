@@ -15,13 +15,12 @@ header:
   overlay_image: /assets/images/Colorectalcancer.png
   overlay_filter: 0.3
 
+#subtitle: "Understanding how telehealth improves access to care"
+
 thumbnails:
   - /assets/images/Colorectalcancer.png
   - /assets/images/URS_Project_2.png
   - /assets/images/URS2-Figure-2.png
-  - /assets/images/URS2-Figure-3.png
-  - /assets/images/URS2-Figure-4.png
-
 ---
 
 URS - Assessing the Clinical Effectiveness of Cologuard versus Colonoscopy in Early Detection of Colorectal Cancer
