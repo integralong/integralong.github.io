@@ -52,12 +52,16 @@ search: false
 
 .hover-image-multiple {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   gap: 0.5rem;
   margin-top: 0.5rem;
 
+  overflow-x: auto;           /* ✅ Enable horizontal scroll */
+  overflow-y: hidden;
+  white-space: nowrap;        /* ✅ Prevent wrapping */
+  scroll-behavior: smooth;
+
   max-height: 0;
-  overflow: hidden;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
@@ -69,24 +73,55 @@ search: false
 }
 
 .hover-reveal:hover .hover-image-multiple {
-  max-height: 1000px;
+  max-height: 220px; /* Enough to show full image height + margin */
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
+/* Thumbnail style */
 .hover-image-multiple img {
-  flex: 1 1 calc(33.333% - 0.5rem);
-  max-width: calc(33.333% - 0.5rem);
+  flex: 0 0 auto;              /* ✅ Prevent shrinking, fixed width */
+  width: 200px;                /* You can customize */
   height: 200px;
 
-  /* This part ensures the image keeps its ratio and aligns LEFT */
-  object-fit: contain;
+  object-fit: contain;         /* Show full image */
   object-position: left center;
-
-  /* Padding space will be transparent if image doesn't fill */
   background-color: transparent;
 
   border-radius: 8px;
   display: block;
 }
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.querySelector(".hover-image-multiple");
+  let isDown = false;
+  let startX, scrollLeft;
+
+  container.addEventListener("mousedown", (e) => {
+    isDown = true;
+    container.classList.add("dragging");
+    startX = e.pageX - container.offsetLeft;
+    scrollLeft = container.scrollLeft;
+  });
+
+  container.addEventListener("mouseleave", () => {
+    isDown = false;
+    container.classList.remove("dragging");
+  });
+
+  container.addEventListener("mouseup", () => {
+    isDown = false;
+    container.classList.remove("dragging");
+  });
+
+  container.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - container.offsetLeft;
+    const walk = (x - startX) * 1.5; // speed factor
+    container.scrollLeft = scrollLeft - walk;
+  });
+});
+</script>
