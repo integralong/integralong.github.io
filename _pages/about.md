@@ -139,7 +139,8 @@ Based in Florida 🌴, occasionally in Korea, always on Earth (probably) 😎
 
 ---
 
-## CV
+## [CV] (https://integralong.github.io/assets/files/integralong_CV.pdf)
+
 <a href='https://integralong.github.io/assets/files/integralong_CV.pdf'>CV</a> 
 
 
