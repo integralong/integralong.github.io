@@ -27,7 +27,7 @@ thumbnails:
 
 ---
 
-## Manufacturing Education Robot Project
+Manufacturing Education Robot Project
 
 
 ### Project Info

@@ -13,7 +13,10 @@ toc_icon: "flask-conical"
 
 header:
   #image: /assets/images/URS.
-  overlay_image: /assets/images/telehealth_gettyimages.jpg
+  #overlay_image: /assets/images/telehealth_gettyimages.jpg
+  overlay_color: "#111111"  # solid black (or any hex code)
+  overlay_filter: 0.5       # adjust opacity (0 = transparent, 1 = fully opaque)
+
   overlay_filter: 0.7
   
 #subtitle: "Understanding how telehealth improves access to care"
