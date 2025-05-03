@@ -124,6 +124,8 @@ layout: single
 
 **Welcome ☻**  
 
+
+
 #### Lauren Song (A Hyeon Song)
 
 
@@ -132,6 +134,8 @@ Lauren is a rising junior at the <a href='https://www.ufl.edu/' style='color: gr
 She is eager to explore the ever-changing fields of technology and healthcare. Always open to new opportunities and experiences!  
 
 Outside of work, you can find her exploring new destinations, watching movies, or enjoying sports.
+
+Based in Florida 🌴, occasionally in Korea, always on Earth (probably) 😎
 
 ---
 
