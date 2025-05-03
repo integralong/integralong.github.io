@@ -137,7 +137,6 @@ Outside of work, you can find her exploring new destinations, watching movies, o
 
 Based in Florida 🌴, occasionally in Korea, always on Earth (probably) 😎
 
----
 
 
 
