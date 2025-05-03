@@ -14,7 +14,7 @@ toc_icon: "cog"
   #image: /assets/images/URS.png
 
 thumbnails:
-  - /assets/images/Colorectalcacner.png
+  - /assets/images/Colorectalcancer.png
   - /assets/images/URS_Project_2.png
   - /assets/images/Robot_moving.gif
 
