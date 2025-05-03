@@ -13,6 +13,11 @@ toc_icon: "cog"
 #header:
   #image: /assets/images/URS.png
 
+thumbnails:
+  - /assets/images/Colorectalcacner.png
+  - /assets/images/fabrication_timeline.gif
+  - /assets/images/Robot_moving.gif
+
 ---
 
 URS - Assessing the Clinical Effectiveness of Cologuard versus Colonoscopy in Early Detection of Colorectal Cancer
@@ -26,6 +31,7 @@ URS - Assessing the Clinical Effectiveness of Cologuard versus Colonoscopy in Ea
 
 ---
 
+Welcome to my second research project! This post documents our exploration of telehealth's effectiveness in reaching underserved populations. This is an interactive research blog where I encourage readers to contribute their thoughts and insights about telehealth experiences.
 
 
 
