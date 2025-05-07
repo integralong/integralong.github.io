@@ -19,7 +19,7 @@ toc_icon: "flask-conical"
 
 thumbnails:
   - /assets/images/ColorectalCancerTalking.png
-  - /assets/images/MeandPoster.jpg
+  - /assets/images/URS_Project_2.png
   - /assets/images/URS2-Figure-2.png
 ---
 
