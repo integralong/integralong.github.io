@@ -18,8 +18,8 @@ toc_icon: "flask-conical"
 #subtitle: "Understanding how telehealth improves access to care"
 
 thumbnails:
-  - /assets/images/Colorectalcancer.png
-  - /assets/images/URS_Project_2.png
+  - /assets/images/ColorectalCancerTalking.png
+  - /assets/images/MeandPoster.jpg
   - /assets/images/URS2-Figure-2.png
 ---
 
