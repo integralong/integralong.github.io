@@ -139,7 +139,10 @@ Based in Florida 🌴, occasionally in Korea, always on Earth (probably) 😎
 
 ---
 
-## <a href='https://integralong.github.io/assets/files/LaurenSong_CV.pdf'>LaurenSong_CV.pdf</a> 
+
+## <a href='https://integralong.github.io/assets/files/LaurenSong_CV.pdf'>Lauren Song C</a> 
+
+<a href='https://integralong.github.io/assets/files/LaurenSong_CV.pdf' style='color: grey;'>CV</a>
 
 Here is my CV in PDF format
 
