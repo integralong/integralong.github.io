@@ -139,9 +139,6 @@ Based in Florida 🌴, occasionally in Korea, always on Earth (probably) 😎
 
 ---
 
-
-## <a href='https://integralong.github.io/assets/files/Song-CV.pdf' style='color: grey;'>CV</a> 
-
 ## <a href='https://integralong.github.io/assets/files/Song_CV.pdf' style='color: grey;'>CV</a>
 
 Here is my CV in PDF format!
