@@ -94,13 +94,14 @@ search: false
 }
 
 .page__title {
-  color: #000;  // black
+  color: #000;  /* black */
 }
 
 .page__title:hover {
-  color: #666;         // gray text when hovered
-  cursor: pointer;     // standard pointer
+  color: #666;  /* gray text when hovered */
+  cursor: pointer;  /* standard pointer */
 }
+
 
 
 //  /* this below code is for the header in the post (related to overlay images)*/
