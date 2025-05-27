@@ -106,3 +106,8 @@ search: false
 //  .page__hero--overlay::before {
 //   background-color: rgba(255,255,255,0);  /* Keeps background transparent */
 // }
+
+/* Use Inter font across the entire website */
+body, h1, h2, h3, h4, h5, h6, .page__title {
+  font-family: 'Inter', sans-serif;
+}
