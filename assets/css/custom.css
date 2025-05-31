@@ -4,8 +4,9 @@ body {
 }
 
 a {
-  color: #222425; /* Blue link */
+  color: #222425;
 }
+
 a:hover {
-  color: #DBDEDF; /* Pink hover */
+  color: #DBDEDF;
 }
