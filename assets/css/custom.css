@@ -1,13 +1,18 @@
-
-
-/* Use Inter font across the entire website */
-body {
-  font-family: 'Inter', sans-serif;
+/* 🔗 Default link state */
+a,
+a:visited {
+  color: #B6BCBF !important; /* Soft silver gray */
+  text-decoration: none;
 }
 
-a {
-  color: #222425; /* Blue link */
-}
+/* 🖱️ Hover link */
 a:hover {
-  color: #DBDEDF; /* Pink hover */
+  color: #222425 !important; /* Deep charcoal */
+  text-decoration: underline;
+}
+
+/* 🖍️ Selection */
+::selection {
+  background-color: #DBDEDF; /* Pale gray */
+  color: #222425;            /* Readable dark text */
 }
