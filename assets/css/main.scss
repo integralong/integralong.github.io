@@ -8,7 +8,7 @@ search: false
 //@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'custom' }}"; // skin  > this is my main.scss
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin  > this is my main.scss
 
 
 
