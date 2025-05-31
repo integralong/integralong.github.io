@@ -12,12 +12,12 @@ search: false
 
 /* Change post title link color to #121212 */
 .archive__item-title a {
-  color: #121212 !important;
+  color: #555555 !important;
 }
 
 .archive__item-title a:hover {
-  color: #393e46 !important; /* Optional: slight contrast when hovered */
-  text-decoration: underline; /* Optional */
+  color: #D4D4D4 !important; /* Optional: slight contrast when hovered */
+  /*text-decoration: underline;*/ /* Optional */
 }
 
 
