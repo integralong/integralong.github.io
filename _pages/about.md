@@ -120,7 +120,7 @@ layout: single
 </style>
 
 
-## [integralong.github.io](https://integralong.github.io)
+<!-- ## [integralong.github.io](https://integralong.github.io) -->
 
 **Welcome ☻**  
 
