@@ -1,8 +1,17 @@
 $global-font-family: 'Inter', sans-serif !default;
 
-$primary-color: #000000 !default;
-$text-color: #222425 !default;
-$link-color: #B5BCBF !default;
-$link-color-hover: #DBDEDF !default;
+/* Normal state for links */
+a {
+  color: #B6BCBF; /* Soft silver gray */
+}
 
-@import "minimal-mistakes"; // must be last
+/* Hover state for links */
+a:hover {
+  color: #222425; /* Deep charcoal */
+}
+
+/* Drag/selection styling */
+::selection {
+  background-color: #DBDEDF; /* Pale gray background */
+  color: #222425;             /* Dark text for contrast */
+}
