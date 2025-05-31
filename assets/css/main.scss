@@ -32,13 +32,15 @@ search: false
 
 /* Navigation menu link color */
 .masthead__menu-item a {
+  font-family: 'Inter', sans-serif !important; 
   color: #a0a1a4 !important; /* or your preferred color */
   text-decoration: none;     /* optional: remove underline */
 }
 
 /* Optional: on hover */
 .masthead__menu-item a:hover {
-  color: #a0a1a4 !important; /* change to your preferred hover color */
+  color: #a0a1a4 !important; /*
+   change to your preferred hover color */
   /*text-decoration: underline;*/ /* optional */
 }
 
