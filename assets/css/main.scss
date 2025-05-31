@@ -20,6 +20,13 @@ search: false
   color: #f2f2f2 !important;        /* Optional: color on hover */
   text-decoration: none !important; /* Make sure underline stays off */
 }
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
 
 
 
