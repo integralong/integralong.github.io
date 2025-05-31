@@ -30,6 +30,17 @@ search: false
   color: inherit;
 }
 
+/* Navigation menu link color */
+.masthead__menu-item a {
+  color: #a0a1a4 !important; /* or your preferred color */
+  text-decoration: none;     /* optional: remove underline */
+}
+
+/* Optional: on hover */
+.masthead__menu-item a:hover {
+  color: #0092ca !important; /* change to your preferred hover color */
+  text-decoration: underline; /* optional */
+}
 
 
 
