@@ -16,3 +16,8 @@ a:hover {
   background-color: #DBDEDF; /* Pale gray */
   color: #222425;            /* Readable dark text */
 }
+
+/* Apply Inter font site-wide */
+body {
+  font-family: 'Inter', sans-serif !important;
+}
