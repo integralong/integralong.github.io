@@ -6,8 +6,8 @@ body {
 }
 
 a {
-  color: #0077cc; /* Blue link */
+  color: #222425; /* Blue link */
 }
 a:hover {
-  color: #FF4C60; /* Pink hover */
+  color: #DBDEDF; /* Pink hover */
 }
