@@ -8,17 +8,19 @@ search: false
 //@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin  > this is my main.scss
+//@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin  > this is my main.scss
 
-/* Change post title link color to #121212 */
+/* Style post title links */
 .archive__item-title a {
-  color: #AAAAAA !important;
+  color: #121212 !important;        /* Set font color */
+  text-decoration: none !important; /* Remove underline */
 }
 
 .archive__item-title a:hover {
-  color: #F2F2F2 !important; /* Optional: slight contrast when hovered */
-  /*text-decoration: underline;*/ /* Optional */
+  color: #f2f2f2 !important;        /* Optional: color on hover */
+  text-decoration: none !important; /* Make sure underline stays off */
 }
+
 
 
 
