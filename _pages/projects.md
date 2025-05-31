@@ -2,7 +2,7 @@
 title: "Projects"
 permalink: /categories/projects/
 layout: category
-classes: wide
+#lasses: wide
 #author_profile: true
 taxonomy: projects
 ---
