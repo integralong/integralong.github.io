@@ -10,6 +10,16 @@ search: false
 
 //@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin  > this is my main.scss
 
+/* Change post title link color to #121212 */
+.archive__item-title a {
+  color: #121212 !important;
+}
+
+.archive__item-title a:hover {
+  color: #393e46 !important; /* Optional: slight contrast when hovered */
+  text-decoration: underline; /* Optional */
+}
+
 
 
 // /* Wrapper for teaser images (hidden initially) */
