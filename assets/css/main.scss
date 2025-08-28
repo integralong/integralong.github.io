@@ -15,7 +15,7 @@ search: false
   font-family: 'Inter', sans-serif !important; 
   color: #373737 !important;        /* Set font color */
   text-decoration: none !important; /* Remove underline */
-  font-weight: 700; /* Add this line to remove the bolding */
+  /*font-weight: 1000; /* Add this line to remove the bolding */
 
 }
 
@@ -23,7 +23,7 @@ search: false
   font-family: 'Inter', sans-serif !important; 
   color: #a0a1a4 !important;        /* Optional: color on hover */
   text-decoration: none !important; /* Make sure underline stays off */
-  font-weight: 700; /* Add this line to remove the bolding */
+  /*font-weight: 1000; /* Add this line to remove the bolding */
 }
 .page__footer {
   color: #fff !important; // override
@@ -39,7 +39,7 @@ search: false
   font-weight: 700 !important;
   color: #373737 !important; /* or your preferred color */
   text-decoration: none;     /* optional: remove underline */
-  font-weight: 700; 
+  /*font-weight: 1500; */
 }
 
 /* Optional: on hover */
