@@ -13,7 +13,7 @@ search: false
 /* Style post title links */
 .archive__item-title a {
   font-family: 'Inter', sans-serif !important; 
-  color: #a0a1a4 !important;        /* Set font color */
+  color: #373737 !important;        /* Set font color */
   text-decoration: none !important; /* Remove underline */
   font-weight: 700; /* Add this line to remove the bolding */
 
@@ -21,7 +21,7 @@ search: false
 
 .archive__item-title a:hover {
   font-family: 'Inter', sans-serif !important; 
-  color: #373737 !important;        /* Optional: color on hover */
+  color: #a0a1a4 !important;        /* Optional: color on hover */
   text-decoration: none !important; /* Make sure underline stays off */
   font-weight: 700; /* Add this line to remove the bolding */
 }
@@ -37,8 +37,9 @@ search: false
 .masthead__menu-item a {
   font-family: 'Inter', sans-serif !important; 
   font-weight: 700 !important;
-  color: #a0a1a4 !important; /* or your preferred color */
+  color: #373737 !important; /* or your preferred color */
   text-decoration: none;     /* optional: remove underline */
+  font-weight: 700; 
 }
 
 /* Optional: on hover */
