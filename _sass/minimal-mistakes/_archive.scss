@@ -49,7 +49,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-weight: normal; /* Add this line to remove the bolding */
+  /*font-weight: normal; /* Add this line to remove the bolding */
 
   a[rel="permalink"]::before {
     content: '';
