@@ -47,8 +47,7 @@ URS - Potential role and effectiveness of telehealth for healthcare-deprived or 
     <img src="/assets/images/URSTelehealthGroupPoster.jpg" alt="Research Poster" width="100%" />
 </div>
 
-Welcome to my first research project! This post documents our exploration of telehealth's effectiveness in reaching underserved populations. This is an interactive research blog where I encourage readers to contribute their thoughts and insights about telehealth experiences.
-
+Welcome to my first research project! This post documents our exploration of telehealth's effectiveness in reaching underserved populations. 
 
 ### Introduction
 
