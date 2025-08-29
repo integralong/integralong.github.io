@@ -140,6 +140,6 @@ Based in Florida 🌴, occasionally in Korea, always on Earth (probably) 😎
 ---
 
 
-Here is my CV in PDF format!
+Here is My Resume in PDF Format!
 
-<a href='https://integralong.github.io/assets/files/LaurenS_Resume.pdf' style='color: grey;'>Song_CV</a>
+<a href='https://integralong.github.io/assets/files/LaurenS_Resume.pdf' style='color: grey;'>LaurenS_Resume</a>
