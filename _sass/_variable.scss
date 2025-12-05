@@ -1,0 +1,14 @@
+// Override Minimal Mistakes theme font variables
+
+// Main body and post text font (Serif)
+$serif-font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Georgia, serif !default;
+
+// Headings, Navigation, and UI text font (Sans-Serif - You can change this too, but leaving it as sans-serif often provides nice contrast)
+$sans-serif-font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+
+// Code block font (Monospace - Keep this for code readability)
+$monospace-font-family: Consolas, Monaco, 'Lucida Console', monospace !default;
+
+// Set the global font variables to use your new stack
+$global-font-family: $serif-font-family !default;
+$header-font-family: $serif-font-family !default; // Apply Baskerville to headers as well
