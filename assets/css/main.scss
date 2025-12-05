@@ -12,7 +12,7 @@ search: false
 
 /* Style post title links */
 .archive__item-title a {
-  font-family: 'Inter', sans-serif !important; 
+  font-family: 'Baskerville', 'Georgia', serif !important; 
   color: #a0a1a4  !important;        /* Set font color */
   text-decoration: none !important; /* Remove underline */
   /*font-weight: 1000; /* Add this line to remove the bolding */
@@ -20,7 +20,7 @@ search: false
 }
 
 .archive__item-title a:hover {
-  font-family: 'Inter', sans-serif !important; 
+  font-family: 'Baskerville', 'Georgia', serif !important; 
   color: #373737!important;        /* Optional: color on hover */
   text-decoration: none !important; /* Make sure underline stays off */
   /*font-weight: 1000; /* Add this line to remove the bolding */
@@ -35,8 +35,8 @@ search: false
 
 /* Navigation menu link color */
 .masthead__menu-item a {
-  font-family: 'Inter', sans-serif !important; 
-  font-weight: 700 !important;
+  font-family: 'Baskerville', 'Georgia', serif !important; 
+  font-weight: normal !important;
   color: #a0a1a4  !important; /* or your preferred color */
   text-decoration: none;     /* optional: remove underline */
   /*font-weight: 1500; */
@@ -49,7 +49,15 @@ search: false
   /*text-decoration: underline;*/ /* optional */
 }
 
-
+.archive__item-title a {
+  font-family: 'Baskerville', 'Georgia', serif !important; // <-- HERE
+  // ...
+}
+/* Navigation menu link color */
+.masthead__menu-item a {
+  font-family: 'Baskerville', 'Georgia', serif !important; // <-- AND HERE
+  // ...
+}
 
 // /* Wrapper for teaser images (hidden initially) */
 // .hover-image-multiple {
