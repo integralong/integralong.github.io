@@ -12,3 +12,23 @@ $monospace-font-family: Consolas, Monaco, 'Lucida Console', monospace !default;
 // Set the global font variables to use your new stack
 $global-font-family: $serif-font-family !default;
 $header-font-family: $serif-font-family !default; // Apply Baskerville to headers as well
+
+
+// Target links in the main navigation bar
+.greedy-nav a {
+  font-weight: normal; // Overrides any bold setting
+}
+
+// Target the site title link as well, if needed
+.greedy-nav .site-title {
+  font-weight: normal;
+}
+// Override font-weight for numbered pagination links
+.pagination li a {
+  font-weight: normal;
+}
+
+// Override font-weight for the Previous/Next buttons
+.pagination--pager {
+  font-weight: normal;
+}
