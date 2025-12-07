@@ -12,7 +12,7 @@ search: false
 @import "minimal-mistakes"; // main partials (Imports the core MM styles)
 
 // -----------------------------------------------------------
-// Custom Style Adjustments
+// Custom Style Adjustments (MODIFIED FOR NEW FONTS)
 // -----------------------------------------------------------
 
 /* === Global Body Font === */
@@ -26,7 +26,7 @@ body {
 /* Style for the link element inside archive item titles (e.g., on the homepage or category listings) */
 .archive__item-title a {
   /* Font Styling */
-  font-family: 'Playfair Display', serif !important; /* Set Playfair Display for titles */
+  font-family: 'Playfair Display', serif !important; /* Changed from Baskerville/Georgia */
   color: #a0a1a4  !important;        /* Set initial font color (light gray/slate) */
   text-decoration: none !important; /* Remove the underline from the link */
 }
@@ -34,7 +34,7 @@ body {
 /* Style when hovering over the post title link */
 .archive__item-title a:hover {
   /* Font Styling */
-  font-family: 'Playfair Display', serif !important; /* Keep the font family */
+  font-family: 'Playfair Display', serif !important; /* Changed from Baskerville/Georgia */
   color: #373737 !important;        /* Change color on hover (darker gray) */
   text-decoration: none !important; /* Ensure the underline remains off */
 }
@@ -58,7 +58,7 @@ body {
 /* Style for navigation links in the header/masthead */
 .masthead__menu-item a {
   /* Font Styling */
-  font-family: 'Playfair Display', serif !important; /* Set Playfair Display for navigation */
+  font-family: 'Playfair Display', serif !important; /* Changed from Baskerville/Georgia */
   font-weight: normal !important; /* Ensure the font is not bold */
   color: #a0a1a4  !important; /* Set initial link color (light gray/slate) */
   text-decoration: none;     /* Remove the default underline */
