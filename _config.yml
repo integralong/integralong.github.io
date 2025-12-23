@@ -100,6 +100,9 @@ accent_color:          rgb(79,177,186)
 # Defaults to `accent_color`.
 theme_color:           rgb(25,55,71)
 
+# Favicon and App Icons
+favicon: assets/img/logo/∫ONG_Logo.png
+apple_touch_icon: 
 # IMPORTANT:
 # As of Hydejack 9.2, Google Fonts are turned off by default due to a stronger focus on privacy.
 # Hydejack will use the default font of your visitor's operating system instead.
