@@ -2,13 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <Lauren> <Song>
-  email:             <ahyeonsong@ufl.edu>
+  name:              Lauren Song #<Lauren> <Song>
+  email:             ahyeonsong@ufl.edu #<ahyeonsong@ufl.edu>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    A Hyeon Lauren Song is a upcoming junior at the University of Florida,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     
@@ -27,7 +27,7 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
+    #twitter:         <username>
     github:          <username>
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
