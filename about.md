@@ -1,22 +1,25 @@
 ---
 layout: about
-# description: >
-#   A boutique Jekyll theme for hackers, nerds, and academics,
-#   with a focus on personal sites that are meant to impress.
-hide_description: true
 image: /assets/img/logo/gator-profile.JPG
-# redirect_from:
-#   - /download/
+description: >
+  A boutique Jekyll theme for hackers, nerds, and academics,
+  with a focus on personal sites that are meant to impress.
+hide_description: true
+redirect_from:
+  - /download/
 ---
+<!-- {:.lead} -->
 
-# About
+# About Me
+
 
 <!--author-->
 
-## Hydejack
+## Education
 
-A boutique Jekyll theme for hackers, nerds, and academics.  
-{:.lead}
+University of South Florida
+
+University of Florida
 
 1. this list will be replaced by the toc
 {:toc .large-only}
