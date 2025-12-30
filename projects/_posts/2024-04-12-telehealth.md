@@ -7,13 +7,17 @@ sitemap: false
 hide_last_modified: true
 ---
 
-The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource communities globally.
+### The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally 
+
+**Presented at:**  <a href="#">Undergraduate Research Conference at the University of South Florida</a>.
+**Timeline:** Oct 2023 - April 2024
+**Key Tools:** Rayyan
+**Quick Links:** [View Poster]
 
 > 🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, **Lauren Song**, Gayathri Mannem
 
-Timeline: Oct 2023 - April 2024, presented at the  <a href="#">Undergraduate Research Conference at the University of South Florida</a>.
 
-## Inline HTML elements
+## Research Overview
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
