@@ -7,11 +7,11 @@ sitemap: false
 hide_last_modified: true
 ---
 
-The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource communities globally presented at the  <a href="#">Undergraduate Research Conference at the University of South Florida</a>.
+The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource communities globally.
 
 > 🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, **Lauren Song**, Gayathri Mannem
 
-Timeline |  Oct 2023 - April 2024
+Timeline: Oct 2023 - April 2024, presented at the  <a href="#">Undergraduate Research Conference at the University of South Florida</a>.
 
 ## Inline HTML elements
 
