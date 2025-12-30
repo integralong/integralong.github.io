@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Introducing Hydejack 9
 image: 
@@ -85,4 +85,4 @@ The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are o
       While I've tried to find a multi-language solution, most showed drastically worse  results for the English base case.
       If you're technically inclined, you can adopt the code located in `_includes/js/search-worker.js` to your needs.
 
-
+ -->
