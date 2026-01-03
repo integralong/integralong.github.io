@@ -16,7 +16,8 @@ redirect_from:
 
 
 ### More about me
-
+My Korean Name is A Hyeon [a.hjʌn] Song. 
+I like Coconut, 
 
 ### Contact 
 ⚲ Gainesville, FL, USA
