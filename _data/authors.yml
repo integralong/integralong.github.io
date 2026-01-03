@@ -29,7 +29,7 @@ author1:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     #twitter:         <username>
-    github:          https://github.com/integralong
+    #github:          https://github.com/integralong
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -59,7 +59,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    #linkedin:        <lauren-song-b467b22a1>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
