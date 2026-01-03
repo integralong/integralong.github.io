@@ -37,14 +37,14 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta property="og:locale" content="en" />
 <meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
 <meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<link rel="canonical" href="http://localhost:4000/personal.note/howtomakeposts-content-2/" />
-<meta property="og:url" content="http://localhost:4000/personal.note/howtomakeposts-content-2/" />
+<link rel="canonical" href="http://localhost:4000/howtomakedocs/howtomakeupgrade/" />
+<meta property="og:url" content="http://localhost:4000/howtomakedocs/howtomakeupgrade/" />
 <meta property="og:site_name" content="Lauren Song" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lauren Song" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2025-12-30T16:29:44+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"Lauren Song","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/personal.note/howtomakeposts-content-2/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-03T15:39:24+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"Lauren Song","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/howtomakedocs/howtomakeupgrade/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,7 +76,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.2.1" />
 
 
-<link rel="alternate" href="http://localhost:4000/personal.note/howtomakeposts-content-2/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/howtomakedocs/howtomakeupgrade/" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lauren Song" />
 
@@ -115,7 +115,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-02T20:54:36+09:00',
+    INDEX_KEY: 'index--2026-01-03T15:55:11+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -241,14 +241,14 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           <span>/</span>
           
           
-          <a href="/personal.note/">personal.note</a>
+          <a href="/howtomakedocs/">howtomakedocs</a>
         
       </li>
     
       <li>
         
           <span>/</span>
-          <span>howtomakeposts-content-2</span>
+          <span>howtomakeupgrade</span>
         
       </li>
     
@@ -267,107 +267,77 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   </header>
 
   <!-- ---
-layout: post
-title: Example Content III
+layout: page
+title: Upgrade
 description: >
-  A page showing Hydejack-specific markdown content.
-image: 
-  path: /assets/img/blog/example-content-iii.jpg
-  srcset:
-    1060w: /assets/img/blog/example-content-iii.jpg
-    530w:  /assets/img/blog/example-content-iii@0,5x.jpg
-    265w:  /assets/img/blog/example-content-iii@0,25x.jpg
-related_posts:
-  - example/_posts/2017-11-23-example-content-ii.md
-  - /example/2012-02-07-example-content/
+  This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
+hide_description: true
 sitemap: false
 ---
 
-Hydejack offers a few additional features to markup your markdown.
-Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,
-so that your content remains compatible with other Jekyll themes.
+This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
 
-## Large Tables
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
 
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
-| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
-| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
-{:.scroll-table}
+Before upgrading to v7+, make sure you've read the [CHANGELOG](/CHANGELOG/){:.heading.flip-title},
+especially the part about the [license change](/CHANGELOG/#license-change)!
+{:.note}
 
+## Free version
+Upgrading the free version of the theme is as easy as running
 
-## Code blocks
+```bash
+bundle update jekyll-theme-hydejack
+```
 
-~~~js
-// Example can be run directly in your JavaScript console
+## PRO Version
 
-// Create a function that takes two arguments and returns the sum of those
-// arguments
-var adder = new Function("a", "b", "return a + b");
+In v9, the structure of Hydejack PRO sites has changed. If you're looking to upgrade from v8 or earlier, 
+check out [Installation for existing sites](./install.md#existing-sites) instead.
+{:.note}
 
-// Call the function
-adder(2, 6);
-// > 8
+Buyers of the PRO version will find the files necessary for an upgrade in the `#jekyll-theme-hydejack` folder of the downloaded zip archive.
+To upgrade, simply overwrite the existing theme folder in the root directory of your site with the new one, then run
+
+```bash
+bundle update jekyll-theme-hydejack
+```
+
+If you've modified any of Hydejack's files in `#jekyll-theme-hydejack`, your changes will most likely be overwritten
+and you have to apply them again. Make sure you've made a backup before overwriting any files.
+{:.note title="Important"}
+
+If you've followed the steps to add __Hydejack PRO__ as a git dependency, all you have to do is change the `tag` to the latest version:
+
+~~~ruby
+# file: `Gemfile`
+gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", tag: "pro/v9.2.1"
 ~~~
 
+Note that you can also define a git dependency based on a branch, which removes the need for manual updates:
 
-## Math
-Lorem ipsum $$ f(x) = x^2 $$.
+~~~ruby
+# file: `Gemfile`
+gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", branch: "pro/v9"
+~~~
 
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
+## GitHub Pages
+When building on GitHub Pages, upgrading Hydejack is as simple as setting the `remote_theme` key in `_config.yml` to the desired version.
+
+```yml
+remote_theme: hydecorp/hydejack@v9.2.1
+```
+
+To use the latest version on the `v9` branch on each build, you can use  `hydecorp/hydejack@v9`.
+
+This setting only works with the Free Version of Hydejack. 
+**PRO Customers** must carefully merge contents of the `starter-kit-gh-pages` folder in the downloaded zip with their existing files. See [Deploy](./deploy.md){:.heading.flip-title} for a better way to use GitHub Pages, which also works with the PRO version.
+{:.note}
 
 
-## Message boxes
-**NOTE**: You can add a message box.
-{:.message}
-
-## Large text
-You can add large text.
-{:.lead}
-
-## Large images
-![Full-width image](https://via.placeholder.com/800x100){:.lead width="800" height="100"}
-
-## Captions to images
-![Full-width image](https://via.placeholder.com/800x100){:.lead width="800" height="100"}
-A caption to an image.
-{:.figure}
-
-## Large quotes
-> You can make a quote "pop out".
-{:.lead}
-
-## Faded text
-I'm faded, faded, faded.
-{:.faded}
-
-
-[mm]: https://guides.github.com/features/mastering-markdown/
-[ksyn]: https://kramdown.gettalong.org/syntax.html
-[ksyntab]:https://kramdown.gettalong.org/syntax.html#tables
-[ksynmath]: https://kramdown.gettalong.org/syntax.html#math-blocks
-[katex]: https://khan.github.io/KaTeX/
-[rtable]: https://dbushell.com/2016/03/04/css-only-responsive-tables/ -->
+Continue with [Config](config.md){:.heading.flip-title}
+{:.read-more} -->
 
 </article>
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Upgrade
+title: Linear Transformations
 description: >
   This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
 hide_description: true
@@ -68,5 +68,5 @@ This setting only works with the Free Version of Hydejack.
 {:.note}
 
 
-Continue with [Config](config.md){:.heading.flip-title}
+Continue with [Elementary Matrix Operations and Systems of Linear Equations](/docs/emoasole/){:.heading.flip-title}
 {:.read-more}

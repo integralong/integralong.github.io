@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Install
+title: Vector Space
 description: >
   How you install Hydejack depends on whether you start a new site,
   or change the theme of an existing site.
@@ -8,13 +8,12 @@ hide_description: true
 sitemap: false
 ---
 
-How you install Hydejack depends on whether you [start a new site](#new-sites), 
-or change the theme of [an existing site](#existing-sites).
+| Chapter 1. Vector Space
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-## New sites
+## Introduction
 For new sites, the best way to get started with Hydejack is via the Starter Kit. 
 It comes with a documented config file and example content that gets you started quickly.
 
@@ -31,7 +30,7 @@ You can now jump to [running locally](#running-locally).
 [dtn]: https://www.netlify.com/img/deploy/button.svg
 
 
-## Existing sites
+## Vector Spaces
 If you have an existing site that you'd like to upgrade to Hydejack you can install the theme via bundler.
 Add the following to your `Gemfile`:
 
@@ -49,7 +48,7 @@ theme: jekyll-theme-hydejack
 
 You can now jump to [running locally](#running-locally).
 
-### PRO Customers
+## Subspaces
 If you bought the __PRO Version__ of Hydejack, copy the `#jekyll-theme-hydejack` folder into the root folder of your site,
 and add the following to your `Gemfile` instead:
 
@@ -87,7 +86,7 @@ but it pays off to check out the [annotated example config file][config] from th
 
 You can now jump to [running locally](#running-locally).
 
-### Troubleshooting
+## Linear Combinations and Systems of Linear Equations
 If your existing site combines theme files with your content (as did previous versions of Hydejack/PRO),
 make sure to delete the following folders:
 
@@ -100,7 +99,7 @@ The `assets` folder most likely includes theme files as well as your personal/co
 Make sure to only delete files that belong to the old theme!
 
 
-## GitHub Pages
+## Bases and Dimension
 As of September 2024, the recommended way of deploying to GitHub Pages is through a custom [GitHub Action][gha], which gives you full control over the build process. 
 No extra steps are required when using a GH Action and you can jump to [running locally](#running-locally), or learn more in chapter [Deploy](./deploy.md){:.heading.flip-title}.
 That being said, Hydejack maintains backwards compatibility with the legacy pipeline and you can continue to use it.
@@ -147,7 +146,7 @@ Specifically, using KaTeX math formulas doesn't work when built in this way.
 {:.note}
 
 
-## Running locally
+## Exam & Quizzes Prep
 Make sure you've `cd`ed into the directory where `_config.yml` is located.
 Before running for the first time, dependencies need to be fetched from [RubyGems](https://rubygems.org/):
 
@@ -167,7 +166,7 @@ $ bundle exec jekyll serve
 and point your browser to <http://localhost:4000> to see Hydejack in action.
 
 
-Continue with [Config](config.md){:.heading.flip-title}
+Continue with [Linear Transformations and Matrices](/docs/ltam/){:.heading.flip-title}
 {:.read-more}
 
 [config]: https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_config.yml

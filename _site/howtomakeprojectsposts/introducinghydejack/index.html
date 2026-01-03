@@ -25,28 +25,26 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 
 
 
-  <meta name="robots" content="noindex">
-
 
 
   
     
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Deploy | Lauren Song</title>
+<title>Lauren Song | Mathematics at University of Florida</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Deploy" />
+<meta property="og:title" content="Lauren Song" />
 <meta name="author" content="Lauren Song" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="On how to deploy Hydejack to a variety of popular hosting providers." />
-<meta property="og:description" content="On how to deploy Hydejack to a variety of popular hosting providers." />
-<link rel="canonical" href="http://localhost:4000/docs/deploy/" />
-<meta property="og:url" content="http://localhost:4000/docs/deploy/" />
+<meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
+<meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
+<link rel="canonical" href="http://localhost:4000/howtomakeprojectsposts/introducinghydejack/" />
+<meta property="og:url" content="http://localhost:4000/howtomakeprojectsposts/introducinghydejack/" />
 <meta property="og:site_name" content="Lauren Song" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Deploy" />
+<meta property="twitter:title" content="Lauren Song" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2025-12-23T14:46:09+09:00","description":"On how to deploy Hydejack to a variety of popular hosting providers.","headline":"Deploy","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/docs/deploy/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2025-12-30T16:41:46+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"Lauren Song","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/howtomakeprojectsposts/introducinghydejack/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -78,7 +76,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.2.1" />
 
 
-<link rel="alternate" href="http://localhost:4000/docs/deploy/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/howtomakeprojectsposts/introducinghydejack/" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lauren Song" />
 
@@ -243,14 +241,14 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           <span>/</span>
           
           
-          <a href="/docs/">docs</a>
+          <a href="/howtomakeprojectsposts/">howtomakeprojectsposts</a>
         
       </li>
     
       <li>
         
           <span>/</span>
-          <span>deploy</span>
+          <span>introducinghydejack</span>
         
       </li>
     
@@ -258,142 +256,104 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 </ul></nav>
   <article class="page mb6" role="article">
   <header>
-    <h1 class="page-title">Deploy</h1>
+    <h1 class="page-title"></h1>
     
 
 
 
-  
-    <div class="hr pb0"></div>
-  
+  <div class="hr pb0"></div>
 
 
   </header>
 
-  <p>This chapter was added in 2024 with my recommendations on how to deploy Hydejack based on recent developments in GitHub Pages and other changes in the world of static site deployment.</p>
+  <!-- ---
+layout: post
+title: Introducing Hydejack 9
+image: 
+  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
+description: >
+  Version 9 is the most complete version of Hydejack yet.
+  Modernized design, big headlines, and big new features.
+sitemap: false
+---
 
-<p>Note that the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation on Deployment</a> remains the best, most up-to-date resource for all things Jekyll deployment. 
-These docs are my personal recipes with some extra steps that are mostly relevant to <strong>PRO Customers</strong>.</p>
+Version 9 is the most complete version of Hydejack yet.
+{:.lead}
 
-<ol id="markdown-toc">
-  <li><a href="#github-actions" id="markdown-toc-github-actions">GitHub Actions</a></li>
-  <li><a href="#private-repo-for-pro-customers" id="markdown-toc-private-repo-for-pro-customers">Private Repo for PRO Customers</a></li>
-</ol>
+[Modernized](#linking-in-style) [design](#whats-in-the-cards), [big headlines](#ready-for-the-big-screen), big new features: [Built-In Search](#built-in-search), [Sticky Table of Contents](#sticky-table-of-contents), and [Auto-Hiding Navbar](#auto-hiding-navbar). That [and more](#and-much-more) is Hydejack 9.
 
-<h2 id="github-actions">GitHub Actions</h2>
-<p>You can deploy to GitHub Pages from a custom GitHub Action. It allows you to fully customize the build pipeline, set specific versions for Ruby and Jekyll and use any Jekyll plugin you may wish.</p>
+- Table of Contents
+{:toc .large-only}
 
-<p>To opt into the GitHub Actions pipelines, go to the repository’s settings, find the <em>Pages</em> tab and ensure that the <em>Source</em> to “GitHub Actions”:</p>
+## Linking in Style
 
-<p class="border"><img src="/assets/img/docs/pipeline-gh-actions.png" alt="GitHub repository settings" /></p>
+Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the [link style](#linking-in-style) has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.
+ 
+## Ready for the Big Screen
 
-<p class="figcaption">Ensure these settings are set to opt in the GitHub Actions pipeline.</p>
+The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I've made adjustments, such as centering the content column for better reading ergonomics. 
 
-<p>As with the legacy GitHub Pages pipeline, deployments are triggered by pushing commits to a specific branch.
-To set up the pipeline, create a YAML file in <code class="language-plaintext highlighter-rouge">.github/workflows</code> in the root of your repository with the following content:</p>
+With version 9, Hydejack takes full advantage of large displays. Whether it's design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate[^1]. 
+ 
+## What's in the Cards?
 
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: ".github/workflows/jekyll.yml"</span>
-<span class="c1"># Sample workflow for building and deploying a Jekyll site to GitHub Pages</span>
-<span class="na">name</span><span class="pi">:</span> <span class="s">Deploy Jekyll site to Pages</span>
+Hydejack 9 now lets you use content cards for both projects and posts. 
+The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the `blog` layout. The new `grid` layout lets you do that.
 
-<span class="na">on</span><span class="pi">:</span>
-  <span class="c1"># Runs on pushes targeting the default branch</span>
-  <span class="na">push</span><span class="pi">:</span>
-    <span class="na">branches</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">$default-branch</span><span class="pi">]</span> <span class="c1"># You can change this to a specific branch (without the `$`)</span>
+Good images are key to making the most out of content cards. For that reason, a [chapter on images](../../docs/basics.md#adding-images) has been added to the documentation.
+ 
+## Built-In Search
 
-  <span class="c1"># Allows you to run this workflow manually from the Actions tab</span>
-  <span class="na">workflow_dispatch</span><span class="pi">:</span>
+Hydejack now has Built-In Search. It even works offline. I've been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results[^2]. 
 
-<span class="c1"># Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages</span>
-<span class="na">permissions</span><span class="pi">:</span>
-  <span class="na">contents</span><span class="pi">:</span> <span class="s">read</span>
-  <span class="na">pages</span><span class="pi">:</span> <span class="s">write</span>
-  <span class="na">id-token</span><span class="pi">:</span> <span class="s">write</span>
+The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.
 
-<span class="c1"># Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.</span>
-<span class="c1"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.</span>
-<span class="na">concurrency</span><span class="pi">:</span>
-  <span class="na">group</span><span class="pi">:</span> <span class="s2">"</span><span class="s">pages"</span>
-  <span class="na">cancel-in-progress</span><span class="pi">:</span> <span class="kc">false</span>
+Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.
+ 
+## Auto-Hiding Navbar
 
-<span class="na">jobs</span><span class="pi">:</span>
-  <span class="c1"># Build job</span>
-  <span class="na">build</span><span class="pi">:</span>
-    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
-    <span class="na">steps</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v4</span>
-        <span class="na">with</span><span class="pi">:</span>
-          <span class="na">fetch-depth</span><span class="pi">:</span> <span class="m">0</span>  <span class="c1"># Fetch whole history for jekyll-last-modified-at plugin</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Ruby</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42</span> <span class="c1"># v1.161.0</span>
-        <span class="na">with</span><span class="pi">:</span>
-          <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span> <span class="c1"># Not needed with a .ruby-version file</span>
-          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
-          <span class="na">cache-version</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># Increment this number if you need to re-download cached gems</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Pages</span>
-        <span class="na">id</span><span class="pi">:</span> <span class="s">pages</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/configure-pages@v5</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build with Jekyll</span>
-        <span class="c1"># Outputs to the './_site' directory by default</span>
-        <span class="na">run</span><span class="pi">:</span> <span class="s">bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"</span>
-        <span class="na">env</span><span class="pi">:</span>
-          <span class="na">JEKYLL_ENV</span><span class="pi">:</span> <span class="s">production</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
-        <span class="c1"># Automatically uploads an artifact from the './_site' directory by default</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v3</span>
+A navbar that's there when you need it, and disappears when you don't. Simple as that.
+ 
+## Sticky Table of Contents
 
-  <span class="c1"># Deployment job</span>
-  <span class="na">deploy</span><span class="pi">:</span>
-    <span class="na">environment</span><span class="pi">:</span>
-      <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
-      <span class="na">url</span><span class="pi">:</span> <span class="s">${{ steps.deployment.outputs.page_url }}</span>
-    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
-    <span class="na">needs</span><span class="pi">:</span> <span class="s">build</span>
-    <span class="na">steps</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to GitHub Pages</span>
-        <span class="na">id</span><span class="pi">:</span> <span class="s">deployment</span>
-        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/deploy-pages@v4</span>
-</code></pre></div></div>
+Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
+What's unique about it is that it simply picks up the table of contents already created by kramdown's `{:toc}` tag and transparently upgrades it to a fully dynamic version.
+ 
+## …and much more
 
-<p>This example is based on <a href="https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml"><code class="language-plaintext highlighter-rouge">actions/starter-workflows</code> repository</a> 
-with one Hydejack-specific change applied:</p>
+Other noteworthy changes include:
+- Support for Jekyll 4
+- Choice between MathJax and KaTeX for math rendering
+- Use of `jekyll-include-cache` for drastically improved page building speeds
+- New variables configuration file — adjust content width, sidebar width, font size, etc...
+- ...and the option to disable grouping projects by year.
 
-<p>The checkout step has been modified to pull the entire history of the repository. 
-This allows the <code class="language-plaintext highlighter-rouge">jekyll-last-modified-at</code> plugin to generate accurate dates based on git history.</p>
+Read the the [CHANGELOG](../../CHANGELOG.md){:.heading.flip-title} for the full scope of features and improvements made in Hydejack 9.
+Maybe just glance at it to confirm that it is indeed a pretty long list.
+ 
+## Even More to Come
 
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">with</span><span class="pi">:</span>
-  <span class="na">fetch-depth</span><span class="pi">:</span> <span class="m">0</span>  <span class="c1"># Fetch whole history for jekyll-last-modified-at plugin</span>
-</code></pre></div></div>
+New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.
+ 
+## Get It Now
+The Free Version of Hydejack is now availabe on [RubyGems](https://rubygems.org/gems/jekyll-theme-hydejack)
+and for the first time also on [GitHub Packages](https://github.com/hydecorp/hydejack/packages). 
+The source code is available on [GitHub](https://github.com/hydecorp/hydejack) as always.
 
-<p>This GitHub Action works with any <a href="/docs/install/" class="heading flip-title">Install</a> of Hydejack that also runs on your local machine.</p>
+The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:
 
-<h2 id="private-repo-for-pro-customers">Private Repo for PRO Customers</h2>
-<p>If you’re a <strong>PRO Customer</strong> and followed the instructions during <a href="/docs/install/" class="heading flip-title">Install</a> to add the theme as a git dependency, your deploy pipeline must be authorized to pull from the private <a href="https://github.com/hydecorp/hydejack-pro"><code class="language-plaintext highlighter-rouge">hydejack-pro</code> repository</a>.</p>
+<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
-<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span><span class="p">,</span> <span class="ss">git: </span><span class="s2">"https://github.com/hydecorp/hydejack-pro"</span><span class="p">,</span> <span class="ss">tag: </span><span class="s2">"pro/v9.2.1"</span>
-</code></pre></div></div>
 
-<p class="note">Make sure you are member of the <a href="https://github.com/orgs/hydecorp/teams/pro-customers">“PRO Customers” team</a> on GitHub. If you’ve provided a GitHub handle during checkout you should have been automatically added, otherwise you can request an invite via <a href="mailto:mail@hydejack.com">mail@hydejack.com</a>.</p>
 
-<p>In order for Bundle to fetch the private repository, an <strong>environment variable</strong> named <strong><code class="language-plaintext highlighter-rouge">BUNDLE_GITHUB__COM</code></strong> must be set to <strong><code class="language-plaintext highlighter-rouge">x-access-token:&lt;GH_REPO_PAT&gt;</code></strong>, where you replace <code class="language-plaintext highlighter-rouge">&lt;GH_REPO_PAT&gt;</code> with a 
-GitHub <a href="https://github.com/settings/tokens">Personal Access Token</a> (PAT) that has the “repo” permission.</p>
+[^1]: If you are a fan of the old two-column layout, or don't like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options.
 
-<p class="note">If using a git dependency works for you, you can declutter your repository by deleting the <code class="language-plaintext highlighter-rouge">#jekyll-theme-hydejack</code> folder.</p>
+[^2]:
+      Search was mainly tested for English and German. Please let me know about issues in other languages. 
+      While I've tried to find a multi-language solution, most showed drastically worse  results for the English base case.
+      If you're technically inclined, you can adopt the code located in `_includes/js/search-worker.js` to your needs.
 
-<p>Most CI providers have a settings page that allows you can set environment variables. In the case of the GitHub Action above, the <code class="language-plaintext highlighter-rouge">BUNDLE_GITHUB__COM</code> variable is required during the “Setup Ruby” step. The modified step looks as follows:</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Ruby</span>
-  <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42</span> <span class="c1"># v1.161.0</span>
-  <span class="na">with</span><span class="pi">:</span>
-    <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span> <span class="c1"># Not needed with a .ruby-version file</span>
-    <span class="na">bundler-cache</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># runs 'bundle install' and caches installed gems automatically</span>
-    <span class="na">cache-version</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># Increment this number if you need to re-download cached gems</span>
-  <span class="na">env</span><span class="pi">:</span> <span class="c1">#!!</span>
-    <span class="na">BUNDLE_GITHUB__COM</span><span class="pi">:</span> <span class="s">x-access-token:${{ secrets.GH_REPO_PAT }}</span> <span class="c1">#!!</span>
-</code></pre></div></div>
-
+ -->
 
 </article>
 

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Config
 description: >
@@ -574,4 +574,4 @@ Continue with [Basics](basics.md){:.heading.flip-title}
 [mybody]: https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_includes/my-body.html
 
 *[FOIT]: Flash of Invisible Text
-*[GA]: Google Analytics
+*[GA]: Google Analytics -->

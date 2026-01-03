@@ -37,14 +37,14 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta property="og:locale" content="en" />
 <meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
 <meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<link rel="canonical" href="http://localhost:4000/personal.note/newfeaturesoftheme/" />
-<meta property="og:url" content="http://localhost:4000/personal.note/newfeaturesoftheme/" />
+<link rel="canonical" href="http://localhost:4000/howtomakeprojectsposts/howtomakecategory/" />
+<meta property="og:url" content="http://localhost:4000/howtomakeprojectsposts/howtomakecategory/" />
 <meta property="og:site_name" content="Lauren Song" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lauren Song" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2025-12-30T16:57:03+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"Lauren Song","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/personal.note/newfeaturesoftheme/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2025-12-30T15:25:25+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"Lauren Song","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/howtomakeprojectsposts/howtomakecategory/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,7 +76,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.2.1" />
 
 
-<link rel="alternate" href="http://localhost:4000/personal.note/newfeaturesoftheme/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/howtomakeprojectsposts/howtomakecategory/" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lauren Song" />
 
@@ -115,7 +115,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-02T20:54:36+09:00',
+    INDEX_KEY: 'index--2026-01-03T15:55:11+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -241,14 +241,14 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           <span>/</span>
           
           
-          <a href="/personal.note/">personal.note</a>
+          <a href="/howtomakeprojectsposts/">howtomakeprojectsposts</a>
         
       </li>
     
       <li>
         
           <span>/</span>
-          <span>newfeaturesoftheme</span>
+          <span>howtomakecategory</span>
         
       </li>
     
@@ -267,131 +267,27 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   </header>
 
   <!-- ---
-layout: post
-description: > 
-  This feature release adds new social media icons for 2024 and makes dark mode available to everyone.
-image: 
-  path: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
-  srcset: 
-    1920w: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
-    960w:  /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash@0,5x.jpg
-    480w:  /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash@0,25x.jpg
-accent_image: /assets/img/blog/pawel-czerwinski-848z7lbCjoo-unsplash.jpg
-excerpt_separator: <!--more-->
-<p>sitemap: false
-—</p>
+# Featured tags need to have either the `list` or `grid` layout (PRO only).
+layout: list
 
-<h1 id="x-marks-the-spot-in-hydejack-92">X Marks the Spot in Hydejack 9.2</h1>
-<h2 id="new-social-media-icons">New Social Media Icons</h2>
+# The title of the tag's page.
+title: Example
 
-<p>Lots of things have changed in the world of social media since the last release. To bring Hydejack up to date, the default logo for Twitter has changed:</p>
+# The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
+slug: example
 
-<p class="larger"><span class="icon-twitter-old"></span> → <span class="icon-twitter"></span></p>
+# (Optional) Write a short (~150 characters) description of this featured tag.
+description: >
+  This is a featured category, which have their own page.
+  Check out `_featured_tags/example.md` to learn how to create your own.
 
-<!--more-->
+# (Optional) You can disable grouping posts by date.
+# no_groups: true
 
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#x-marks-the-spot-in-hydejack-92" id="markdown-toc-x-marks-the-spot-in-hydejack-92">X Marks the Spot in Hydejack 9.2</a>    <ul>
-      <li><a href="#new-social-media-icons" id="markdown-toc-new-social-media-icons">New Social Media Icons</a></li>
-      <li><a href="#dark-mode-is-now-free" id="markdown-toc-dark-mode-is-now-free">Dark Mode is Now Free</a></li>
-      <li><a href="#updated-docs" id="markdown-toc-updated-docs">Updated Docs</a></li>
-      <li><a href="#google-fonts-off-by-default" id="markdown-toc-google-fonts-off-by-default">Google Fonts Off by Default</a></li>
-    </ul>
-  </li>
-</ul>
-
-<p class="note smaller">If you prefer the old Twitter logo, you can use it through <code class="language-plaintext highlighter-rouge">twitter-old</code>.</p>
-
-<p>There are also many new social media networks, some of which are now included by default:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th>Icon</th>
-      <th style="text-align: left">Name</th>
-      <th>Icon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">signal</td>
-      <td><span class="larger icon-signal"></span></td>
-      <td style="text-align: left">threads</td>
-      <td><span class="larger icon-threads"></span></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">playstation</td>
-      <td><span class="larger icon-playstation"></span></td>
-      <td style="text-align: left">messenger</td>
-      <td><span class="larger icon-messenger"></span></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">stripe</td>
-      <td><span class="larger icon-stripe"></span></td>
-      <td style="text-align: left">slack</td>
-      <td><span class="larger icon-slack"></span></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">gitlab</td>
-      <td><span class="larger icon-gitlab"></span></td>
-      <td style="text-align: left">line</td>
-      <td><span class="larger icon-line"></span></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">medium</td>
-      <td><span class="larger icon-medium"></span></td>
-      <td style="text-align: left">xbox</td>
-      <td><span class="larger icon-xbox"></span></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">wechat</td>
-      <td><span class="larger icon-wechat"></span></td>
-      <td style="text-align: left">discord</td>
-      <td><span class="larger icon-discord"></span></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">mastodon</td>
-      <td><span class="larger icon-mastodon"></span></td>
-      <td style="text-align: left">twitter</td>
-      <td><span class="larger icon-twitter"></span></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>If your perferred network is missing, note that you can always <a href="../../docs/advanced.md#adding-a-custom-social-media-icon">follow the steps to add custom icons</a> from the docs, which is what I did for this release.</p>
-
-<h2 id="dark-mode-is-now-free">Dark Mode is Now Free</h2>
-<p>When I first added dark mode to Hydejack it was still considered a novelty. 
-Unity, a popular game engine, was limiting dark mode to its paid version at the time — a model that I’ve adopted for Hydejack. 
-Today, dark mode is considered a minimal requirement for any new theme and to reflect that reality, 
-starting with Hydejack 9.2, dark mode is included in all versions of Hydejack.</p>
-
-<h2 id="updated-docs">Updated Docs</h2>
-<p>The documentation has been updated with a focus on deployment via GitHub Actions and CI pipelines. 
-I’ve added a chapter on how to <a href="../../docs/deploy.md" class="heading flip-title">Deploy</a> and updated many of the existing chapters.</p>
-
-<p>The deployment experience for <strong>PRO customers</strong> has also been improved. You are now automatically added to a “PRO Customers” team on GitHub if you provide a GitHub username during checkout (existing customers can request an invite through <a href="mailto:mail@hydejack.com">mail@hydejack.com</a>).
-Members of this team have read access to the pro repository, which allows the theme to be fetched during a CI run. 
-For detail, check out the new <a href="../../docs/deploy.md" class="heading flip-title">Deploy</a> chapter.</p>
-
-<h2 id="google-fonts-off-by-default">Google Fonts Off by Default</h2>
-<p>Google Fonts are now turned off by default in the starter kits, but remain in use on hydejack.com for visual continuity. All associated options continue to work as they did before. Only new users have to enable them in the config file if they want to match the look of hydejack.com.</p>
-
-<p>The reason for this change is that sensibilities around privacy have changed in recent years. 
-No Google product feels appropriate as a default option for an ownership and self-hosting oriented product like Hydejack.</p>
-
-<p>To restore the old look that matches hydejack.com, add the following to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">google_fonts</span><span class="pi">:</span>          <span class="s">Roboto+Slab:700|Noto+Sans:400,400i,700,700i</span>
-<span class="na">font</span><span class="pi">:</span>                  <span class="s">Noto Sans, Helvetica, Arial, sans-serif</span>
-<span class="na">font_heading</span><span class="pi">:</span>          <span class="s">Roboto Slab, Helvetica, Arial, sans-serif</span>
-</code></pre></div></div>
-
-<p>On a related note, I’ve also decided against updating the included Google Analytics script, in part because the upgrade path is incomprehensible, but also due the the same privacy concerns that make Google Fonts a bad default option. I recommend independent analytics services like 
-<a href="https://plausible.io">Plausible</a>, <a href="https://matomo.org/">Matomo</a> or maybe even <a href="https://counterscale.dev">Counterscale</a> (if you are a Cloudflare customer).
-You can include the tracking scripts by <a href="../../docs/basics.md#adding-custom-html-to-the-head">adding them as custom HTML</a>.
- –&gt;</p>
+# Exclude this example category from the sitemap.
+# DON'T USE THIS SETTING IN YOUR CATEGORIES!
+sitemap: false
+--- -->
 
 </article>
 

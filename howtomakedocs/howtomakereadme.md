@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Documentation
 description: >
@@ -14,9 +14,9 @@ permalink: /docs/
 
 
 ## Linear Algebra
-* [Vector Space]{:.heading.flip-title} --- Introduction of Vector Space.
-* [Linear Transformations and Matrices]{:.heading.flip-title} --- Important Chapter in terms of Machine Learning.
-* [Elementary Matrix Operations and Systems of Linear Equations]{:.heading.flip-title} --- Apply how to use linear transformations and matrices.
+* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
+* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
+* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
 {:.related-posts.faded}
 
 ## Using Hydejack
@@ -34,9 +34,9 @@ permalink: /docs/
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
 {:.related-posts.faded}
 
-[Vector Space]: /docs/vs/
-[Linear Transformations and Matrices]: /docs/ltam/
-[Elementary Matrix Operations and Systems of Linear Equations]: /docs/emoasole/
+[install]: install.md
+[upgrade]: upgrade.md
+[config]: config.md
 [basics]: basics.md
 [writing]: writing.md
 [scripts]: scripts.md
@@ -45,4 +45,4 @@ permalink: /docs/
 [advanced]: advanced.md
 [LICENSE]: ../LICENSE.md
 [NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md
+[CHANGELOG]: ../CHANGELOG.md -->
