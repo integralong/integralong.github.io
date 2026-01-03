@@ -7,6 +7,11 @@ hide_description: true
 sitemap: false
 ---
 
+| Chapter 3. Elementary Matrix Operations and Systems of Linear Equations
+
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
 Once Jekyll is running, you can start with basic configuration by adding various entries to `_config.yml`. 
 Besides the documentation here, you can also read the [annotated config file][config].
 
@@ -563,7 +568,7 @@ Older versions of Hydejack allowed enabling dark mode based on local time. These
 {:.note}
 
 
-Continue with [Basics](basics.md){:.heading.flip-title}
+Continue with [Determinants](/docs/determinants/){:.heading.flip-title}
 {:.read-more}
 
 

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Linear Transformations
+title: Linear Transformations and Matrices
 description: >
   This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
 hide_description: true
 sitemap: false
 ---
 
-This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.
+| Chapter 2. Linear Transformations and Matrices
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
