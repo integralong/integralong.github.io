@@ -16,15 +16,15 @@ redirect_from:
 
 
 ### More about me
-My Korean Name is A Hyeon [a.hjʌn] Song. 
-I like Coconut, 
+
+
 
 ### Contact 
 ⚲ Gainesville, FL, USA
 
-* <span class="icon-mail"></span> **Email**: [ahyeonsong@ufl.edu](mailto:ahyeonsong@ufl.edu)
-* <span class="icon-github"></span> **GitHub**: [github.com/integralong](https://github.com/integralong)
-* <span class="icon-linkedin2"></span> **LinkedIn**: [linkedin/song](https://www.linkedin.com/in/lauren-song-b467b22a1/)
+* <span class="icon-mail"></span> : [**Email**](mailto:ahyeonsong@ufl.edu)
+* <span class="icon-github"></span> : [**GitHub**](https://github.com/integralong)
+* <span class="icon-linkedin2"></span> : [**LinkedIn**](https://www.linkedin.com/in/lauren-song-b467b22a1/)
 
 > 📄 **[Download My CV (PDF)](/assets/img/logo/A Hyeon(Lauren) Song-CV.pdf)**
 
