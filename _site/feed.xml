@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-04T20:37:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-04T21:08:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">Math Modeling</title><link href="http://localhost:4000/projects/2025-12-20-mathmodeling/" rel="alternate" type="text/html" title="Math Modeling" /><published>2025-12-20T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/mathmodeling</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-mathmodeling/"><![CDATA[<p>Starts DRP Program.
 <!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} --></p>
@@ -499,7 +499,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00+09:00</published><updated>2025-12-30T16:29:44+09:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p><strong>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally.</strong></p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00+09:00</published><updated>2026-01-04T20:37:35+09:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p><strong>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally.</strong></p>
 
 <blockquote>
   <p>🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, <strong>Lauren Song</strong>, Gayathri Mannem</p>
@@ -550,32 +550,58 @@ A caption to an image.</p>
 <h3 id="methods-and-materials">Methods and Materials</h3>
 <p>Articles discussing the effects of telehealth on healthcare-deprived and low-resource communities were collected and screened throguh Rayyan. A systematic review was then conducted to filter through various study methods and variables to determine relevancy to the research topic.</p>
 
+<p><br /></p>
+
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Identification" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/695a2506838daacff3cc57fd" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 <h3 id="results">Results</h3>
-<details>
-  <summary style="cursor: pointer; font-size: 1.1em; font-weight: bold; color: #0076df;">
-    📊 View Characteristics of Included Studies (Total 19 Articles)
-  </summary>
-  <div style="margin-top: 15px;">
+<p><br /></p>
 
-| Authors | Year | Title | Journal | Type | Main Findings |
-|:---|:---:|:---|:---|:---:|:---|
-| Ramirez, et al. | 2020 | Telemedicine in Minority and Socioeconomically Disadvantaged... | NCBI | Literature Review | Cultural views &amp; linguistic challenges influence Telehealth attitudes. |
-| Rush, et al. | 2022 | Telehealth Use for Enhancing the Health of Rural Older Adults... | NCBI | Systemic Review | Cost-efficient compared to traditional in-person consultations. |
-| Ramsey, et al. | 2023 | Children with uncontrolled asthma from economically disadvantaged... | NCBI | Literature Review | 60-70% miss appointments due to transport; Telehealth increases access. |
-| Jaffe et al. | 2020 | Health Inequalities in the Use of Telehealth... | NCBI | Literature Review | Mental health focus; 845% increase in outpatient visits during COVID. |
-| Schwamm et al. | 2014 | Telehealth: Seven Strategies To Successfully Implement... | Health Affairs | Literature Review | 7 strategies for successful implementation and value improvement. |
-| Bowman et al. | 2022 | The “Telehealth Divide”—Who Are the Underserved... | JABFM | Systematic Review | Examines racial disparities in wellness, drug safety, and abortion. |
-| ... | ... | ... | ... | ... | ... |
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css" />
 
-  </div>
-</details>
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+<div style="overflow-x: auto; margin-top: 20px;">
+    <table id="studyTable" class="display" style="width:100%"></table>
+</div>
+
+<script>
+$(document).ready(function() {
+    Papa.parse("/assets/img/logo/telehealth-studies.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+            $('#studyTable').DataTable({
+                data: results.data,
+                columns: [
+                    { data: 'Authors', title: 'Authors' },
+                    { data: 'Year', title: 'Year' },
+                    { data: 'Title', title: 'Title' },
+                    { data: 'Journal', title: 'Journal' },
+                    { data: 'Type of Study', title: 'Type' },
+                    { data: 'Main Findings', title: 'Main Findings' }
+                ],
+                pageLength: 5, // 한 번에 보여줄 논문 개수
+                language: { search: "Search Articles:" }
+            });
+        }
+    });
+});
+</script>
 
 <h3 id="discussion">Discussion</h3>
-<p>The latest study underscores the positive impacts of telehealth utilization within communities, especially those catering</p>
+<p>The latest study underscores the positive impacts of telehealth utilization within communities, especially those catering to healthcare-deprived or low-resource demographics. However, it also brings attention to pertinent issues, particularly from an economic standpoint, as the costs of essential telehealth equipment pose a significant challenge.</p>
 
-<h3 id="conclusions">Conclusions</h3>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my first research at the University of South Florida with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Notes</title><link href="http://localhost:4000/projects/2022-05-04-notes/" rel="alternate" type="text/html" title="Notes" /><published>2022-05-04T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/notes</id><content type="html" xml:base="http://localhost:4000/projects/2022-05-04-notes/"><![CDATA[<p>Check out interesting articles!</p>
+<p>By addressing these challenges directly, it can be ensured that telehealth’s influential promise is fulfilled, resulting in more equitable access to healthcare services for all individuals, regardless of geographical location or socioecnomic status.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+<p>Telehealth initiatives have demonstrated significant strides in extending their reach to underserved populations, including within developing nations where technology adoption remains sparse. Health care professionals advocate for Telehealth, asserting that the caliber of care delivered via this digital platform is commensurate with that of traditional in-person consultations. Its applicability ranges from chronic disease management to acute emergency situations, enhancing accessibility and quality of healthcare services. Moreover, with the improved accessbility of medical information through research programs like INvest clinical trials and initiatives like GIVE, remote healthcare services are expanding. For example, a study conducted revealed that more than half of children who suffer from asthma fail to attend their in-person medical appointments due to transportation difficulties.</p>
+
+<p>Telehealth has played a crucial role in overcoming these financial and logistical obstacles, enabling families globally to access medical care from a physician without the burdens that traditionally hinder patient care. The findings from scholarly articles provide insightful and quantitative evidence on Telehealth’s positive effect on various communities, such as low-income families and the elderly.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my first research at the University of South Florida with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Notes</title><link href="http://localhost:4000/projects/2022-05-04-notes/" rel="alternate" type="text/html" title="Notes" /><published>2022-05-04T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/notes</id><content type="html" xml:base="http://localhost:4000/projects/2022-05-04-notes/"><![CDATA[<p>Check out interesting articles!</p>
 
 <!-- <span class="icon-twitter-old"></span> → <span class="icon-twitter"></span>
 {:.larger} -->

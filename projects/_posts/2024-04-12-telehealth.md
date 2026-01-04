@@ -52,32 +52,55 @@ By analyzing scholarly articles, it seeks to understand how telehealth has impro
 Articles discussing the effects of telehealth on healthcare-deprived and low-resource communities were collected and screened throguh Rayyan. A systematic review was then conducted to filter through various study methods and variables to determine relevancy to the research topic.
 
 
+<br>
+
+
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Identification" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/695a2506838daacff3cc57fd" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 ### Results
-<details>
-  <summary style="cursor: pointer; font-size: 1.1em; font-weight: bold; color: #0076df;">
-    📊 View Characteristics of Included Studies (Total 19 Articles)
-  </summary>
-  <div style="margin-top: 15px;">
+<br>
 
-| Authors | Year | Title | Journal | Type | Main Findings |
-|:---|:---:|:---|:---|:---:|:---|
-| Ramirez, et al. | 2020 | Telemedicine in Minority and Socioeconomically Disadvantaged... | NCBI | Literature Review | Cultural views & linguistic challenges influence Telehealth attitudes. |
-| Rush, et al. | 2022 | Telehealth Use for Enhancing the Health of Rural Older Adults... | NCBI | Systemic Review | Cost-efficient compared to traditional in-person consultations. |
-| Ramsey, et al. | 2023 | Children with uncontrolled asthma from economically disadvantaged... | NCBI | Literature Review | 60-70% miss appointments due to transport; Telehealth increases access. |
-| Jaffe et al. | 2020 | Health Inequalities in the Use of Telehealth... | NCBI | Literature Review | Mental health focus; 845% increase in outpatient visits during COVID. |
-| Schwamm et al. | 2014 | Telehealth: Seven Strategies To Successfully Implement... | Health Affairs | Literature Review | 7 strategies for successful implementation and value improvement. |
-| Bowman et al. | 2022 | The “Telehealth Divide”—Who Are the Underserved... | JABFM | Systematic Review | Examines racial disparities in wellness, drug safety, and abortion. |
-| ... | ... | ... | ... | ... | ... |
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
-  </div>
-</details>
+<div style="overflow-x: auto; margin-top: 20px;">
+    <table id="studyTable" class="display" style="width:100%"></table>
+</div>
+
+<script>
+$(document).ready(function() {
+    Papa.parse("/assets/img/logo/telehealth-studies.csv", {
+        download: true,
+        header: true,
+        complete: function(results) {
+            $('#studyTable').DataTable({
+                data: results.data,
+                columns: [
+                    { data: 'Authors', title: 'Authors' },
+                    { data: 'Year', title: 'Year' },
+                    { data: 'Title', title: 'Title' },
+                    { data: 'Journal', title: 'Journal' },
+                    { data: 'Type of Study', title: 'Type' },
+                    { data: 'Main Findings', title: 'Main Findings' }
+                ],
+                pageLength: 5, // 한 번에 보여줄 논문 개수
+                language: { search: "Search Articles:" }
+            });
+        }
+    });
+});
+</script>
 
 
 ### Discussion
-The latest study underscores the positive impacts of telehealth utilization within communities, especially those catering 
+The latest study underscores the positive impacts of telehealth utilization within communities, especially those catering to healthcare-deprived or low-resource demographics. However, it also brings attention to pertinent issues, particularly from an economic standpoint, as the costs of essential telehealth equipment pose a significant challenge.
+
+By addressing these challenges directly, it can be ensured that telehealth's influential promise is fulfilled, resulting in more equitable access to healthcare services for all individuals, regardless of geographical location or socioecnomic status.
 
 
 ### Conclusions
+Telehealth initiatives have demonstrated significant strides in extending their reach to underserved populations, including within developing nations where technology adoption remains sparse. Health care professionals advocate for Telehealth, asserting that the caliber of care delivered via this digital platform is commensurate with that of traditional in-person consultations. Its applicability ranges from chronic disease management to acute emergency situations, enhancing accessibility and quality of healthcare services. Moreover, with the improved accessbility of medical information through research programs like INvest clinical trials and initiatives like GIVE, remote healthcare services are expanding. For example, a study conducted revealed that more than half of children who suffer from asthma fail to attend their in-person medical appointments due to transportation difficulties. 
 
+Telehealth has played a crucial role in overcoming these financial and logistical obstacles, enabling families globally to access medical care from a physician without the burdens that traditionally hinder patient care. The findings from scholarly articles provide insightful and quantitative evidence on Telehealth's positive effect on various communities, such as low-income families and the elderly.
