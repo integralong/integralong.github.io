@@ -2,7 +2,7 @@
 layout: post
 title: Education Robot
 description: >
-  A page showing Hydejack-specific markdown content.
+  EGN 3000L 
 # image: 
 #   path: /assets/img/blog/example-content-iii.jpg
 #   srcset:
@@ -16,86 +16,59 @@ sitemap: false
 hide_last_modified: true
 ---
 
-Manufacturing Education Robots
+**Manufacturing Education Robots**
 
-## Large Tables
+> 🔬 [Project Lead] Fabian Martin, [Hardware Lead] Robert Tortolo, [Software Lead] RC Wyatte, [Test Lead] Erik Langschwager, **[Design Lead] Lauren Song**
 
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
-| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
-| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
-{:.scroll-table}
+**Timeline:** : Jan 2024 - April 2024
 
+**Key Tools:** : Arduino, ThinkerCAD, Flashprint
 
-## Code blocks
+```
+Note: Use a desktop browser to view the interactive table of contents.
+```
+* toc
+{:toc .large-only}
 
-~~~js
-// Example can be run directly in your JavaScript console
+## Introduction
+Our Project's main goal is optimize the final design candidate, Wheelie, for K-12 STEM education and reduce the barriers to entry into engineering education. The purpose of this project is to broaden the diversity of learning activities for future potential enginners through the robot, Wheelie, which will be used as an educational tool.
 
-// Create a function that takes two arguments and returns the sum of those
-// arguments
-var adder = new Function("a", "b", "return a + b");
+By integrating various features such as sensors, motors, and interactive LCD screens that display emoji expressions, Wheelie provides hands-on learning experiences that encourage curiosity and exporation. Through the assembly process, we aim to make engineering learning enjoyable and easily accessible, while encouraging students to interactively explore concepts in robotics engineering.
 
-// Call the function
-adder(2, 6);
-// > 8
-~~~
+Overall, our project, Wheelie, not only provides hands-on experience by assembling electronic components and understanding engineering theoretical concepts but also contributes to lowering the participation and entry barriers in the field of engineering, thus relating to K-12 STEM education.
 
+## Project Plan
+<br>
 
-## Math
-Lorem ipsum $$ f(x) = x^2 $$.
-
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
+### Bills of Materials:
+| Materials | Amount |
+|-----------|--------|
+| Arduino   | $4.27  |
+| Ultrasonic Sensor | $3.40 |
+| Battery | $2.00 |
+| 2/Pack DC Motors | $1.80 |
+| 2/Pack of Wheels | $3.32 |
+| 8GB Micro SD Card | $8.29 |
+| 3.5" TFT LCD Display | $17.83 |
 
 
-## Message boxes
-**NOTE**: You can add a message box.
-{:.message}
+## Prototype Design
+The chosen design, called Wheelie, was selected over other ideas for several reasons. Its box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly within a few minutes by any user, unlike other candidates that are harder to assemble.
 
-## Large text
-You can add large text.
-{:.lead}
-
-## Large images
-![Full-width image](https://via.placeholder.com/800x100){:.lead width="800" height="100"}
-
-## Captions to images
-![Full-width image](https://via.placeholder.com/800x100){:.lead width="800" height="100"}
-A caption to an image.
-{:.figure}
-
-## Large quotes
-> You can make a quote "pop out".
-{:.lead}
-
-## Faded text
-I'm faded, faded, faded.
-{:.faded}
+![candidate1](/assets/img/educationrobot/turtle.gif) ![candidate2](/assets/img/educationrobot/wheelie.gif)
 
 
-[mm]: https://guides.github.com/features/mastering-markdown/
-[ksyn]: https://kramdown.gettalong.org/syntax.html
-[ksyntab]:https://kramdown.gettalong.org/syntax.html#tables
-[ksynmath]: https://kramdown.gettalong.org/syntax.html#math-blocks
-[katex]: https://khan.github.io/KaTeX/
-[rtable]: https://dbushell.com/2016/03/04/css-only-responsive-tables/
+
+## Product development
+
+## Software development
+
+## Prototype testing
+
+## Recommendations
+
+## Conclusions
+
+## References
+
+

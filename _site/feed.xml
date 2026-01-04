@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-04T21:34:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-04T22:26:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">Math Modeling</title><link href="http://localhost:4000/projects/2025-12-20-mathmodeling/" rel="alternate" type="text/html" title="Math Modeling" /><published>2025-12-20T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/mathmodeling</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-mathmodeling/"><![CDATA[<p>Starts DRP Program.
 <!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} --></p>
@@ -281,225 +281,70 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p>Manufacturing Education Robots</p>
+</code></pre></div></div>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p><strong>Manufacturing Education Robots</strong></p>
 
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">f(x) = x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>.</p>
-
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>ϕ</mi><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mi>ϕ</mi><mrow><mo fence="true">(</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub><msub><mi>e</mi><mi>i</mi></msub><mo separator="true">,</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>y</mi><mi>j</mi></msub><msub><mi>e</mi><mi>j</mi></msub><mo fence="true">)</mo></mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub><msub><mi>y</mi><mi>j</mi></msub><mi>ϕ</mi><mo stretchy="false">(</mo><msub><mi>e</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>e</mi><mi>j</mi></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mo stretchy="false">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy="false">)</mo><mrow><mo fence="true">(</mo><mtable rowspacing="0.16em" columnalign="center center center" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>ϕ</mi><mo stretchy="false">(</mo><msub><mi>e</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>e</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋯</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>ϕ</mi><mo stretchy="false">(</mo><msub><mi>e</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>e</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋱</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>ϕ</mi><mo stretchy="false">(</mo><msub><mi>e</mi><mi>n</mi></msub><mo separator="true">,</mo><msub><mi>e</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋯</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>ϕ</mi><mo stretchy="false">(</mo><msub><mi>e</mi><mi>n</mi></msub><mo separator="true">,</mo><msub><mi>e</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow><mrow><mo fence="true">(</mo><mtable rowspacing="0.16em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><msub><mi>y</mi><mn>1</mn></msub></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><msub><mi>y</mi><mi>n</mi></msub></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:13.2814em;vertical-align:-6.3907em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:6.8907em;"><span style="top:-9.5207em;"><span class="pstrut" style="height:4.38em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span><span style="top:-5.2093em;"><span class="pstrut" style="height:4.38em;"></span><span class="mord"></span></span><span style="top:-0.1693em;"><span class="pstrut" style="height:4.38em;"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:6.3907em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:6.8907em;"><span style="top:-9.5207em;"><span class="pstrut" style="height:4.38em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord mathnormal">ϕ</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">(</span></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2777em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.4138em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size4">)</span></span></span></span></span><span style="top:-5.2093em;"><span class="pstrut" style="height:4.38em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2777em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.4138em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05724em;">j</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-0.1693em;"><span class="pstrut" style="height:4.38em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35em;"><span style="top:-4.35em;"><span class="pstrut" style="height:6.2em;"></span><span style="width:0.875em;height:4.200em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.875em' height='4.200em' viewBox='0 0 875 4200'><path d='M863,9c0,-2,-2,-5,-6,-9c0,0,-17,0,-17,0c-12.7,0,-19.3,0.3,-20,1
-c-5.3,5.3,-10.3,11,-15,17c-242.7,294.7,-395.3,682,-458,1162c-21.3,163.3,-33.3,349,
--36,557 l0,684c0.2,6,0,26,0,60c2,159.3,10,310.7,24,454c53.3,528,210,
-949.7,470,1265c4.7,6,9.7,11.7,15,17c0.7,0.7,7,1,19,1c0,0,18,0,18,0c4,-4,6,-7,6,-9
-c0,-2.7,-3.3,-8.7,-10,-18c-135.3,-192.7,-235.5,-414.3,-300.5,-665c-65,-250.7,-102.5,
--544.7,-112.5,-882c-2,-104,-3,-167,-3,-189
-l0,-692c0,-162.7,5.7,-314,17,-454c20.7,-272,63.7,-513,129,-723c65.3,
--210,155.3,-396.3,270,-559c6.7,-9.3,10,-15.3,10,-18z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.38em;"><span style="top:-5.2275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-3.3675em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-2.1675em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.88em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.38em;"><span style="top:-5.04em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋯</span></span></span><span style="top:-3.18em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋱</span></span></span><span style="top:-1.98em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋯</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.88em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.38em;"><span style="top:-5.2275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-3.3675em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-2.1675em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.88em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35em;"><span style="top:-4.35em;"><span class="pstrut" style="height:6.2em;"></span><span style="width:0.875em;height:4.200em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.875em' height='4.200em' viewBox='0 0 875 4200'><path d='M76,0c-16.7,0,-25,3,-25,9c0,2,2,6.3,6,13c21.3,28.7,42.3,60.3,
-63,95c96.7,156.7,172.8,332.5,228.5,527.5c55.7,195,92.8,416.5,111.5,664.5
-c11.3,139.3,17,290.7,17,454c0,28,1.7,43,3.3,45l0,609
-c-3,4,-3.3,16.7,-3.3,38c0,162,-5.7,313.7,-17,455c-18.7,248,-55.8,469.3,-111.5,664
-c-55.7,194.7,-131.8,370.3,-228.5,527c-20.7,34.7,-41.7,66.3,-63,95c-2,3.3,-4,7,-6,11
-c0,7.3,5.7,11,17,11c0,0,11,0,11,0c9.3,0,14.3,-0.3,15,-1c5.3,-5.3,10.3,-11,15,-17
-c242.7,-294.7,395.3,-681.7,458,-1161c21.3,-164.7,33.3,-350.7,36,-558
-l0,-744c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
--470,-1265c-4.7,-6,-9.7,-11.7,-15,-17c-0.7,-0.7,-6.7,-1,-18,-1z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35em;"><span style="top:-4.35em;"><span class="pstrut" style="height:6.2em;"></span><span style="width:0.875em;height:4.200em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.875em' height='4.200em' viewBox='0 0 875 4200'><path d='M863,9c0,-2,-2,-5,-6,-9c0,0,-17,0,-17,0c-12.7,0,-19.3,0.3,-20,1
-c-5.3,5.3,-10.3,11,-15,17c-242.7,294.7,-395.3,682,-458,1162c-21.3,163.3,-33.3,349,
--36,557 l0,684c0.2,6,0,26,0,60c2,159.3,10,310.7,24,454c53.3,528,210,
-949.7,470,1265c4.7,6,9.7,11.7,15,17c0.7,0.7,7,1,19,1c0,0,18,0,18,0c4,-4,6,-7,6,-9
-c0,-2.7,-3.3,-8.7,-10,-18c-135.3,-192.7,-235.5,-414.3,-300.5,-665c-65,-250.7,-102.5,
--544.7,-112.5,-882c-2,-104,-3,-167,-3,-189
-l0,-692c0,-162.7,5.7,-314,17,-454c20.7,-272,63.7,-513,129,-723c65.3,
--210,155.3,-396.3,270,-559c6.7,-9.3,10,-15.3,10,-18z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.38em;"><span style="top:-5.2275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.3675em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-2.1675em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.88em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35em;"><span style="top:-4.35em;"><span class="pstrut" style="height:6.2em;"></span><span style="width:0.875em;height:4.200em;"><svg xmlns="http://www.w3.org/2000/svg" width='0.875em' height='4.200em' viewBox='0 0 875 4200'><path d='M76,0c-16.7,0,-25,3,-25,9c0,2,2,6.3,6,13c21.3,28.7,42.3,60.3,
-63,95c96.7,156.7,172.8,332.5,228.5,527.5c55.7,195,92.8,416.5,111.5,664.5
-c11.3,139.3,17,290.7,17,454c0,28,1.7,43,3.3,45l0,609
-c-3,4,-3.3,16.7,-3.3,38c0,162,-5.7,313.7,-17,455c-18.7,248,-55.8,469.3,-111.5,664
-c-55.7,194.7,-131.8,370.3,-228.5,527c-20.7,34.7,-41.7,66.3,-63,95c-2,3.3,-4,7,-6,11
-c0,7.3,5.7,11,17,11c0,0,11,0,11,0c9.3,0,14.3,-0.3,15,-1c5.3,-5.3,10.3,-11,15,-17
-c242.7,-294.7,395.3,-681.7,458,-1161c21.3,-164.7,33.3,-350.7,36,-558
-l0,-744c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
--470,-1265c-4.7,-6,-9.7,-11.7,-15,-17c-0.7,-0.7,-6.7,-1,-18,-1z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:6.3907em;"><span></span></span></span></span></span></span></span></span></span></span></span>
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
+<blockquote>
+  <p>🔬 [Project Lead] Fabian Martin, [Hardware Lead] Robert Tortolo, [Software Lead] RC Wyatte, [Test Lead] Erik Langschwager, <strong>[Design Lead] Lauren Song</strong></p>
 </blockquote>
 
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00+09:00</published><updated>2026-01-04T21:09:05+09:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p><strong>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally.</strong></p>
+<p><strong>Timeline:</strong> : Jan 2024 - April 2024</p>
+
+<p><strong>Key Tools:</strong> : Arduino, ThinkerCAD, Flashprint</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Use a desktop browser to view the interactive table of contents.
+</code></pre></div></div>
+<ul class="large-only" id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li><a href="#project-plan" id="markdown-toc-project-plan">Project Plan</a>    <ul>
+      <li><a href="#bills-of-materials" id="markdown-toc-bills-of-materials">Bills of Materials:</a></li>
+    </ul>
+  </li>
+  <li><a href="#prototype-design" id="markdown-toc-prototype-design">Prototype Design</a></li>
+  <li><a href="#product-development" id="markdown-toc-product-development">Product development</a></li>
+  <li><a href="#software-development" id="markdown-toc-software-development">Software development</a></li>
+  <li><a href="#prototype-testing" id="markdown-toc-prototype-testing">Prototype testing</a></li>
+  <li><a href="#recommendations" id="markdown-toc-recommendations">Recommendations</a></li>
+  <li><a href="#conclusions" id="markdown-toc-conclusions">Conclusions</a></li>
+  <li><a href="#references" id="markdown-toc-references">References</a></li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+<p>Our Project’s main goal is optimize the final design candidate, Wheelie, for K-12 STEM education and reduce the barriers to entry into engineering education. The purpose of this project is to broaden the diversity of learning activities for future potential enginners through the robot, Wheelie, which will be used as an educational tool.</p>
+
+<p>By integrating various features such as sensors, motors, and interactive LCD screens that display emoji expressions, Wheelie provides hands-on learning experiences that encourage curiosity and exporation. Through the assembly process, we aim to make engineering learning enjoyable and easily accessible, while encouraging students to interactively explore concepts in robotics engineering.</p>
+
+<p>Overall, our project, Wheelie, not only provides hands-on experience by assembling electronic components and understanding engineering theoretical concepts but also contributes to lowering the participation and entry barriers in the field of engineering, thus relating to K-12 STEM education.</p>
+
+<h2 id="project-plan">Project Plan</h2>
+<p><br /></p>
+
+<h3 id="bills-of-materials">Bills of Materials:</h3>
+<p>| Materials | Amount |
+|———–|——–|
+| Arduino   | $4.27  |
+| Ultrasonic Sensor | $3.40 |
+| Battery | $2.00 |
+| 2/Pack DC Motors | $1.80 |
+| 2/Pack of Wheels | $3.32 |
+| 8GB Micro SD Card | $8.29 |
+| 3.5” TFT LCD Display | $17.83 |</p>
+
+<h2 id="prototype-design">Prototype Design</h2>
+<p>The chosen design, called Wheelie, was selected over other ideas for several reasons. Its box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly within a few minutes by any user, unlike other candidates that are harder to assemble.</p>
+
+<p><img src="/assets/img/educationrobot/turtle.gif" alt="candidate1" /> <img src="/assets/img/educationrobot/wheelie.gif" alt="candidate2" /></p>
+
+<h2 id="product-development">Product development</h2>
+
+<h2 id="software-development">Software development</h2>
+
+<h2 id="prototype-testing">Prototype testing</h2>
+
+<h2 id="recommendations">Recommendations</h2>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<h2 id="references">References</h2>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[EGN 3000L]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00+09:00</published><updated>2026-01-04T21:35:37+09:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p><strong>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally</strong></p>
 
 <blockquote>
   <p>🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, <strong>Lauren Song</strong>, Gayathri Mannem</p>
@@ -556,43 +401,173 @@ A caption to an image.</p>
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Identification" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/695a2506838daacff3cc57fd" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 <h3 id="results">Results</h3>
-<p><br /></p>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css" />
-
-<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
-<div style="overflow-x: auto; margin-top: 20px;">
-    <table id="studyTable" class="display" style="width:100%"></table>
-</div>
-
-<script>
-$(document).ready(function() {
-    Papa.parse("/assets/img/logo/telehealth-studies.csv", {
-        download: true,
-        header: true,
-        complete: function(results) {
-            $('#studyTable').DataTable({
-                data: results.data,
-                columns: [
-                    { data: 'Authors', title: 'Authors' },
-                    { data: 'Year', title: 'Year' },
-                    { data: 'Title', title: 'Title' },
-                    { data: 'Journal', title: 'Journal' },
-                    { data: 'Type of Study', title: 'Type' },
-                    { data: 'Main Findings', title: 'Main Findings' }
-                ],
-                pageLength: 5, // 한 번에 보여줄 논문 개수
-                language: { search: "Search Articles:" }
-            });
-        }
-    });
-});
-</script>
+<table>
+  <thead>
+    <tr>
+      <th>Authors</th>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Journal</th>
+      <th>Type of Study</th>
+      <th>Main Findings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ramirez, et al.</td>
+      <td>2020</td>
+      <td>Telemedicine in Minority and Socioeconomically Disadvantaged Communities Amidst COVID-19 Pandemic</td>
+      <td>NCBI</td>
+      <td>Literature Review</td>
+      <td>Cultural views influence attitudes; minorities chose Telehealth due to linguistic/economic barriers to in-person care.</td>
+    </tr>
+    <tr>
+      <td>Rush, et al.</td>
+      <td>2022</td>
+      <td>Telehealth Use for Enhancing the Health of Rural Older Adults: A Systematic Mixed Studies Review</td>
+      <td>NCBI</td>
+      <td>Systemic Review</td>
+      <td>Telehealth is a cost-efficient method for rural healthcare compared to traditional consultations.</td>
+    </tr>
+    <tr>
+      <td>Ramsey, et al.</td>
+      <td>2023</td>
+      <td>Children with uncontrolled asthma from economically disadvantaged neighborhoods…</td>
+      <td>NCBI</td>
+      <td>Literature Review</td>
+      <td>60-70% of children with asthma miss appointments due to transport; Telehealth enables home-based treatment.</td>
+    </tr>
+    <tr>
+      <td>Jaffe et al.</td>
+      <td>2020</td>
+      <td>Health Inequalities in the Use of Telehealth in the United States in the Lens of COVID-19</td>
+      <td>NCBI</td>
+      <td>Literature review</td>
+      <td>Majority were mental health seekers; rural use lower than urban; 845% surge in outpatient Telehealth during COVID.</td>
+    </tr>
+    <tr>
+      <td>Schwamm et al.</td>
+      <td>2014</td>
+      <td>Telehealth: Seven Strategies To Successfully Implement Disruptive Technology</td>
+      <td>Health affairs</td>
+      <td>Literature Review</td>
+      <td>7 success strategies: patient/provider expectations, revenue models, deconstructing traditional care, etc.</td>
+    </tr>
+    <tr>
+      <td>Bowman et al.</td>
+      <td>2022</td>
+      <td>The “Telehealth Divide”—Who Are the Underserved, and What Care Is Improved?</td>
+      <td>JABFM</td>
+      <td>Systematic Review</td>
+      <td>Examines racial disparities in wellness, visits, drug safety, and medical abortion post-pandemic.</td>
+    </tr>
+    <tr>
+      <td>Glassman Paul</td>
+      <td>2012</td>
+      <td>Using Telehealth Technologies to Improve Oral Health for Vulnerable…</td>
+      <td>JCDA</td>
+      <td>Literature Review</td>
+      <td>Emerging evidence that telehealth enhances oral health delivery for vulnerable/underserved populations.</td>
+    </tr>
+    <tr>
+      <td>Ghaddar Suad</td>
+      <td>2020</td>
+      <td>Understanding the Intention to Use Telehealth Services in Underserved Hispanic Border Communities</td>
+      <td>JMIR</td>
+      <td>Systematic Review</td>
+      <td>Measured attitudes at Texas-Mexico border; Telehealth literacy fosters positive feelings toward the service.</td>
+    </tr>
+    <tr>
+      <td>Jewitt et al.</td>
+      <td>2021</td>
+      <td>Telehealth: Reducing or increasing cancer care disparities?</td>
+      <td>JCO</td>
+      <td>Systematic Review</td>
+      <td>Shows disparities among historically underserved cancer patients of varying ethnicities and ages.</td>
+    </tr>
+    <tr>
+      <td>Flack Paul et al.</td>
+      <td>2004</td>
+      <td>Addressing Mental Health needs of the rural underserved</td>
+      <td>Contemporary Family Therapy</td>
+      <td>Literature Review</td>
+      <td>Mental health services effectively delivered via distance tech; requires tech accommodations for both parties.</td>
+    </tr>
+    <tr>
+      <td>Marcin et al.</td>
+      <td>2015</td>
+      <td>Addressing health disparities in rural communities using telehealth</td>
+      <td>Pediatric Research</td>
+      <td>Literature Review</td>
+      <td>Improves satisfaction and reduces costs; addresses geographic maldistribution of pediatric specialists.</td>
+    </tr>
+    <tr>
+      <td>Bailey et al.</td>
+      <td>2021</td>
+      <td>Early Patient-Centered Outcomes Research Experience With the Use of Telehealth to Address Disparities</td>
+      <td>JMIR</td>
+      <td>Literature Review</td>
+      <td>Disparities reduced by patient-centered care and strong provider-patient connections.</td>
+    </tr>
+    <tr>
+      <td>Chambers et al.</td>
+      <td>2012</td>
+      <td>A cross-sectional survey and service evaluation of simple telehealth in primary care</td>
+      <td>BMJ</td>
+      <td>Systematic Review</td>
+      <td>High satisfaction; easy to use; schedule flexibility and improved hypertension education in general population.</td>
+    </tr>
+    <tr>
+      <td>Ahmed et al.</td>
+      <td>2015</td>
+      <td>Portable Health Clinic: A Telehealthcare System for UnReached Communities</td>
+      <td>SpringerLink</td>
+      <td>Original research</td>
+      <td>Successful in Bangladesh for NCDs/aging; reduces morbidity; drawback: cannot handle communicable diseases.</td>
+    </tr>
+    <tr>
+      <td>Sammy Le et al.</td>
+      <td>2021</td>
+      <td>The application of telehealth to remote and rural Australians with chronic neurological conditions</td>
+      <td>Wiley</td>
+      <td>Original research</td>
+      <td>Rural Australians highly satisfied; 100% would recommend; beneficial for chronic conditions without re-exam.</td>
+    </tr>
+    <tr>
+      <td>Hochman et al.</td>
+      <td>2000</td>
+      <td>Cardiogenic shock complicating acute myocardial infarction–etiologies…</td>
+      <td>Elsevier</td>
+      <td>Original research</td>
+      <td>Smartphone-paired ECG/Echo in Zimbabwe; data sent to US specialists; identified CVD in high-risk populations.</td>
+    </tr>
+    <tr>
+      <td>Thota et al.</td>
+      <td>2020</td>
+      <td>Telehealth is a Sustainable Population Health Strategy to Lower Costs…</td>
+      <td>ASCO</td>
+      <td>Original research</td>
+      <td>Saves time/money for rural Utah patients; barriers include staffing, training, and maintenance.</td>
+    </tr>
+    <tr>
+      <td>Vadheim et al.</td>
+      <td>2017</td>
+      <td>Telehealth delivery of the diabetes prevention program to rural communities</td>
+      <td>Oxford Academic</td>
+      <td>Original research</td>
+      <td>Comparable results to on-site programs in weight loss/participation for rural communities.</td>
+    </tr>
+    <tr>
+      <td>Moffatt &amp; Eley</td>
+      <td>2010</td>
+      <td>The reported benefits of telehealth for rural Australians</td>
+      <td>CSIRO Publishing</td>
+      <td>Original research</td>
+      <td>Potential to reduce access lack in rural Australia; requires practitioner upskilling for implementation.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="discussion">Discussion</h3>
 <p>The latest study underscores the positive impacts of telehealth utilization within communities, especially those catering to healthcare-deprived or low-resource demographics. However, it also brings attention to pertinent issues, particularly from an economic standpoint, as the costs of essential telehealth equipment pose a significant challenge.</p>

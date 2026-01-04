@@ -47,7 +47,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Telehealth" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-04T21:09:05+09:00","datePublished":"2024-04-12T00:00:00+09:00","description":"Hi! This is my first research at the University of South Florida with Undergraduate Research Society.","headline":"Telehealth","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/2024-04-12-telehealth/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/projects/2024-04-12-telehealth/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-04T21:35:37+09:00","datePublished":"2024-04-12T00:00:00+09:00","description":"Hi! This is my first research at the University of South Florida with Undergraduate Research Society.","headline":"Telehealth","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/2024-04-12-telehealth/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/projects/2024-04-12-telehealth/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -118,7 +118,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-04T21:34:47+09:00',
+    INDEX_KEY: 'index--2026-01-04T22:26:58+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -302,7 +302,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   </header>
 
   
-    <p><strong>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally.</strong></p>
+    <p><strong>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally</strong></p>
 
 <blockquote>
   <p>🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, <strong>Lauren Song</strong>, Gayathri Mannem</p>
@@ -359,43 +359,173 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Identification" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/695a2506838daacff3cc57fd" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 <h3 id="results">Results</h3>
-<p><br /></p>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css" />
-
-<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-
-<div style="overflow-x: auto; margin-top: 20px;">
-    <table id="studyTable" class="display" style="width:100%"></table>
-</div>
-
-<script>
-$(document).ready(function() {
-    Papa.parse("/assets/img/logo/telehealth-studies.csv", {
-        download: true,
-        header: true,
-        complete: function(results) {
-            $('#studyTable').DataTable({
-                data: results.data,
-                columns: [
-                    { data: 'Authors', title: 'Authors' },
-                    { data: 'Year', title: 'Year' },
-                    { data: 'Title', title: 'Title' },
-                    { data: 'Journal', title: 'Journal' },
-                    { data: 'Type of Study', title: 'Type' },
-                    { data: 'Main Findings', title: 'Main Findings' }
-                ],
-                pageLength: 5, // 한 번에 보여줄 논문 개수
-                language: { search: "Search Articles:" }
-            });
-        }
-    });
-});
-</script>
+<table>
+  <thead>
+    <tr>
+      <th>Authors</th>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Journal</th>
+      <th>Type of Study</th>
+      <th>Main Findings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ramirez, et al.</td>
+      <td>2020</td>
+      <td>Telemedicine in Minority and Socioeconomically Disadvantaged Communities Amidst COVID-19 Pandemic</td>
+      <td>NCBI</td>
+      <td>Literature Review</td>
+      <td>Cultural views influence attitudes; minorities chose Telehealth due to linguistic/economic barriers to in-person care.</td>
+    </tr>
+    <tr>
+      <td>Rush, et al.</td>
+      <td>2022</td>
+      <td>Telehealth Use for Enhancing the Health of Rural Older Adults: A Systematic Mixed Studies Review</td>
+      <td>NCBI</td>
+      <td>Systemic Review</td>
+      <td>Telehealth is a cost-efficient method for rural healthcare compared to traditional consultations.</td>
+    </tr>
+    <tr>
+      <td>Ramsey, et al.</td>
+      <td>2023</td>
+      <td>Children with uncontrolled asthma from economically disadvantaged neighborhoods…</td>
+      <td>NCBI</td>
+      <td>Literature Review</td>
+      <td>60-70% of children with asthma miss appointments due to transport; Telehealth enables home-based treatment.</td>
+    </tr>
+    <tr>
+      <td>Jaffe et al.</td>
+      <td>2020</td>
+      <td>Health Inequalities in the Use of Telehealth in the United States in the Lens of COVID-19</td>
+      <td>NCBI</td>
+      <td>Literature review</td>
+      <td>Majority were mental health seekers; rural use lower than urban; 845% surge in outpatient Telehealth during COVID.</td>
+    </tr>
+    <tr>
+      <td>Schwamm et al.</td>
+      <td>2014</td>
+      <td>Telehealth: Seven Strategies To Successfully Implement Disruptive Technology</td>
+      <td>Health affairs</td>
+      <td>Literature Review</td>
+      <td>7 success strategies: patient/provider expectations, revenue models, deconstructing traditional care, etc.</td>
+    </tr>
+    <tr>
+      <td>Bowman et al.</td>
+      <td>2022</td>
+      <td>The “Telehealth Divide”—Who Are the Underserved, and What Care Is Improved?</td>
+      <td>JABFM</td>
+      <td>Systematic Review</td>
+      <td>Examines racial disparities in wellness, visits, drug safety, and medical abortion post-pandemic.</td>
+    </tr>
+    <tr>
+      <td>Glassman Paul</td>
+      <td>2012</td>
+      <td>Using Telehealth Technologies to Improve Oral Health for Vulnerable…</td>
+      <td>JCDA</td>
+      <td>Literature Review</td>
+      <td>Emerging evidence that telehealth enhances oral health delivery for vulnerable/underserved populations.</td>
+    </tr>
+    <tr>
+      <td>Ghaddar Suad</td>
+      <td>2020</td>
+      <td>Understanding the Intention to Use Telehealth Services in Underserved Hispanic Border Communities</td>
+      <td>JMIR</td>
+      <td>Systematic Review</td>
+      <td>Measured attitudes at Texas-Mexico border; Telehealth literacy fosters positive feelings toward the service.</td>
+    </tr>
+    <tr>
+      <td>Jewitt et al.</td>
+      <td>2021</td>
+      <td>Telehealth: Reducing or increasing cancer care disparities?</td>
+      <td>JCO</td>
+      <td>Systematic Review</td>
+      <td>Shows disparities among historically underserved cancer patients of varying ethnicities and ages.</td>
+    </tr>
+    <tr>
+      <td>Flack Paul et al.</td>
+      <td>2004</td>
+      <td>Addressing Mental Health needs of the rural underserved</td>
+      <td>Contemporary Family Therapy</td>
+      <td>Literature Review</td>
+      <td>Mental health services effectively delivered via distance tech; requires tech accommodations for both parties.</td>
+    </tr>
+    <tr>
+      <td>Marcin et al.</td>
+      <td>2015</td>
+      <td>Addressing health disparities in rural communities using telehealth</td>
+      <td>Pediatric Research</td>
+      <td>Literature Review</td>
+      <td>Improves satisfaction and reduces costs; addresses geographic maldistribution of pediatric specialists.</td>
+    </tr>
+    <tr>
+      <td>Bailey et al.</td>
+      <td>2021</td>
+      <td>Early Patient-Centered Outcomes Research Experience With the Use of Telehealth to Address Disparities</td>
+      <td>JMIR</td>
+      <td>Literature Review</td>
+      <td>Disparities reduced by patient-centered care and strong provider-patient connections.</td>
+    </tr>
+    <tr>
+      <td>Chambers et al.</td>
+      <td>2012</td>
+      <td>A cross-sectional survey and service evaluation of simple telehealth in primary care</td>
+      <td>BMJ</td>
+      <td>Systematic Review</td>
+      <td>High satisfaction; easy to use; schedule flexibility and improved hypertension education in general population.</td>
+    </tr>
+    <tr>
+      <td>Ahmed et al.</td>
+      <td>2015</td>
+      <td>Portable Health Clinic: A Telehealthcare System for UnReached Communities</td>
+      <td>SpringerLink</td>
+      <td>Original research</td>
+      <td>Successful in Bangladesh for NCDs/aging; reduces morbidity; drawback: cannot handle communicable diseases.</td>
+    </tr>
+    <tr>
+      <td>Sammy Le et al.</td>
+      <td>2021</td>
+      <td>The application of telehealth to remote and rural Australians with chronic neurological conditions</td>
+      <td>Wiley</td>
+      <td>Original research</td>
+      <td>Rural Australians highly satisfied; 100% would recommend; beneficial for chronic conditions without re-exam.</td>
+    </tr>
+    <tr>
+      <td>Hochman et al.</td>
+      <td>2000</td>
+      <td>Cardiogenic shock complicating acute myocardial infarction–etiologies…</td>
+      <td>Elsevier</td>
+      <td>Original research</td>
+      <td>Smartphone-paired ECG/Echo in Zimbabwe; data sent to US specialists; identified CVD in high-risk populations.</td>
+    </tr>
+    <tr>
+      <td>Thota et al.</td>
+      <td>2020</td>
+      <td>Telehealth is a Sustainable Population Health Strategy to Lower Costs…</td>
+      <td>ASCO</td>
+      <td>Original research</td>
+      <td>Saves time/money for rural Utah patients; barriers include staffing, training, and maintenance.</td>
+    </tr>
+    <tr>
+      <td>Vadheim et al.</td>
+      <td>2017</td>
+      <td>Telehealth delivery of the diabetes prevention program to rural communities</td>
+      <td>Oxford Academic</td>
+      <td>Original research</td>
+      <td>Comparable results to on-site programs in weight loss/participation for rural communities.</td>
+    </tr>
+    <tr>
+      <td>Moffatt &amp; Eley</td>
+      <td>2010</td>
+      <td>The reported benefits of telehealth for rural Australians</td>
+      <td>CSIRO Publishing</td>
+      <td>Original research</td>
+      <td>Potential to reduce access lack in rural Australia; requires practitioner upskilling for implementation.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="discussion">Discussion</h3>
 <p>The latest study underscores the positive impacts of telehealth utilization within communities, especially those catering to healthcare-deprived or low-resource demographics. However, it also brings attention to pertinent issues, particularly from an economic standpoint, as the costs of essential telehealth equipment pose a significant challenge.</p>
