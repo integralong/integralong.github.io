@@ -41,9 +41,20 @@ Overall, our project, Wheelie, not only provides hands-on experience by assembli
 <br>
 
 ### Bills of Materials:
-| Materials | Amount |
-|-----------|--------|
-| Arduino   | $4.27  |
+<br>
+
+| Materials | Amount | 
+|---------|------|
+| Arduino | $4.27 | 
+| Ultrasonic Sensor | $3.40 | 
+| Battery | $2.00 | 
+| 2/Pack DC Motors | $1.80 | 
+| 2/Pack of Wheels | $3.32 | 
+| 8GB Micro SD Card| $8.29 | 
+| 3.5" TFT LCD Display | $17.83 | 
+| **Total** | <u>$39.11<u>| 
+
+
 
 
 ## Prototype Design
@@ -53,8 +64,14 @@ The chosen design, called Wheelie, was selected over other ideas for several rea
 ![turtle](/assets/img/educationrobot/turtle-candidate.gif) ![wheelie](/assets/img/educationrobot/wheelie-candidate.gif)
 
 
-Based on the Figure, our final candidate design calculations and specific components are:
-
+Based on the Figure 2, our final candidate design calculations and specific components are:
+- Box-shaped body 
+- LCD Screen face
+- Two Wheels 
+- Ultrasonic Sensor
+- Two motors
+- Power source such as 5V battery
+- Arduino Uno
 
 
 

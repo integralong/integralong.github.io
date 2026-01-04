@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-04T22:36:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-05T00:31:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">Math Modeling</title><link href="http://localhost:4000/projects/2025-12-20-mathmodeling/" rel="alternate" type="text/html" title="Math Modeling" /><published>2025-12-20T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/mathmodeling</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-mathmodeling/"><![CDATA[<p>Starts DRP Program.
 <!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} --></p>
@@ -281,7 +281,7 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00+09:00</published><updated>2026-01-04T22:28:48+09:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p><strong>Manufacturing Education Robots</strong></p>
+</code></pre></div></div>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00+09:00</published><updated>2026-01-05T00:00:58+09:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p><strong>Manufacturing Education Robots</strong></p>
 
 <blockquote>
   <p>🔬 [Project Lead] Fabian Martin, [Hardware Lead] Robert Tortolo, [Software Lead] RC Wyatte, [Test Lead] Erik Langschwager, <strong>[Design Lead] Lauren Song</strong></p>
@@ -319,9 +319,50 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 <p><br /></p>
 
 <h3 id="bills-of-materials">Bills of Materials:</h3>
-<p>| Materials | Amount |
-|———–|——–|
-| Arduino   | $4.27  |</p>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Materials</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arduino</td>
+      <td>$4.27</td>
+    </tr>
+    <tr>
+      <td>Ultrasonic Sensor</td>
+      <td>$3.40</td>
+    </tr>
+    <tr>
+      <td>Battery</td>
+      <td>$2.00</td>
+    </tr>
+    <tr>
+      <td>2/Pack DC Motors</td>
+      <td>$1.80</td>
+    </tr>
+    <tr>
+      <td>2/Pack of Wheels</td>
+      <td>$3.32</td>
+    </tr>
+    <tr>
+      <td>8GB Micro SD Card</td>
+      <td>$8.29</td>
+    </tr>
+    <tr>
+      <td>3.5” TFT LCD Display</td>
+      <td>$17.83</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><u>$39.11<u></u></u></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="prototype-design">Prototype Design</h2>
 <p>The chosen design, called Wheelie, was selected over other ideas for several reasons. Its box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly within a few minutes by any user, unlike other candidates that are harder to assemble. Additionally, Wheelie incorporates three wheels for stability, making it suitable for navigating indoor environments typically found in schools. Lastly, considering the customer’s budgetary constraints, our candidate design ensures cost-effectiveness, with the cost expected to be under $40.
@@ -329,7 +370,16 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 
 <p><img src="/assets/img/educationrobot/turtle-candidate.gif" alt="turtle" /> <img src="/assets/img/educationrobot/wheelie-candidate.gif" alt="wheelie" /></p>
 
-<p>Based on the Figure, our final candidate design calculations and specific components are:</p>
+<p>Based on the Figure 2, our final candidate design calculations and specific components are:</p>
+<ul>
+  <li>Box-shaped body</li>
+  <li>LCD Screen face</li>
+  <li>Two Wheels</li>
+  <li>Ultrasonic Sensor</li>
+  <li>Two motors</li>
+  <li>Power source such as 5V battery</li>
+  <li>Arduino Uno</li>
+</ul>
 
 <h2 id="product-development">Product development</h2>
 

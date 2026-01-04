@@ -47,7 +47,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Education Robot" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-04T22:28:48+09:00","datePublished":"2024-04-28T00:00:00+09:00","description":"EGN 3000L","headline":"Education Robot","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/2024-04-28-educationrobot/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/projects/2024-04-28-educationrobot/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-05T00:00:58+09:00","datePublished":"2024-04-28T00:00:00+09:00","description":"EGN 3000L","headline":"Education Robot","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/2024-04-28-educationrobot/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/projects/2024-04-28-educationrobot/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -118,7 +118,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-04T22:36:40+09:00',
+    INDEX_KEY: 'index--2026-01-05T00:31:44+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -340,9 +340,50 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 <p><br /></p>
 
 <h3 id="bills-of-materials">Bills of Materials:</h3>
-<p>| Materials | Amount |
-|———–|——–|
-| Arduino   | $4.27  |</p>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Materials</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arduino</td>
+      <td>$4.27</td>
+    </tr>
+    <tr>
+      <td>Ultrasonic Sensor</td>
+      <td>$3.40</td>
+    </tr>
+    <tr>
+      <td>Battery</td>
+      <td>$2.00</td>
+    </tr>
+    <tr>
+      <td>2/Pack DC Motors</td>
+      <td>$1.80</td>
+    </tr>
+    <tr>
+      <td>2/Pack of Wheels</td>
+      <td>$3.32</td>
+    </tr>
+    <tr>
+      <td>8GB Micro SD Card</td>
+      <td>$8.29</td>
+    </tr>
+    <tr>
+      <td>3.5” TFT LCD Display</td>
+      <td>$17.83</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><u>$39.11<u></u></u></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="prototype-design">Prototype Design</h2>
 <p>The chosen design, called Wheelie, was selected over other ideas for several reasons. Its box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly within a few minutes by any user, unlike other candidates that are harder to assemble. Additionally, Wheelie incorporates three wheels for stability, making it suitable for navigating indoor environments typically found in schools. Lastly, considering the customer’s budgetary constraints, our candidate design ensures cost-effectiveness, with the cost expected to be under $40.
@@ -350,7 +391,16 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 <p><img src="/assets/img/educationrobot/turtle-candidate.gif" alt="turtle" /> <img src="/assets/img/educationrobot/wheelie-candidate.gif" alt="wheelie" /></p>
 
-<p>Based on the Figure, our final candidate design calculations and specific components are:</p>
+<p>Based on the Figure 2, our final candidate design calculations and specific components are:</p>
+<ul>
+  <li>Box-shaped body</li>
+  <li>LCD Screen face</li>
+  <li>Two Wheels</li>
+  <li>Ultrasonic Sensor</li>
+  <li>Two motors</li>
+  <li>Power source such as 5V battery</li>
+  <li>Arduino Uno</li>
+</ul>
 
 <h2 id="product-development">Product development</h2>
 
