@@ -44,18 +44,17 @@ Overall, our project, Wheelie, not only provides hands-on experience by assembli
 | Materials | Amount |
 |-----------|--------|
 | Arduino   | $4.27  |
-| Ultrasonic Sensor | $3.40 |
-| Battery | $2.00 |
-| 2/Pack DC Motors | $1.80 |
-| 2/Pack of Wheels | $3.32 |
-| 8GB Micro SD Card | $8.29 |
-| 3.5" TFT LCD Display | $17.83 |
 
 
 ## Prototype Design
-The chosen design, called Wheelie, was selected over other ideas for several reasons. Its box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly within a few minutes by any user, unlike other candidates that are harder to assemble.
+The chosen design, called Wheelie, was selected over other ideas for several reasons. Its box-shaped body with a minimalist approach and an LCD screen face allow for easy assembly within a few minutes by any user, unlike other candidates that are harder to assemble. Additionally, Wheelie incorporates three wheels for stability, making it suitable for navigating indoor environments typically found in schools. Lastly, considering the customer's budgetary constraints, our candidate design ensures cost-effectiveness, with the cost expected to be under $40.
+<br>
 
-![candidate1](/assets/img/educationrobot/turtle.gif) ![candidate2](/assets/img/educationrobot/wheelie.gif)
+![turtle](/assets/img/educationrobot/turtle-candidate.gif) ![wheelie](/assets/img/educationrobot/wheelie-candidate.gif)
+
+
+Based on the Figure, our final candidate design calculations and specific components are:
+
 
 
 
