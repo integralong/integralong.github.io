@@ -29,6 +29,7 @@ Note: Use a desktop browser to view the interactive table of contents.
 
 
 ## Research Overview
+<br>
 
 ### Abstract 
 During and following the COVID-19 pandamic, the use of telehealth has been greatly increased due to its effectiveness in providing contactless healthcare. Telehealth has particularly shown promise in reaching people who cannot access in-person healthcare due to reasons incuding but not limited to scarcity of neaby medical centers, lack of transportion, and lack of finances.
