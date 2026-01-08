@@ -21,7 +21,6 @@ Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detec
 **Quick Links:** [View Poster](/assets/img/logo/URS-Coloncancer-Poster.png)
 
 
-
 ```
 Note: Use a desktop browser to view the interactive table of contents.
 ```
@@ -29,115 +28,53 @@ Note: Use a desktop browser to view the interactive table of contents.
 {:toc .large-only}
 
 
+## Research Overview
+<br>
+
+### Abstract 
 
 
-## Header 2
+### Introduction
+Colorectal cancer (CRC) is a serious public health concern and remains among the leading causes of cancer mortality globally. Screening for early detection of colorectal cancer is crucial in the prevention of incidence and mortality.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Two common employed CRC screening methods are colonoscopy and multi-target sstool DNA (MT-sDNA), or Cologuard. Both methods are to detect CRC at an early stage to improve patient outcomes. Colonoscopy is an invasive procedure in which a felxible tube with a camera is inserted into the colon to visually inspect the whole bowel for irregularities. It offers the ability to immediately remove detected polyps and is generally recommended every ten years for average-risk patients. In contrast, the Mt-sDNA test is a non-invasive stool test that detects occult blood and genetic markers for CRC. This testing is conducted at home and does not involve sedation or bowel prep and is typically recommended every three years.
 
-### Header 3
+Although Cologuard can identify aberrant blood and DNA linked to precancerous lesions and cancer with convenience, it may miss some advanced adenomas and has a greater false-positive rate. Colonoscopy enables direct vision, biopsy, and removal of polyps, offering advantages for both diagnosis and prevention due to higher sensitivity.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+The purpose of this research project is to help determine the clinical effectiveness of Cologuard and colonoscopy when screening for colon cancer.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### Methods and Materials
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+**PRISMA 2020** flow diagram for new systematic reviews which included searches of databases and registers only
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+<br>
 
 
-### Definition lists
 
-Name
-: Godzilla
+Figure 1. Flowchart of screening proceses
+### Results
 
-Born
-: 1952
+> *Figure 2* The performance markers used for this table included the specificity, sensitivity, reduction in colorectal cancer (CRC) incidence, and reduction in CRC mortality. Both tests show similar results, with the only significant difference im reduction in CRC incidence which is higher in colonoscopies.
 
-Birthplace
-: Japan
 
-Color
-: Green
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
-```
 
-```
-The final element.
-```
+> *Figure 3.*
+
+
+
+> *Figure 4.*
+
+
+
+
+
+
+### Discussion
+
+
+
+### Conclusions
+
+
+

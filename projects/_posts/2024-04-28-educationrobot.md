@@ -16,7 +16,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-**Manufacturing Education Robots**
+Manufacturing Education Robots
 
 > 🔬 [Project Lead] Fabian Martin, [Hardware Lead] Robert Tortolo, [Software Lead] RC Wyatte, [Test Lead] Erik Langschwager, **[Design Lead] Lauren Song**
 

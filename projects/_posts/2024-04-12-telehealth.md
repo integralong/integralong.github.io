@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-**The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally**
+The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally
 
 > 🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, **Lauren Song**, Gayathri Mannem
 
