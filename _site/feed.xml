@@ -1,96 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-08T16:46:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">Math Modeling</title><link href="http://localhost:4000/projects/2025-12-20-mathmodeling/" rel="alternate" type="text/html" title="Math Modeling" /><published>2025-12-20T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/mathmodeling</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-mathmodeling/"><![CDATA[<p>Starts DRP Program.
-<!-- Version 9 is the most complete version of Hydejack yet.
-{:.lead} --></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-13T12:54:02-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2025-12-20-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2025-12-20T00:00:00-05:00</published><updated>2026-01-13T12:54:02-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
+{:.lead} -->
 
-<p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
-
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Use a desktop browser to view the interactive table of contents.
+</code></pre></div></div>
 <ul class="large-only" id="markdown-toc">
-  <li><a href="#linking-in-style" id="markdown-toc-linking-in-style">Linking in Style</a></li>
-  <li><a href="#ready-for-the-big-screen" id="markdown-toc-ready-for-the-big-screen">Ready for the Big Screen</a></li>
-  <li><a href="#whats-in-the-cards" id="markdown-toc-whats-in-the-cards">What’s in the Cards?</a></li>
-  <li><a href="#built-in-search" id="markdown-toc-built-in-search">Built-In Search</a></li>
-  <li><a href="#auto-hiding-navbar" id="markdown-toc-auto-hiding-navbar">Auto-Hiding Navbar</a></li>
-  <li><a href="#sticky-table-of-contents" id="markdown-toc-sticky-table-of-contents">Sticky Table of Contents</a></li>
-  <li><a href="#and-much-more" id="markdown-toc-and-much-more">…and much more</a></li>
-  <li><a href="#even-more-to-come" id="markdown-toc-even-more-to-come">Even More to Come</a></li>
-  <li><a href="#get-it-now" id="markdown-toc-get-it-now">Get It Now</a></li>
+  <li><a href="#how-to-mathematically-optimize-drug-regimens-using-optimal-control" id="markdown-toc-how-to-mathematically-optimize-drug-regimens-using-optimal-control">How to mathematically optimize drug regimens using optimal control</a>    <ul>
+      <li><a href="#week-1" id="markdown-toc-week-1">Week 1</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="linking-in-style">Linking in Style</h2>
+<p>Directed Reading Program (DRP) is mentoring initiative designed to give motivated undergraduates an opportunity to explore advanced mathematics topics under the guidance of a graduate stduent mentor.</p>
 
-<p>Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the <a href="#linking-in-style">link style</a> has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.</p>
+<p><a href="https://math.ufl.edu/drp/">Click this to learn more about DRP</a></p>
 
-<h2 id="ready-for-the-big-screen">Ready for the Big Screen</h2>
+<h2 id="how-to-mathematically-optimize-drug-regimens-using-optimal-control">How to mathematically optimize drug regimens using optimal control</h2>
+<blockquote>
+  <p>🔬 Kyle Adams, Julia Bruner, Alexandra Haddad, Drew Nelson, <strong>Lauren Song</strong>, Kayla Adams</p>
+</blockquote>
 
-<p>The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I’ve made adjustments, such as centering the content column for better reading ergonomics.</p>
-
-<p>With version 9, Hydejack takes full advantage of large displays. Whether it’s design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
-
-<h2 id="whats-in-the-cards">What’s in the Cards?</h2>
-
-<p>Hydejack 9 now lets you use content cards for both projects and posts. 
-The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the <code class="language-plaintext highlighter-rouge">blog</code> layout. The new <code class="language-plaintext highlighter-rouge">grid</code> layout lets you do that.</p>
-
-<p>Good images are key to making the most out of content cards. For that reason, a <a href="/docs/basics/#adding-images">chapter on images</a> has been added to the documentation.</p>
-
-<h2 id="built-in-search">Built-In Search</h2>
-
-<p>Hydejack now has Built-In Search. It even works offline. I’ve been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>.</p>
-
-<p>The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.</p>
-
-<p>Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.</p>
-
-<h2 id="auto-hiding-navbar">Auto-Hiding Navbar</h2>
-
-<p>A navbar that’s there when you need it, and disappears when you don’t. Simple as that.</p>
-
-<h2 id="sticky-table-of-contents">Sticky Table of Contents</h2>
-
-<p>Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
-What’s unique about it is that it simply picks up the table of contents already created by kramdown’s <code class="language-plaintext highlighter-rouge">{:toc}</code> tag and transparently upgrades it to a fully dynamic version.</p>
-
-<h2 id="and-much-more">…and much more</h2>
-
-<p>Other noteworthy changes include:</p>
 <ul>
-  <li>Support for Jekyll 4</li>
-  <li>Choice between MathJax and KaTeX for math rendering</li>
-  <li>Use of <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> for drastically improved page building speeds</li>
-  <li>New variables configuration file — adjust content width, sidebar width, font size, etc…</li>
-  <li>…and the option to disable grouping projects by year.</li>
+  <li><a href="/assets/img/drp/DRP-Reading.pdf">DRP Reading.pdf</a></li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/29411198/">NIH Permalink</a></li>
 </ul>
 
-<p>Read the the <a href="/CHANGELOG/" class="heading flip-title">CHANGELOG</a> for the full scope of features and improvements made in Hydejack 9.
-Maybe just glance at it to confirm that it is indeed a pretty long list.</p>
-
-<h2 id="even-more-to-come">Even More to Come</h2>
-
-<p>New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.</p>
-
-<h2 id="get-it-now">Get It Now</h2>
-<p>The Free Version of Hydejack is now availabe on <a href="https://rubygems.org/gems/jekyll-theme-hydejack">RubyGems</a>
-and for the first time also on <a href="https://github.com/hydecorp/hydejack/packages">GitHub Packages</a>. 
-The source code is available on <a href="https://github.com/hydecorp/hydejack">GitHub</a> as always.</p>
-
-<p>The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:</p>
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p>If you are a fan of the old two-column layout, or don’t like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-    <li id="fn:2">
-
-      <p>Search was mainly tested for English and German. Please let me know about issues in other languages. 
-  While I’ve tried to find a multi-language solution, most showed drastically worse  results for the English base case.
-  If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00+09:00</published><updated>2025-12-30T16:29:44+09:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
+<h3 id="week-1">Week 1</h3>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-08T02:46:18-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
 
 <blockquote>
   <p>🔬 Chandler Castillon, <strong>Lauren Song</strong>, Amanda Martin, Shriya Anand, Samia Khan, Riya Pandey, Praval Ghanta</p>
@@ -139,6 +74,7 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 <p><br /></p>
 
 <p>Figure 1. Flowchart of screening proceses</p>
+
 <h3 id="results">Results</h3>
 
 <blockquote>
@@ -146,16 +82,30 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 </blockquote>
 
 <blockquote>
-  <p><em>Figure 3.</em></p>
+  <p><em>Figure 3.</em> The table measures the detection rates of adenomas, sessile serrated polyps, and missed adenomas. Cologuard has a slightly higher detection rate than colonoscopies in adenoma detection and a reduced detection rate in sessile serrated polyps when compared to colonoscopies. The missed adenoma rate is significantly higher in Cologuard tests than colonoscopies.</p>
 </blockquote>
 
 <blockquote>
-  <p><em>Figure 4.</em></p>
+  <p><em>Figure 4.</em> The table graphs the detection rate of precancerous growths such as adenomas and sessile serrated polyps (SSPs) between patients who have a MT-sDNA test followed by a colonoscopy and patients who do only have a colonoscopy. Adenomas and sessile serrated polyps were detected significantly more in patients who had a MT-sDNA test followed by a colonoscopy than those who had only a colonoscopy.</p>
 </blockquote>
 
 <h3 id="discussion">Discussion</h3>
+<p>Colorectal cancer ranks as the fourth most common cancer in the U.S. (2021), representing 8.9% of all cancer cases. Detecting colorectal polyps is crucial for prevention, with continous monitoring necessary even after polyp resection.</p>
 
-<h3 id="conclusions">Conclusions</h3>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00+09:00</published><updated>2026-01-05T00:31:51+09:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p>Manufacturing Education Robots</p>
+<p>Colonoscopy detection rates depend significantly on intestinal cleanliness, with poor preparation reducing accuracy. Cologuard requires no preparation and, as Figure 2 demonstrates, shows higher adenoma detection and lower missed adenoma rates compared to colonoscopy. Figure 1 indicates Cologuard has comparable sensitivity and specificity to colonoscopy in detecting colon cancer, with similar impacts on reducing incidence and mortality. However, Figure 2 reveals that while Cologuard excels in adenoma detection while colonoscopy performs better in detecting invasive serrated polyps and has a significantly lower missed adenoma rate.</p>
+
+<p>The results indicate that combining Cologuard and colonoscopy enhances overall detection rates. Cologuard effectively identifies precancerous polyps missed by colonoscopy, compensating for each test’s limitations. As Figure 3 illustrates, patients who underwent colonoscopy following Cologuard screening showed higer adenoma and invasive serrated polyp detection rates than those who had colonoscopy alone.</p>
+
+<p>Cologuard’s non-invasive nature and 93% sensitivity compared to FIT encourages patient compliance, making it a valuable screening alternative. The findings suggest that integrating Cologuard with colonoscopy maximizes early detection effectiveness, supporting its implementation as a strategic apporach for colorectal cancer prevention.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+<p>It is evident that both Cologuard(MT-sDNA) and colonoscopy serve distinct yet complementary roles in colorectal cancer(CRC) screening. Colonoscopy remains the gold standard due to its diagonostic and therapeutic capability, significantly reducing CRC incidence and mortality. However, its effectiveness can vary based on bowel preparation and provider expertise.</p>
+
+<p>These findings reinforce prior research on the importance of balancing accuracy with accessibility in CRC screening. While colonoscopy is most appropriate for high-risk individuals, Cologuard can increase participation among average-risk populations-especially when access or willingness to undergo invasive procedures is limited.</p>
+
+<p>To improve outcomes, future research should explore the effectiveness and cost-efficiency of hybrid models-such as using MI-sDNA as an initial screen followed by colonoscopy for positive results.</p>
+
+<p>Ultimately, personalized and evidence-based screening strategies offer the greatest promise in reducing preventable CRC deaths worldwide.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00-04:00</published><updated>2026-01-08T02:46:18-05:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p>Manufacturing Education Robots</p>
 
 <blockquote>
   <p>🔬 [Project Lead] Fabian Martin, [Hardware Lead] Robert Tortolo, [Software Lead] RC Wyatte, [Test Lead] Erik Langschwager, <strong>[Design Lead] Lauren Song</strong></p>
@@ -265,7 +215,7 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 
 <h2 id="conclusions">Conclusions</h2>
 
-<h2 id="references">References</h2>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[EGN 3000L]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00+09:00</published><updated>2026-01-04T22:28:48+09:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally</p>
+<h2 id="references">References</h2>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[EGN 3000L]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00-04:00</published><updated>2026-01-08T02:46:18-05:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally</p>
 
 <blockquote>
   <p>🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, <strong>Lauren Song</strong>, Gayathri Mannem</p>
@@ -498,7 +448,7 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
 <h3 id="conclusions">Conclusions</h3>
 <p>Telehealth initiatives have demonstrated significant strides in extending their reach to underserved populations, including within developing nations where technology adoption remains sparse. Health care professionals advocate for Telehealth, asserting that the caliber of care delivered via this digital platform is commensurate with that of traditional in-person consultations. Its applicability ranges from chronic disease management to acute emergency situations, enhancing accessibility and quality of healthcare services. Moreover, with the improved accessbility of medical information through research programs like INvest clinical trials and initiatives like GIVE, remote healthcare services are expanding. For example, a study conducted revealed that more than half of children who suffer from asthma fail to attend their in-person medical appointments due to transportation difficulties.</p>
 
-<p>Telehealth has played a crucial role in overcoming these financial and logistical obstacles, enabling families globally to access medical care from a physician without the burdens that traditionally hinder patient care. The findings from scholarly articles provide insightful and quantitative evidence on Telehealth’s positive effect on various communities, such as low-income families and the elderly.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my first research at the University of South Florida with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Notes</title><link href="http://localhost:4000/projects/2022-05-04-notes/" rel="alternate" type="text/html" title="Notes" /><published>2022-05-04T00:00:00+09:00</published><updated>2026-01-03T17:09:55+09:00</updated><id>http://localhost:4000/projects/notes</id><content type="html" xml:base="http://localhost:4000/projects/2022-05-04-notes/"><![CDATA[<p>Check out interesting articles!</p>
+<p>Telehealth has played a crucial role in overcoming these financial and logistical obstacles, enabling families globally to access medical care from a physician without the burdens that traditionally hinder patient care. The findings from scholarly articles provide insightful and quantitative evidence on Telehealth’s positive effect on various communities, such as low-income families and the elderly.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my first research at the University of South Florida with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Notes</title><link href="http://localhost:4000/projects/2022-05-04-notes/" rel="alternate" type="text/html" title="Notes" /><published>2022-05-04T00:00:00-04:00</published><updated>2026-01-03T03:09:55-05:00</updated><id>http://localhost:4000/projects/notes</id><content type="html" xml:base="http://localhost:4000/projects/2022-05-04-notes/"><![CDATA[<p>Check out interesting articles!</p>
 
 <!-- <span class="icon-twitter-old"></span> → <span class="icon-twitter"></span>
 {:.larger} -->
