@@ -32,4 +32,15 @@ Directed Reading Program (DRP) is mentoring initiative designed to give motivate
 * [DRP Reading.pdf](/assets/img/drp/DRP-Reading.pdf)
 * [NIH Permalink](https://pubmed.ncbi.nlm.nih.gov/29411198/)
 
+Meetings: Every Tuesday Period 7(1:55-2:45) in LIT 368
+
+
 ### Week 1
+Reading
+* "Introduction" Section of <i>How to mathematically optimize drug regimens using optimal control, referred to as "main paper."
+
+* Guied Questions
+1. Why is optimal control preferred to standard "guess-and-check" methods?
+2. How "good" does a model have to be to apply optimal control to it?
+3. What does QSP stand for? Compare optimal control systems to QSP models.
+4. Take a look at the outline in figure 1. What questions or comments about it can you come up with?
