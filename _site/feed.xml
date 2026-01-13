@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-13T18:05:42-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-13T18:56:59-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2025-12-20-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2025-12-20T00:00:00-05:00</published><updated>2026-01-13T13:01:43-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} -->
 
@@ -42,7 +42,7 @@
       <li>Take a look at the outline in figure 1. What questions or comments about it can you come up with?</li>
     </ol>
   </li>
-</ul>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-13T12:54:38-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
+</ul>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-13T18:06:05-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
 
 <blockquote>
   <p>🔬 Chandler Castillon, <strong>Lauren Song</strong>, Amanda Martin, Shriya Anand, Samia Khan, Riya Pandey, Praval Ghanta</p>
@@ -62,7 +62,11 @@
   <li><a href="#research-overview" id="markdown-toc-research-overview">Research Overview</a>    <ul>
       <li><a href="#abstract" id="markdown-toc-abstract">Abstract</a></li>
       <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
-      <li><a href="#methods-and-materials" id="markdown-toc-methods-and-materials">Methods and Materials</a></li>
+      <li><a href="#methods-and-materials" id="markdown-toc-methods-and-materials">Methods and Materials</a>        <ul>
+          <li><a href="#figure-1---flowchart-of-screening-proceses" id="markdown-toc-figure-1---flowchart-of-screening-proceses">Figure 1 - Flowchart of screening proceses</a></li>
+          <li><a href="#exclusion-and-inclusion-criteria" id="markdown-toc-exclusion-and-inclusion-criteria">Exclusion and Inclusion Criteria</a></li>
+        </ul>
+      </li>
       <li><a href="#results" id="markdown-toc-results">Results</a>        <ul>
           <li><a href="#figure-2" id="markdown-toc-figure-2">Figure 2</a></li>
           <li><a href="#figure-3" id="markdown-toc-figure-3">Figure 3</a></li>
@@ -79,6 +83,7 @@
 <p><br /></p>
 
 <h3 id="abstract">Abstract</h3>
+<p>In the past ten years, there has been a rise in the implementation of non-invasive colon cancer screening such as multitarget-stool DNA tests (MT-sDNA), also known as cologuard, fecal immunochemical tests (FIT), and tumor/blood based markers. This literature review aims to assess the clinical effectiveness of multi-target stool DNA tests (cologuard) versus the clinical effectiveness of a colonoscopy. Thirty-six articles were obtained using the reference management software, Endnote, and the National Institute of Health’s medical database to locate articles relating to cologuard/MT-sDNA and colonoscopies. This review found that cologuard was more effective at detecting precancerous and cancerous growths at a higher specificity but lower accuracy than colonoscopy. Additionally, adherence to preparation levels affected colonoscopy detection rates. Conducting a MT-sDNA test followed by a colonoscopy is far more effective at reducing colorectal cancer (CRC) incidence and mortality. The results obtained demonstrate that MT-sDNA tests are slightly more effective at detecting colon cancer and precancerous growths, however, without a follow-up colonoscopy, growths that were detected cannot be removed. By combining both MT-sDNA tests and colonoscopies together, CRC incidence and mortality can dramatically decrease.</p>
 
 <h3 id="introduction">Introduction</h3>
 <p>Colorectal cancer (CRC) is a serious public health concern and remains among the leading causes of cancer mortality globally. Screening for early detection of colorectal cancer is crucial in the prevention of incidence and mortality.</p>
@@ -93,9 +98,219 @@
 
 <p><strong>PRISMA 2020</strong> flow diagram for new systematic reviews which included searches of databases and registers only</p>
 
-<p><br /></p>
+<h4 id="figure-1---flowchart-of-screening-proceses">Figure 1 - Flowchart of screening proceses</h4>
+<style>
+  .prisma-box {
+    fill: #ffffffff; 
+    stroke: #333; 
+    stroke-width: 1;
+    cursor: pointer;
+    transition: fill 0.2s ease-in-out;
+  }
+  .prisma-box:hover {
+    fill: #f0f0f0; 
+  }
+  .prisma-text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: #333;
+    pointer-events: none; 
+  }
+  .prisma-arrow {
+    stroke: #333;
+    stroke-width: 1;
+    fill: none;
+    marker-end: url(#arrowhead); 
+  }
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 10;
+    max-width: 300px;
+    line-height: 1.4;
+  }
+  .tooltip.active {
+    opacity: 1;
+  }
+</style>
 
-<p>Figure 1. Flowchart of screening proceses</p>
+<div style="position: relative; width: 100%; max-width: 900px; margin: 0 auto;">
+  <svg width="100%" height="800" viewBox="0 0 900 800" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+      </marker>
+    </defs>
+
+    <script type="application/json" id="prismaData">
+      {
+        "identification": {
+          "title": "Identification of records",
+          "total": "4487 records identified from: Endnote Databases (n=1) - National Institute of Health (NIH), 4487 imported articles",
+          "removed": "Records removed before screening (n=2401): Duplicate records removed (n=1212), Records marked as ineligible by automation tools (n=717), Records removed for other reasons (n=472)"
+        },
+        "screening": {
+          "title": "Records screened",
+          "screened": "Records screened (n=3770)",
+          "excluded": "Records excluded (n=3541) (Second round of screening eliminated all articles before 2020 with a few exceptions)"
+        },
+        "retrieval": {
+          "title": "Reports sought for retrieval",
+          "sought": "Reports sought for retrieval (n=229)",
+          "not_retrieved": "Reports not retrieved (n=144)"
+        },
+        "eligibility": {
+          "title": "Reports assessed for eligibility",
+          "assessed": "Reports assessed for eligibility (n=85)",
+          "excluded": "Reports excluded (n=49). Reasons: Refer to exclusion and inclusion criteria"
+        },
+        "included": {
+          "title": "Studies included in review",
+          "included": "Studies included in review (n=36)"
+        }
+      }
+    </script>
+
+    <rect x="50" y="50" width="250" height="100" class="prisma-box" id="box-identification" data-category="identification"></rect>
+    <text x="175" y="80" text-anchor="middle" class="prisma-text">Identification of records</text>
+    <text x="175" y="105" text-anchor="middle" class="prisma-text">from databases (n=4487)</text>
+
+    <rect x="600" y="50" width="250" height="100" class="prisma-box" id="box-removed" data-category="identification"></rect>
+    <text x="725" y="80" text-anchor="middle" class="prisma-text">Records removed before screening</text>
+    <text x="725" y="105" text-anchor="middle" class="prisma-text">(n=2401)</text>
+
+    <line x1="300" y1="100" x2="600" y2="100" class="prisma-arrow"></line>
+
+    <line x1="175" y1="150" x2="175" y2="200" class="prisma-arrow"></line>
+
+    <rect x="50" y="200" width="250" height="100" class="prisma-box" id="box-screening" data-category="screening"></rect>
+    <text x="175" y="230" text-anchor="middle" class="prisma-text">Records screened (n=3770)</text>
+
+    <rect x="600" y="200" width="250" height="100" class="prisma-box" id="box-excluded-screening" data-category="screening"></rect>
+    <text x="725" y="230" text-anchor="middle" class="prisma-text">Records excluded (n=3541)</text>
+
+    <line x1="300" y1="250" x2="600" y2="250" class="prisma-arrow"></line>
+
+    <line x1="175" y1="300" x2="175" y2="350" class="prisma-arrow"></line>
+
+    <rect x="50" y="350" width="250" height="100" class="prisma-box" id="box-retrieval" data-category="retrieval"></rect>
+    <text x="175" y="380" text-anchor="middle" class="prisma-text">Reports sought for retrieval</text>
+    <text x="175" y="405" text-anchor="middle" class="prisma-text">(n=229)</text>
+
+    <rect x="600" y="350" width="250" height="100" class="prisma-box" id="box-not-retrieved" data-category="retrieval"></rect>
+    <text x="725" y="380" text-anchor="middle" class="prisma-text">Reports not retrieved (n=144)</text>
+
+    <line x1="300" y1="400" x2="600" y2="400" class="prisma-arrow"></line>
+
+    <line x1="175" y1="450" x2="175" y2="500" class="prisma-arrow"></line>
+
+    <rect x="50" y="500" width="250" height="100" class="prisma-box" id="box-eligibility" data-category="eligibility"></rect>
+    <text x="175" y="530" text-anchor="middle" class="prisma-text">Reports assessed for eligibility</text>
+    <text x="175" y="555" text-anchor="middle" class="prisma-text">(n=85)</text>
+
+    <rect x="600" y="500" width="250" height="100" class="prisma-box" id="box-excluded-eligibility" data-category="eligibility"></rect>
+    <text x="725" y="530" text-anchor="middle" class="prisma-text">Reports excluded (n=49)</text>
+
+    <line x1="300" y1="550" x2="600" y2="550" class="prisma-arrow"></line>
+
+    <line x1="175" y1="600" x2="175" y2="650" class="prisma-arrow"></line>
+
+    <rect x="50" y="650" width="250" height="100" class="prisma-box" id="box-included" data-category="included"></rect>
+    <text x="175" y="680" text-anchor="middle" class="prisma-text">Studies included in review</text>
+    <text x="175" y="705" text-anchor="middle" class="prisma-text">(n=36)</text>
+  </svg>
+
+  <div class="tooltip" id="prisma-tooltip"></div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tooltip = document.getElementById('prisma-tooltip');
+    const prismaData = JSON.parse(document.getElementById('prismaData').textContent);
+
+    document.querySelectorAll('.prisma-box').forEach(box => {
+      box.addEventListener('mouseenter', function(e) {
+        const category = this.dataset.category;
+        let content = '';
+
+        if (category === 'identification') {
+          if (this.id === 'box-identification') {
+            content = prismaData.identification.total;
+          } else if (this.id === 'box-removed') {
+            content = prismaData.identification.removed;
+          }
+        } else if (category === 'screening') {
+          if (this.id === 'box-screening') {
+            content = prismaData.screening.screened;
+          } else if (this.id === 'box-excluded-screening') {
+            content = prismaData.screening.excluded;
+          }
+        } else if (category === 'retrieval') {
+          if (this.id === 'box-retrieval') {
+            content = prismaData.retrieval.sought;
+          } else if (this.id === 'box-not-retrieved') {
+            content = prismaData.retrieval.not_retrieved;
+          }
+        } else if (category === 'eligibility') {
+          if (this.id === 'box-eligibility') {
+            content = prismaData.eligibility.assessed;
+          } else if (this.id === 'box-excluded-eligibility') {
+            content = prismaData.eligibility.excluded;
+          }
+        } else if (category === 'included') {
+          content = prismaData.included.included;
+        }
+
+        tooltip.innerHTML = content;
+        tooltip.classList.add('active');
+        updateTooltipPosition(e);
+      });
+
+      box.addEventListener('mousemove', function(e) {
+        updateTooltipPosition(e);
+      });
+
+      box.addEventListener('mouseleave', function() {
+        tooltip.classList.remove('active');
+      });
+    });
+
+    function updateTooltipPosition(e) {
+      const x = e.clientX;
+      const y = e.clientY;
+      const tooltipWidth = tooltip.offsetWidth;
+      const tooltipHeight = tooltip.offsetHeight;
+
+      // hover
+      let newX = x + 15;
+      let newY = y + 15;
+
+      if (newX + tooltipWidth > window.innerWidth) {
+        newX = x - tooltipWidth - 15;
+      }
+      if (newY + tooltipHeight > window.innerHeight) {
+        newY = y - tooltipHeight - 15;
+      }
+
+      tooltip.style.left = `${newX}px`;
+      tooltip.style.top = `${newY}px`;
+    }
+  });
+</script>
+
+<hr />
+<h4 id="exclusion-and-inclusion-criteria">Exclusion and Inclusion Criteria</h4>
+<ul>
+  <li><strong>Exclusion</strong>: Case studies, testing procedures irrelevant to colonoscopy, surveys, data prior to 2000, literary reviews, animal studies.</li>
+  <li><strong>Inclusion</strong>: Treatment effectiveness, broad population, limiting factors, colonoscopy primary sources, details’ statistics about colorectal cancer, Cologuard, multitarget stool DNA testing, stool-based DNA methylation test.</li>
+</ul>
 
 <h3 id="results">Results</h3>
 <p>Hover for details.</p>
@@ -104,48 +319,60 @@
 <p class="note">Comparison of the specificity, sensitivity, reduction in colorectal cancer (CRC) incidence, and reduction in CRC mortality between MT-sDNA (Cologuard) tests and a colonoscopy.</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-  <canvas id="Chart1"></canvas>
+  <canvas id="performanceChart"></canvas>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
-  const ctx1 = document.getElementById('Chart1').getContext('2d');
-  new Chart(ctx1, {
-    type: 'bar',
-    data: {
-      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
-      datasets: [
-        {
-          label: 'Cologuard',
-          data: [0.157, 0.179, 0.17],
-          backgroundColor: '#2d5a27',
-          borderWidth: 1
-        },
-        {
-          label: 'Colonoscopy',
-          data: [0.04, 0.08, 0.007],
-          backgroundColor: '#ffcc33',
-          borderWidth: 1
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { position: 'bottom' },
-        title: {
-          display: true,
-          text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Precancerous/Cancerous Growth Detection Rates'
-        }
+  (function() {
+    const ctx = document.getElementById('performanceChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Specificity', 'Sensitivity', 'Reduction in CRC Incidence', 'Reduction in CRC Mortality'],
+        datasets: [
+          {
+            label: 'Cologuard',
+            data: [0.92, 0.93, 0.57, 0.67], // Data from provided chart
+            backgroundColor: '#c3c3c3ff', // Dark green matching the image
+            borderWidth: 1
+          },
+          {
+            label: 'Colonoscopy',
+            data: [0.89, 0.95, 0.70, 0.68], // Data from provided chart
+            backgroundColor: '#ADE1E5', // Yellow matching the image
+            borderWidth: 1
+          }
+        ]
       },
-      scales: {
-        y: {
-          beginAtZero: true,
-          max: 0.3, 
-          ticks: { stepSize: 0.05 }
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: {
+            display: true,
+            text: 'Comparison in Performance of Cologuard® and Colonoscopy'
+          },
+          tooltip: {
+            enabled: true,
+            callbacks: {
+              label: function(context) {
+                return context.dataset.label + ': ' + context.raw;
+              }
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 1.3,
+            ticks: { stepSize: 0.1 }
+          }
         }
       }
-    }
-  });
+    });
+  })();
 </script>
 
 <hr />
@@ -155,50 +382,53 @@
 </blockquote>
 
 <h4 id="figure-3">Figure 3</h4>
+<p class="note">Comparison of the adenoma, sessile serrated polyp, and missed adenoma rate between Cologuard and Colonoscopy.</p>
 
-<div style="width: 100%; max-width: auto; margin: auto;">
-  <canvas id="Chart2"></canvas>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+  <canvas id="detectionChart"></canvas>
 </div>
 
 <script>
-  const ctx2 = document.getElementById('Chart2').getContext('2d');
-  new Chart(ctx2, {
-    type: 'bar',
-    data: {
-      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
-      datasets: [
-        {
-          label: 'Cologuard',
-          data: [0.3, 0.052, 0.18],
-          backgroundColor: '#2d5a27',
-          borderWidth: 1
-        },
-        {
-          label: 'Colonoscopy',
-          data: [0.228, 0.07, 0.05],
-          backgroundColor: '#ffcc33',
-          borderWidth: 1
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { position: 'bottom' },
-        title: {
-          display: true,
-          text: 'Cologuard® vs. Colonoscopy: Detection Rates'
-        }
+  (function() {
+    const ctx2 = document.getElementById('detectionChart').getContext('2d');
+    new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: ['Adenomas', 'Sessile serrated polyps', 'Missed Adenoma'],
+        datasets: [
+          {
+            label: 'Cologuard',
+            data: [0.3, 0.052, 0.18], // Data from provided chart
+            backgroundColor: '#c3c3c3ff', // Dark green matching the image
+            borderWidth: 1
+          },
+          {
+            label: 'Colonoscopy',
+            data: [0.228, 0.07, 0.05], // Data from provided chart
+            backgroundColor: '#ADE1E5', // Yellow matching the image
+            borderWidth: 1
+          }
+        ]
       },
-      scales: {
-        y: {
-          beginAtZero: true,
-          max: 0.4, 
-          ticks: { stepSize: 0.05 }
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: {
+            display: true,
+            text: 'Cologuard® vs. Colonoscopy: Precancerous/Cancerous Growth Detection rates'
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 0.35, // Adjusted for the 0.3 data peak
+            ticks: { stepSize: 0.05 }
+          }
         }
       }
-    }
-  });
+    });
+  })();
 </script>
 
 <hr />
@@ -208,50 +438,53 @@
 </blockquote>
 
 <h4 id="figure-4">Figure 4</h4>
+<p class="note">Comparison of adenoma, sessile serrated polyp, and both sessile and adenoma detection between MT-sDNA followed by a colonoscopy versus only a colonoscopy</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-  <canvas id="Chart3"></canvas>
+  <canvas id="combinedDetectionChart"></canvas>
 </div>
 
 <script>
-  const ctx3 = document.getElementById('Chart3').getContext('2d');
-  new Chart(ctx3, {
-    type: 'bar',
-    data: {
-      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
-      datasets: [
-        {
-          label: 'Cologuard',
-          data: [0.157, 0.179, 0.17],
-          backgroundColor: '#2d5a27',
-          borderWidth: 1
-        },
-        {
-          label: 'Colonoscopy',
-          data: [0.04, 0.08, 0.007],
-          backgroundColor: '#ffcc33',
-          borderWidth: 1
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { position: 'bottom' },
-        title: {
-          display: true,
-          text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Precancerous/Cancerous Growth Detection Rates'
-        }
+  (function() {
+    const ctx3 = document.getElementById('combinedDetectionChart').getContext('2d');
+    new Chart(ctx3, {
+      type: 'bar',
+      data: {
+        labels: ['Adenomas', 'Sessile serrated Polyps', 'SSP + Adenoma'],
+        datasets: [
+          {
+            label: 'Cologuard + Colonoscopy',
+            data: [0.157, 0.179, 0.17], // Data for combined testing
+            backgroundColor: '#c3c3c3ff', // Dark green
+            borderWidth: 1
+          },
+          {
+            label: 'Colonoscopy only',
+            data: [0.04, 0.08, 0.007], // Data for colonoscopy only
+            backgroundColor: '#ADE1E5', // Yellow
+            borderWidth: 1
+          }
+        ]
       },
-      scales: {
-        y: {
-          beginAtZero: true,
-          max: 0.3, 
-          ticks: { stepSize: 0.05 }
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: {
+            display: true,
+            text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Detection Rate'
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 0.25, // Adjusted for the 0.179 peak
+            ticks: { stepSize: 0.05 }
+          }
         }
       }
-    }
-  });
+    });
+  })();
 </script>
 
 <hr />
@@ -438,9 +671,121 @@
 <h3 id="methods-and-materials">Methods and Materials</h3>
 <p>Articles discussing the effects of telehealth on healthcare-deprived and low-resource communities were collected and screened throguh Rayyan. A systematic review was then conducted to filter through various study methods and variables to determine relevancy to the research topic.</p>
 
-<p><br /></p>
+<div style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
+  <svg width="100%" height="750" viewBox="0 0 800 750" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+      </marker>
+    </defs>
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Identification" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/695a2506838daacff3cc57fd" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+    <rect x="10" y="40" width="60" height="120" fill="#f0f0f0" />
+    <text x="40" y="100" transform="rotate(-90 40,100)" fill="#333" font-size="14" text-anchor="middle">Identification</text>
+    <rect x="10" y="170" width="60" height="150" fill="#f0f0f0" />
+    <text x="40" y="245" transform="rotate(-90 40,245)" fill="#333" font-size="14" text-anchor="middle">Screening</text>
+    <rect x="10" y="330" width="60" height="230" fill="#f0f0f0" />
+    <text x="40" y="445" transform="rotate(-90 40,445)" fill="#333" font-size="14" text-anchor="middle">Eligibility</text>
+    <rect x="10" y="570" width="60" height="150" fill="#f0f0f0" />
+    <text x="40" y="645" transform="rotate(-90 40,645)" fill="#333" font-size="14" text-anchor="middle">Included</text>
+
+    <g class="prisma-step" id="step1" style="cursor: pointer;">
+      <rect x="150" y="40" width="300" height="80" fill="#fff" stroke="#333"></rect>
+      <text x="300" y="75" text-anchor="middle" font-size="14">Record obtained through</text>
+      <text x="300" y="95" text-anchor="middle" font-size="14">database search (n=425)</text>
+    </g>
+
+    <line x1="300" y1="120" x2="300" y2="150" stroke="#333" marker-end="url(#arrowhead2)"></line>
+
+    <g class="prisma-step" id="step2" style="cursor: pointer;">
+      <rect x="150" y="150" width="300" height="80" fill="#fff" stroke="#333"></rect>
+      <text x="300" y="185" text-anchor="middle" font-size="14">Records after duplicates removed</text>
+      <text x="300" y="205" text-anchor="middle" font-size="14">(n=388)</text>
+    </g>
+
+    <line x1="300" y1="230" x2="300" y2="260" stroke="#333" marker-end="url(#arrowhead2)"></line>
+
+    <g class="prisma-step" id="step3" style="cursor: pointer;">
+      <rect x="150" y="260" width="300" height="80" fill="#fff" stroke="#333"></rect>
+      <text x="300" y="305" text-anchor="middle" font-size="14">Records screened (n=299)</text>
+    </g>
+
+    <line x1="300" y1="340" x2="300" y2="370" stroke="#333" marker-end="url(#arrowhead2)"></line>
+    <line x1="450" y1="300" x2="520" y2="300" stroke="#333" marker-end="url(#arrowhead2)"></line>
+
+    <g class="prisma-step" id="step3-ex" style="cursor: pointer;">
+      <rect x="520" y="260" width="220" height="80" fill="#fff" stroke="#333"></rect>
+      <text x="630" y="295" text-anchor="middle" font-size="14">Records excluded</text>
+      <text x="630" y="315" text-anchor="middle" font-size="14">(n=93)</text>
+    </g>
+
+    <g class="prisma-step" id="step4" style="cursor: pointer;">
+      <rect x="150" y="370" width="300" height="100" fill="#fff" stroke="#333"></rect>
+      <text x="300" y="405" text-anchor="middle" font-size="14">Full-text articles</text>
+      <text x="300" y="425" text-anchor="middle" font-size="14">assessed for eligibility</text>
+      <text x="300" y="445" text-anchor="middle" font-size="14">(n=206)</text>
+    </g>
+
+    <line x1="300" y1="470" x2="300" y2="580" stroke="#333" marker-end="url(#arrowhead2)"></line>
+    <line x1="450" y1="420" x2="520" y2="420" stroke="#333" marker-end="url(#arrowhead2)"></line>
+
+    <g class="prisma-step" id="step4-ex" style="cursor: pointer;">
+      <rect x="520" y="370" width="250" height="180" fill="#fff" stroke="#333"></rect>
+      <text x="645" y="400" text-anchor="middle" font-size="14">Full-text articles excluded,</text>
+      <text x="645" y="420" text-anchor="middle" font-size="14">with reasons (n=134):</text>
+      <text x="645" y="455" text-anchor="middle" font-size="13">- Out of scope (n=89)</text>
+      <text x="645" y="480" text-anchor="middle" font-size="13">- Inappropriate methods (n=10)</text>
+      <text x="645" y="505" text-anchor="middle" font-size="13">- Insufficient detail (n=35)</text>
+    </g>
+
+    <g class="prisma-step" id="step5" style="cursor: pointer;">
+      <rect x="150" y="580" width="300" height="100" fill="#fff" stroke="#333"></rect>
+      <text x="300" y="625" text-anchor="middle" font-size="14">Studies included in</text>
+      <text x="300" y="645" text-anchor="middle" font-size="14">qualitative synthesis (n=72)</text>
+    </g>
+  </svg>
+
+  <div id="final-tooltip" style="position: fixed; display: none; background: #333; color: #fff; padding: 10px; border-radius: 5px; font-size: 13px; z-index: 1000; pointer-events: none; max-width: 280px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2);"></div>
+</div>
+
+<script>
+  (function() {
+    const tooltip = document.getElementById('final-tooltip');
+    const boxData = {
+      'step1': '<strong>Identification:</strong> Total records found through database searches.',
+      'step2': '<strong>Refinement:</strong> 388 records remaining after 37 duplicates were removed.',
+      'step3': '<strong>Screening:</strong> Titles and abstracts screened for basic inclusion criteria.',
+      'step3-ex': '<strong>Excluded:</strong> 93 records failed to meet initial screening requirements.',
+      'step4': '<strong>Full-text Review:</strong> 206 articles assessed in detail for eligibility.',
+      'step4-ex': '<strong>Excluded with Reasons:</strong><br/>- Out of scope (n=89)<br/>- Inappropriate methods (n=10)<br/>- Insufficient detail (n=35)',
+      'step5': '<strong>Final Selection:</strong> 72 studies included in the qualitative synthesis.'
+    };
+
+    
+    document.querySelectorAll('.prisma-step').forEach(step => {
+      step.addEventListener('mouseenter', (e) => {
+        tooltip.innerHTML = boxData[step.id];
+        tooltip.style.display = 'block';
+
+        step.querySelector('rect').style.fill = '#f0f0f0';
+      });
+
+      step.addEventListener('mousemove', (e) => {
+        tooltip.style.left = (e.clientX + 15) + 'px';
+        tooltip.style.top = (e.clientY + 15) + 'px';
+      });
+
+      step.addEventListener('mouseleave', () => {
+        tooltip.style.display = 'none';
+        step.querySelector('rect').style.fill = '#fff';
+      });
+    });
+  })();
+</script>
+
+<!-- <br>
+
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Identification" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/695a2506838daacff3cc57fd" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div> -->
 
 <h3 id="results">Results</h3>
 
