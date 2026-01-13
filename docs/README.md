@@ -13,7 +13,7 @@ permalink: /docs/
 
 
 
-## Linear Algebra
+## Linear Algebra 
 
 **Textbook**: Linear Algebra (4th edition) - Arnold Insel, Lawrence E. Spence, and Stephen H. Friedberg
 {:.description.smaller}
@@ -51,7 +51,7 @@ permalink: /docs/
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
 {:.related-posts.faded} -->
 
-[Vector Space]: /docs/vs/
+[Vector Space]: /docs/linearalgebra/vs/
 [Linear Transformations and Matrices]: /docs/ltam/
 [Elementary Matrix Operations and Systems of Linear Equations]: /docs/emoasole/
 [Determinants]: /docs/determinants/

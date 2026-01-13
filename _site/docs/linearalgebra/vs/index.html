@@ -39,14 +39,14 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta property="og:locale" content="en" />
 <meta name="description" content="How you install Hydejack depends on whether you start a new site, or change the theme of an existing site." />
 <meta property="og:description" content="How you install Hydejack depends on whether you start a new site, or change the theme of an existing site." />
-<link rel="canonical" href="http://localhost:4000/docs/vs/" />
-<meta property="og:url" content="http://localhost:4000/docs/vs/" />
+<link rel="canonical" href="http://localhost:4000/docs/linearalgebra/vs/" />
+<meta property="og:url" content="http://localhost:4000/docs/linearalgebra/vs/" />
 <meta property="og:site_name" content="Lauren Song" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vector Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-03T01:55:32-05:00","description":"How you install Hydejack depends on whether you start a new site, or change the theme of an existing site.","headline":"Vector Space","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/docs/vs/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Lauren Song"},"dateModified":"2026-01-13T13:30:44-05:00","description":"How you install Hydejack depends on whether you start a new site, or change the theme of an existing site.","headline":"Vector Space","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo/%E2%88%ABONG_Logo.png"},"name":"Lauren Song"},"url":"http://localhost:4000/docs/linearalgebra/vs/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -78,7 +78,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.2.1" />
 
 
-<link rel="alternate" href="http://localhost:4000/docs/vs/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/docs/linearalgebra/vs/" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lauren Song" />
 
@@ -117,7 +117,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-01-13T13:00:51-05:00',
+    INDEX_KEY: 'index--2026-01-13T18:05:42-05:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -250,6 +250,15 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
       <li>
         
           <span>/</span>
+          
+          
+          <a href="/docs/linearalgebra/">linearalgebra</a>
+        
+      </li>
+    
+      <li>
+        
+          <span>/</span>
           <span>vs</span>
         
       </li>
@@ -287,16 +296,10 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   <li><a href="#exam--quizzes-prep" id="markdown-toc-exam--quizzes-prep">Exam &amp; Quizzes Prep</a></li>
 </ol>
 
+<p>Math Notes Template by Jack <a href="https://github.com/kcajc/math-notes-template">Template</a></p>
+
 <h2 id="introduction">Introduction</h2>
-<p>For new sites, the best way to get started with Hydejack is via the Starter Kit. 
-It comes with a documented config file and example content that gets you started quickly.</p>
-
-<p>If you have a GitHub account, fork the <a href="https://github.com/hydecorp/hydejack-starter-kit">Hydejack Starter Kit</a> repository. 
-Otherwise <a href="https://github.com/hydecorp/hydejack-starter-kit/archive/v9.2.1.zip">download the Starter Kit</a> and unzip the contents somewhere on your machine.</p>
-
-<p>If you bought the <strong>PRO Version</strong> of Hydejack, use the contents of the <code class="language-plaintext highlighter-rouge">starter-kit</code> folder instead.</p>
-
-<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
+<p><a href="/docs/linearalgebra/vs.tex">docs1</a></p>
 
 <h2 id="vector-spaces">Vector Spaces</h2>
 <p>If you have an existing site that you’d like to upgrade to Hydejack you can install the theme via bundler.
@@ -362,7 +365,7 @@ Make sure to only delete files that belong to the old theme!</p>
 
 <h2 id="bases-and-dimension">Bases and Dimension</h2>
 <p class="note">As of September 2024, the recommended way of deploying to GitHub Pages is through a custom <a href="https://docs.github.com/en/actions">GitHub Action</a>, which gives you full control over the build process. 
-No extra steps are required when using a GH Action and you can jump to <a href="#running-locally">running locally</a>, or learn more in chapter <a href="/docs/deploy/" class="heading flip-title">Deploy</a>.
+No extra steps are required when using a GH Action and you can jump to <a href="#running-locally">running locally</a>, or learn more in chapter <a href="./deploy.md" class="heading flip-title">Deploy</a>.
 That being said, Hydejack maintains backwards compatibility with the legacy pipeline and you can continue to use it.</p>
 
 <p>If you want to build your site using the legacy pipeline, you can build off of the <a href="https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages"><code class="language-plaintext highlighter-rouge">gh-pages</code> branch</a> in the Hydejack Starter Kit repo.</p>
@@ -377,7 +380,7 @@ That being said, Hydejack maintains backwards compatibility with the legacy pipe
 <strong>PRO Customers</strong> should use the <code class="language-plaintext highlighter-rouge">starter-kit-gh-pages</code> folder in the downloaded zip file when targeting the GitHub Pages legacy pipeline.</p>
 
 <p class="note"><code class="language-plaintext highlighter-rouge">starter-kit-gh-pages</code> is only required when deploying to GitHub Pages through the legacy build pipeline.
-When using <a href="/docs/deploy/#github-actions">a custom GitHub Action</a>, the regular <code class="language-plaintext highlighter-rouge">starter-kit</code> provides a cleaner, less cluttered folder structure.</p>
+When using <a href="./deploy.md#github-actions">a custom GitHub Action</a>, the regular <code class="language-plaintext highlighter-rouge">starter-kit</code> provides a cleaner, less cluttered folder structure.</p>
 
 <p>Make sure the <code class="language-plaintext highlighter-rouge">plugins</code> list contains <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> (create if it doesn’t exist):</p>
 

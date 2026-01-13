@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-13T13:00:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2025-12-20-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2025-12-20T00:00:00-05:00</published><updated>2026-01-13T12:54:38-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-13T18:05:42-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2025-12-20-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2025-12-20T00:00:00-05:00</published><updated>2026-01-13T13:01:43-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} -->
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Use a desktop browser to view the interactive table of contents.
@@ -63,7 +63,12 @@
       <li><a href="#abstract" id="markdown-toc-abstract">Abstract</a></li>
       <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
       <li><a href="#methods-and-materials" id="markdown-toc-methods-and-materials">Methods and Materials</a></li>
-      <li><a href="#results" id="markdown-toc-results">Results</a></li>
+      <li><a href="#results" id="markdown-toc-results">Results</a>        <ul>
+          <li><a href="#figure-2" id="markdown-toc-figure-2">Figure 2</a></li>
+          <li><a href="#figure-3" id="markdown-toc-figure-3">Figure 3</a></li>
+          <li><a href="#figure-4" id="markdown-toc-figure-4">Figure 4</a></li>
+        </ul>
+      </li>
       <li><a href="#discussion" id="markdown-toc-discussion">Discussion</a></li>
       <li><a href="#conclusions" id="markdown-toc-conclusions">Conclusions</a></li>
     </ul>
@@ -93,14 +98,163 @@
 <p>Figure 1. Flowchart of screening proceses</p>
 
 <h3 id="results">Results</h3>
+<p>Hover for details.</p>
+
+<h4 id="figure-2">Figure 2</h4>
+<p class="note">Comparison of the specificity, sensitivity, reduction in colorectal cancer (CRC) incidence, and reduction in CRC mortality between MT-sDNA (Cologuard) tests and a colonoscopy.</p>
+
+<div style="width: 100%; max-width: 800px; margin: auto;">
+  <canvas id="Chart1"></canvas>
+</div>
+
+<script>
+  const ctx1 = document.getElementById('Chart1').getContext('2d');
+  new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
+      datasets: [
+        {
+          label: 'Cologuard',
+          data: [0.157, 0.179, 0.17],
+          backgroundColor: '#2d5a27',
+          borderWidth: 1
+        },
+        {
+          label: 'Colonoscopy',
+          data: [0.04, 0.08, 0.007],
+          backgroundColor: '#ffcc33',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        title: {
+          display: true,
+          text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Precancerous/Cancerous Growth Detection Rates'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 0.3, 
+          ticks: { stepSize: 0.05 }
+        }
+      }
+    }
+  });
+</script>
+
+<hr />
 
 <blockquote>
   <p><em>Figure 2</em> The performance markers used for this table included the specificity, sensitivity, reduction in colorectal cancer (CRC) incidence, and reduction in CRC mortality. Both tests show similar results, with the only significant difference im reduction in CRC incidence which is higher in colonoscopies.</p>
 </blockquote>
 
+<h4 id="figure-3">Figure 3</h4>
+
+<div style="width: 100%; max-width: auto; margin: auto;">
+  <canvas id="Chart2"></canvas>
+</div>
+
+<script>
+  const ctx2 = document.getElementById('Chart2').getContext('2d');
+  new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
+      datasets: [
+        {
+          label: 'Cologuard',
+          data: [0.3, 0.052, 0.18],
+          backgroundColor: '#2d5a27',
+          borderWidth: 1
+        },
+        {
+          label: 'Colonoscopy',
+          data: [0.228, 0.07, 0.05],
+          backgroundColor: '#ffcc33',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        title: {
+          display: true,
+          text: 'Cologuard® vs. Colonoscopy: Detection Rates'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 0.4, 
+          ticks: { stepSize: 0.05 }
+        }
+      }
+    }
+  });
+</script>
+
+<hr />
+
 <blockquote>
   <p><em>Figure 3.</em> The table measures the detection rates of adenomas, sessile serrated polyps, and missed adenomas. Cologuard has a slightly higher detection rate than colonoscopies in adenoma detection and a reduced detection rate in sessile serrated polyps when compared to colonoscopies. The missed adenoma rate is significantly higher in Cologuard tests than colonoscopies.</p>
 </blockquote>
+
+<h4 id="figure-4">Figure 4</h4>
+
+<div style="width: 100%; max-width: 800px; margin: auto;">
+  <canvas id="Chart3"></canvas>
+</div>
+
+<script>
+  const ctx3 = document.getElementById('Chart3').getContext('2d');
+  new Chart(ctx3, {
+    type: 'bar',
+    data: {
+      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
+      datasets: [
+        {
+          label: 'Cologuard',
+          data: [0.157, 0.179, 0.17],
+          backgroundColor: '#2d5a27',
+          borderWidth: 1
+        },
+        {
+          label: 'Colonoscopy',
+          data: [0.04, 0.08, 0.007],
+          backgroundColor: '#ffcc33',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        title: {
+          display: true,
+          text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Precancerous/Cancerous Growth Detection Rates'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 0.3, 
+          ticks: { stepSize: 0.05 }
+        }
+      }
+    }
+  });
+</script>
+
+<hr />
 
 <blockquote>
   <p><em>Figure 4.</em> The table graphs the detection rate of precancerous growths such as adenomas and sessile serrated polyps (SSPs) between patients who have a MT-sDNA test followed by a colonoscopy and patients who do only have a colonoscopy. Adenomas and sessile serrated polyps were detected significantly more in patients who had a MT-sDNA test followed by a colonoscopy than those who had only a colonoscopy.</p>

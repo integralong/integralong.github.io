@@ -55,16 +55,164 @@ The purpose of this research project is to help determine the clinical effective
 Figure 1. Flowchart of screening proceses
 
 
-### Results
+### Results 
+Hover for details.
+
+#### Figure 2
+Comparison of the specificity, sensitivity, reduction in colorectal cancer (CRC) incidence, and reduction in CRC mortality between MT-sDNA (Cologuard) tests and a colonoscopy.
+{:.note}
+
+
+
+<div style="width: 100%; max-width: 800px; margin: auto;">
+  <canvas id="Chart1"></canvas>
+</div>
+
+<script>
+  const ctx1 = document.getElementById('Chart1').getContext('2d');
+  new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
+      datasets: [
+        {
+          label: 'Cologuard',
+          data: [0.157, 0.179, 0.17],
+          backgroundColor: '#2d5a27',
+          borderWidth: 1
+        },
+        {
+          label: 'Colonoscopy',
+          data: [0.04, 0.08, 0.007],
+          backgroundColor: '#ffcc33',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        title: {
+          display: true,
+          text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Precancerous/Cancerous Growth Detection Rates'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 0.3, 
+          ticks: { stepSize: 0.05 }
+        }
+      }
+    }
+  });
+</script>
+
+---
+
 
 > *Figure 2* The performance markers used for this table included the specificity, sensitivity, reduction in colorectal cancer (CRC) incidence, and reduction in CRC mortality. Both tests show similar results, with the only significant difference im reduction in CRC incidence which is higher in colonoscopies.
 
+#### Figure 3
 
+<div style="width: 100%; max-width: auto; margin: auto;">
+  <canvas id="Chart2"></canvas>
+</div>
 
+<script>
+  const ctx2 = document.getElementById('Chart2').getContext('2d');
+  new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
+      datasets: [
+        {
+          label: 'Cologuard',
+          data: [0.3, 0.052, 0.18],
+          backgroundColor: '#2d5a27',
+          borderWidth: 1
+        },
+        {
+          label: 'Colonoscopy',
+          data: [0.228, 0.07, 0.05],
+          backgroundColor: '#ffcc33',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        title: {
+          display: true,
+          text: 'Cologuard® vs. Colonoscopy: Detection Rates'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 0.4, 
+          ticks: { stepSize: 0.05 }
+        }
+      }
+    }
+  });
+</script>
+
+---
 
 > *Figure 3.* The table measures the detection rates of adenomas, sessile serrated polyps, and missed adenomas. Cologuard has a slightly higher detection rate than colonoscopies in adenoma detection and a reduced detection rate in sessile serrated polyps when compared to colonoscopies. The missed adenoma rate is significantly higher in Cologuard tests than colonoscopies.
 
+#### Figure 4
 
+<div style="width: 100%; max-width: 800px; margin: auto;">
+  <canvas id="Chart3"></canvas>
+</div>
+
+<script>
+  const ctx3 = document.getElementById('Chart3').getContext('2d');
+  new Chart(ctx3, {
+    type: 'bar',
+    data: {
+      labels: ['Adenomas', 'Sessile Serrated Polyps', 'Missed Adenoma'],
+      datasets: [
+        {
+          label: 'Cologuard',
+          data: [0.157, 0.179, 0.17],
+          backgroundColor: '#2d5a27',
+          borderWidth: 1
+        },
+        {
+          label: 'Colonoscopy',
+          data: [0.04, 0.08, 0.007],
+          backgroundColor: '#ffcc33',
+          borderWidth: 1
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: 'bottom' },
+        title: {
+          display: true,
+          text: 'Cologuard® and Colonoscopy vs. Colonoscopy Only: Precancerous/Cancerous Growth Detection Rates'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 0.3, 
+          ticks: { stepSize: 0.05 }
+        }
+      }
+    }
+  });
+</script>
+
+---
 
 > *Figure 4.* The table graphs the detection rate of precancerous growths such as adenomas and sessile serrated polyps (SSPs) between patients who have a MT-sDNA test followed by a colonoscopy and patients who do only have a colonoscopy. Adenomas and sessile serrated polyps were detected significantly more in patients who had a MT-sDNA test followed by a colonoscopy than those who had only a colonoscopy.
 

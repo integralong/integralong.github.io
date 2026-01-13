@@ -13,21 +13,10 @@ sitemap: false
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+Math Notes Template by Jack [Template](https://github.com/kcajc/math-notes-template)
+
 ## Introduction
-For new sites, the best way to get started with Hydejack is via the Starter Kit. 
-It comes with a documented config file and example content that gets you started quickly.
-
-If you have a GitHub account, fork the [Hydejack Starter Kit][hsc] repository. 
-Otherwise [download the Starter Kit][src] and unzip the contents somewhere on your machine.
-
-If you bought the __PRO Version__ of Hydejack, use the contents of the `starter-kit` folder instead.
-
-You can now jump to [running locally](#running-locally).
-
-[hsc]: https://github.com/hydecorp/hydejack-starter-kit
-[src]: https://github.com/hydecorp/hydejack-starter-kit/archive/v9.2.1.zip
-[nfy]: https://app.netlify.com/start/deploy?repository=https://github.com/hydecorp/hydejack-starter-kit
-[dtn]: https://www.netlify.com/img/deploy/button.svg
+[docs1](/docs/linearalgebra/vs.tex)
 
 
 ## Vector Spaces
@@ -171,3 +160,4 @@ Continue with [Linear Transformations and Matrices](/docs/ltam/){:.heading.flip-
 
 [config]: https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_config.yml
 [upgrade]: upgrade.md
+
