@@ -11,7 +11,7 @@ permalink: /docs/
 <!-- Stay tuned for upcoming math courses notes!
 {:.note} -->
 
-
+**❗️Notice: This page is currently being updated as I migrate my academic archieves to this new platform. Some links or sections may be temporarily unavailable.**
 
 ## Linear Algebra 
 
@@ -33,8 +33,11 @@ permalink: /docs/
 
 ---
 
-### Stay tuned for more course notes! 🐊
+Stay tuned for more course notes! 🐊
 {:.note}
+
+
+
 
 <!-- ## Calculus
 * [Basics]{:.heading.flip-title} --- How to add different types of content.
@@ -51,12 +54,12 @@ permalink: /docs/
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
 {:.related-posts.faded} -->
 
-[Vector Space]: /docs/linearalgebra/vs/
-[Linear Transformations and Matrices]: /docs/ltam/
-[Elementary Matrix Operations and Systems of Linear Equations]: /docs/emoasole/
-[Determinants]: /docs/determinants/
-[Diagonalizations]: /docs/diagonalizations/
-[Inner Product Spaces]: /docs/ips/
+[Vector Space]: /docs/linearalgebra/vs./
+[Linear Transformations and Matrices]: /docs/ltam./
+[Elementary Matrix Operations and Systems of Linear Equations]: /docs/emoasole./
+[Determinants]: /docs/determinants./
+[Diagonalizations]: /docs/diagonalizations./
+[Inner Product Spaces]: /docs/ips./
 <!-- [basics]: basics.md
 [writing]: writing.md
 [scripts]: scripts.md
