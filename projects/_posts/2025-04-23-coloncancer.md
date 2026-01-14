@@ -290,7 +290,7 @@ Comparison of the specificity, sensitivity, reduction in colorectal cancer (CRC)
           {
             label: 'Colonoscopy',
             data: [0.89, 0.95, 0.70, 0.68], // Data from provided chart
-            backgroundColor: '#ADE1E5', // Yellow matching the image
+            backgroundColor: '#333', // Yellow matching the image
             borderWidth: 1
           }
         ]
@@ -357,7 +357,7 @@ Comparison of the adenoma, sessile serrated polyp, and missed adenoma rate betwe
           {
             label: 'Colonoscopy',
             data: [0.228, 0.07, 0.05], // Data from provided chart
-            backgroundColor: '#ADE1E5', // Yellow matching the image
+            backgroundColor: '#333', // Yellow matching the image
             borderWidth: 1
           }
         ]
@@ -412,7 +412,7 @@ Comparison of adenoma, sessile serrated polyp, and both sessile and adenoma dete
           {
             label: 'Colonoscopy only',
             data: [0.04, 0.08, 0.007], // Data for colonoscopy only
-            backgroundColor: '#ADE1E5', // Yellow
+            backgroundColor: '#333', // Yellow
             borderWidth: 1
           }
         ]
