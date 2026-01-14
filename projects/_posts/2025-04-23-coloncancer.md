@@ -50,20 +50,20 @@ The purpose of this research project is to help determine the clinical effective
 #### Figure 1 - Flowchart of screening proceses
 <style>
   .prisma-box {
-    fill: #ffffffff; 
+    fill: #fff; 
     stroke: #333; 
     stroke-width: 1;
-    cursor: pointer;
     transition: fill 0.2s ease-in-out;
   }
-  .prisma-box:hover {
+  /* 그룹에 호버했을 때 박스 색상 변경 */
+  .prisma-step:hover .prisma-box {
     fill: #f0f0f0; 
   }
   .prisma-text {
     font-family: Arial, sans-serif;
     font-size: 12px;
     fill: #333;
-    pointer-events: none; 
+    pointer-events: none; /* 텍스트가 마우스 이벤트를 방해하지 않도록 설정 */
   }
   .prisma-arrow {
     stroke: #333;
@@ -72,21 +72,17 @@ The purpose of this research project is to help determine the clinical effective
     marker-end: url(#arrowhead); 
   }
   .tooltip {
-    position: absolute;
+    position: fixed; /* 위치 정확도를 위해 fixed로 변경 */
     background-color: #333;
     color: #fff;
     padding: 8px 12px;
     border-radius: 4px;
     font-size: 13px;
     pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.2s;
-    z-index: 10;
+    display: none; /* 초기 상태 숨김 */
+    z-index: 1000;
     max-width: 300px;
     line-height: 1.4;
-  }
-  .tooltip.active {
-    opacity: 1;
   }
 </style>
 
@@ -100,80 +96,80 @@ The purpose of this research project is to help determine the clinical effective
 
     <script type="application/json" id="prismaData">
       {
-        "identification": {
-          "title": "Identification of records",
-          "total": "4487 records identified from: Endnote Databases (n=1) - National Institute of Health (NIH), 4487 imported articles",
-          "removed": "Records removed before screening (n=2401): Duplicate records removed (n=1212), Records marked as ineligible by automation tools (n=717), Records removed for other reasons (n=472)"
-        },
-        "screening": {
-          "title": "Records screened",
-          "screened": "Records screened (n=3770)",
-          "excluded": "Records excluded (n=3541) (Second round of screening eliminated all articles before 2020 with a few exceptions)"
-        },
-        "retrieval": {
-          "title": "Reports sought for retrieval",
-          "sought": "Reports sought for retrieval (n=229)",
-          "not_retrieved": "Reports not retrieved (n=144)"
-        },
-        "eligibility": {
-          "title": "Reports assessed for eligibility",
-          "assessed": "Reports assessed for eligibility (n=85)",
-          "excluded": "Reports excluded (n=49). Reasons: Refer to exclusion and inclusion criteria"
-        },
-        "included": {
-          "title": "Studies included in review",
-          "included": "Studies included in review (n=36)"
-        }
+        "box-identification": "4487 records identified from: Endnote Databases (n=1) - National Institute of Health (NIH), 4487 imported articles",
+        "box-removed": "Records removed before screening (n=2401): Duplicate records removed (n=1212), Records marked as ineligible by automation tools (n=717), Records removed for other reasons (n=472)",
+        "box-screening": "Records screened (n=3770)",
+        "box-excluded-screening": "Records excluded (n=3541) (Second round of screening eliminated all articles before 2020 with a few exceptions)",
+        "box-retrieval": "Reports sought for retrieval (n=229)",
+        "box-not-retrieved": "Reports not retrieved (n=144)",
+        "box-eligibility": "Reports assessed for eligibility (n=85)",
+        "box-excluded-eligibility": "Reports excluded (n=49). Reasons: Refer to exclusion and inclusion criteria",
+        "box-included": "Studies included in review (n=36)"
       }
     </script>
 
-    <rect x="50" y="50" width="250" height="100" class="prisma-box" id="box-identification" data-category="identification"></rect>
-    <text x="175" y="80" text-anchor="middle" class="prisma-text">Identification of records</text>
-    <text x="175" y="105" text-anchor="middle" class="prisma-text">from databases (n=4487)</text>
+    <g class="prisma-step" data-id="box-identification">
+      <rect x="50" y="50" width="250" height="100" class="prisma-box"></rect>
+      <text x="175" y="80" text-anchor="middle" class="prisma-text">Identification of records</text>
+      <text x="175" y="105" text-anchor="middle" class="prisma-text">from databases (n=4487)</text>
+    </g>
 
-    <rect x="600" y="50" width="250" height="100" class="prisma-box" id="box-removed" data-category="identification"></rect>
-    <text x="725" y="80" text-anchor="middle" class="prisma-text">Records removed before screening</text>
-    <text x="725" y="105" text-anchor="middle" class="prisma-text">(n=2401)</text>
+    <g class="prisma-step" data-id="box-removed">
+      <rect x="600" y="50" width="250" height="100" class="prisma-box"></rect>
+      <text x="725" y="80" text-anchor="middle" class="prisma-text">Records removed before screening</text>
+      <text x="725" y="105" text-anchor="middle" class="prisma-text">(n=2401)</text>
+    </g>
 
     <line x1="300" y1="100" x2="600" y2="100" class="prisma-arrow"></line>
-
     <line x1="175" y1="150" x2="175" y2="200" class="prisma-arrow"></line>
 
-    <rect x="50" y="200" width="250" height="100" class="prisma-box" id="box-screening" data-category="screening"></rect>
-    <text x="175" y="230" text-anchor="middle" class="prisma-text">Records screened (n=3770)</text>
+    <g class="prisma-step" data-id="box-screening">
+      <rect x="50" y="200" width="250" height="100" class="prisma-box"></rect>
+      <text x="175" y="255" text-anchor="middle" class="prisma-text">Records screened (n=3770)</text>
+    </g>
 
-    <rect x="600" y="200" width="250" height="100" class="prisma-box" id="box-excluded-screening" data-category="screening"></rect>
-    <text x="725" y="230" text-anchor="middle" class="prisma-text">Records excluded (n=3541)</text>
+    <g class="prisma-step" data-id="box-excluded-screening">
+      <rect x="600" y="200" width="250" height="100" class="prisma-box"></rect>
+      <text x="725" y="255" text-anchor="middle" class="prisma-text">Records excluded (n=3541)</text>
+    </g>
 
     <line x1="300" y1="250" x2="600" y2="250" class="prisma-arrow"></line>
-
     <line x1="175" y1="300" x2="175" y2="350" class="prisma-arrow"></line>
 
-    <rect x="50" y="350" width="250" height="100" class="prisma-box" id="box-retrieval" data-category="retrieval"></rect>
-    <text x="175" y="380" text-anchor="middle" class="prisma-text">Reports sought for retrieval</text>
-    <text x="175" y="405" text-anchor="middle" class="prisma-text">(n=229)</text>
+    <g class="prisma-step" data-id="box-retrieval">
+      <rect x="50" y="350" width="250" height="100" class="prisma-box"></rect>
+      <text x="175" y="380" text-anchor="middle" class="prisma-text">Reports sought for retrieval</text>
+      <text x="175" y="405" text-anchor="middle" class="prisma-text">(n=229)</text>
+    </g>
 
-    <rect x="600" y="350" width="250" height="100" class="prisma-box" id="box-not-retrieved" data-category="retrieval"></rect>
-    <text x="725" y="380" text-anchor="middle" class="prisma-text">Reports not retrieved (n=144)</text>
+    <g class="prisma-step" data-id="box-not-retrieved">
+      <rect x="600" y="350" width="250" height="100" class="prisma-box"></rect>
+      <text x="725" y="390" text-anchor="middle" class="prisma-text">Reports not retrieved (n=144)</text>
+    </g>
 
     <line x1="300" y1="400" x2="600" y2="400" class="prisma-arrow"></line>
-
     <line x1="175" y1="450" x2="175" y2="500" class="prisma-arrow"></line>
 
-    <rect x="50" y="500" width="250" height="100" class="prisma-box" id="box-eligibility" data-category="eligibility"></rect>
-    <text x="175" y="530" text-anchor="middle" class="prisma-text">Reports assessed for eligibility</text>
-    <text x="175" y="555" text-anchor="middle" class="prisma-text">(n=85)</text>
+    <g class="prisma-step" data-id="box-eligibility">
+      <rect x="50" y="500" width="250" height="100" class="prisma-box"></rect>
+      <text x="175" y="530" text-anchor="middle" class="prisma-text">Reports assessed for eligibility</text>
+      <text x="175" y="555" text-anchor="middle" class="prisma-text">(n=85)</text>
+    </g>
 
-    <rect x="600" y="500" width="250" height="100" class="prisma-box" id="box-excluded-eligibility" data-category="eligibility"></rect>
-    <text x="725" y="530" text-anchor="middle" class="prisma-text">Reports excluded (n=49)</text>
+    <g class="prisma-step" data-id="box-excluded-eligibility">
+      <rect x="600" y="500" width="250" height="100" class="prisma-box"></rect>
+      <text x="725" y="540" text-anchor="middle" class="prisma-text">Reports excluded (n=49)</text>
+    </g>
 
     <line x1="300" y1="550" x2="600" y2="550" class="prisma-arrow"></line>
-
     <line x1="175" y1="600" x2="175" y2="650" class="prisma-arrow"></line>
 
-    <rect x="50" y="650" width="250" height="100" class="prisma-box" id="box-included" data-category="included"></rect>
-    <text x="175" y="680" text-anchor="middle" class="prisma-text">Studies included in review</text>
-    <text x="175" y="705" text-anchor="middle" class="prisma-text">(n=36)</text>
+    <g class="prisma-step" data-id="box-included">
+      <rect x="50" y="650" width="250" height="100" class="prisma-box"></rect>
+      <text x="175" y="685" text-anchor="middle" class="prisma-text">Studies included in review</text>
+      <text x="175" y="705" text-anchor="middle" class="prisma-text">(n=36)</text>
+    </g>
+
   </svg>
 
   <div class="tooltip" id="prisma-tooltip"></div>
@@ -184,73 +180,22 @@ The purpose of this research project is to help determine the clinical effective
     const tooltip = document.getElementById('prisma-tooltip');
     const prismaData = JSON.parse(document.getElementById('prismaData').textContent);
 
-    document.querySelectorAll('.prisma-box').forEach(box => {
-      box.addEventListener('mouseenter', function(e) {
-        const category = this.dataset.category;
-        let content = '';
-
-        if (category === 'identification') {
-          if (this.id === 'box-identification') {
-            content = prismaData.identification.total;
-          } else if (this.id === 'box-removed') {
-            content = prismaData.identification.removed;
-          }
-        } else if (category === 'screening') {
-          if (this.id === 'box-screening') {
-            content = prismaData.screening.screened;
-          } else if (this.id === 'box-excluded-screening') {
-            content = prismaData.screening.excluded;
-          }
-        } else if (category === 'retrieval') {
-          if (this.id === 'box-retrieval') {
-            content = prismaData.retrieval.sought;
-          } else if (this.id === 'box-not-retrieved') {
-            content = prismaData.retrieval.not_retrieved;
-          }
-        } else if (category === 'eligibility') {
-          if (this.id === 'box-eligibility') {
-            content = prismaData.eligibility.assessed;
-          } else if (this.id === 'box-excluded-eligibility') {
-            content = prismaData.eligibility.excluded;
-          }
-        } else if (category === 'included') {
-          content = prismaData.included.included;
-        }
-
-        tooltip.innerHTML = content;
-        tooltip.classList.add('active');
-        updateTooltipPosition(e);
+    document.querySelectorAll('.prisma-step').forEach(step => {
+      step.addEventListener('mouseenter', function(e) {
+        const id = this.getAttribute('data-id');
+        tooltip.innerHTML = prismaData[id];
+        tooltip.style.display = 'block';
       });
 
-      box.addEventListener('mousemove', function(e) {
-        updateTooltipPosition(e);
+      step.addEventListener('mousemove', function(e) {
+        tooltip.style.left = (e.clientX + 15) + 'px';
+        tooltip.style.top = (e.clientY + 15) + 'px';
       });
 
-      box.addEventListener('mouseleave', function() {
-        tooltip.classList.remove('active');
+      step.addEventListener('mouseleave', function() {
+        tooltip.style.display = 'none';
       });
     });
-
-    function updateTooltipPosition(e) {
-      const x = e.clientX;
-      const y = e.clientY;
-      const tooltipWidth = tooltip.offsetWidth;
-      const tooltipHeight = tooltip.offsetHeight;
-
-      // hover
-      let newX = x + 15;
-      let newY = y + 15;
-
-      if (newX + tooltipWidth > window.innerWidth) {
-        newX = x - tooltipWidth - 15;
-      }
-      if (newY + tooltipHeight > window.innerHeight) {
-        newY = y - tooltipHeight - 15;
-      }
-
-      tooltip.style.left = `${newX}px`;
-      tooltip.style.top = `${newY}px`;
-    }
   });
 </script>
 
