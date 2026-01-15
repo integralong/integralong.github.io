@@ -88,7 +88,7 @@ Based on the Figure 2, our final candidate design calculations and specific comp
 
 <br>
 
-![final-cad-design](assets/img/educationrobot/final-cad-design.png)
+![final-cad-design](/assets/img/educationrobot/final-cad-design.png)
 
 <br>
 
