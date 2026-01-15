@@ -80,22 +80,32 @@ Based on the Figure 2, our final candidate design calculations and specific comp
 ## Software development
 
 ## Prototype testing
-[final-design-real](/assets/img/educationrobot/final_design-real.png)
+![final-design-real](/assets/img/educationrobot/final_design-real.png)
 
 <br>
 
-[final-design](/assets/img/educationrobot/final_design.png)
+![final-design](/assets/img/educationrobot/final_design.png)
 
 <br>
 
-[final-cad-design](assets/img/educationrobot/final-cad-design.png)
+![final-cad-design](assets/img/educationrobot/final-cad-design.png)
 
 <br>
 
-[fabrication-2](/assets/img/educationrobot/fabrication-2.png)
-[fabrication-3](/assets/img/educationrobot/fabrication-3.png)
-[fabrication-4](/assets/img/educationrobot/fabrication-4.gif)
-[fabrication-5](/assets/img/educationrobot/fabrication-5.png)
+![fabrication-2](/assets/img/educationrobot/fabrication-2.png)
+
+<br>
+
+![fabrication-3](/assets/img/educationrobot/fabrication-3.png)
+
+<br>
+
+![fabrication-4](/assets/img/educationrobot/fabrication-4.gif)
+
+<br>
+
+![fabrication-5](/assets/img/educationrobot/fabrication-5.png)
+
 ## Recommendations
 
 ## Conclusions
