@@ -44,3 +44,6 @@ Reading
 2. How "good" does a model have to be to apply optimal control to it?
 3. What does QSP stand for? Compare optimal control systems to QSP models.
 4. Take a look at the outline in figure 1. What questions or comments about it can you come up with?
+
+### Week 2
+* Guided Questions
