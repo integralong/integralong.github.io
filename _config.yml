@@ -20,7 +20,7 @@ url:                   https://integralong.github.io
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                  A Hyeon (Lauren) Song
+title:                  A Hyeon Song
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -42,7 +42,7 @@ logo:                  /assets/img/logo/∫ONG_Logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                A Hyeon (Lauren) Song #<Lauren> <Song>
+  name:                Lauren Song #<Lauren> <Song>
   email:               ahyeonsong@ufl.edu #<ahyeonsong@ufl.edu>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>

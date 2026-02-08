@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-14T10:43:47-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lauren Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2025-12-20-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2025-12-20T00:00:00-05:00</published><updated>2026-01-13T13:01:43-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-02-08T14:17:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A Hyeon (Lauren) Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">Neuroimmunology</title><link href="http://localhost:4000/projects/2026-01-16-Neuroimmunesystem/" rel="alternate" type="text/html" title="Neuroimmunology" /><published>2026-01-16T00:00:00-05:00</published><updated>2026-02-08T14:14:04-05:00</updated><id>http://localhost:4000/projects/%20Neuroimmunesystem</id><content type="html" xml:base="http://localhost:4000/projects/2026-01-16-Neuroimmunesystem/"><![CDATA[<p>Brain-to-Immune Signaling as a Trigger for Migraine</p>
+
+<!-- 뇌 -> 면역
+스트레스
+감정 기복
+수면 부족
+과부화된 일정
+
+이런 뇌 상태가 염증 증가? 면역 저하? 히스타민 분비?
+> 편두통으로 이어지는가
+
+tipping point > 언제부터 위험해지느가?
+스트레스가 어느 임계치 넘으면
+수면 며칠 부족하면
+HRV 얼마나 떨어지면?
+
+하버드 글의 핵심:
+뇌는 면역을 기억, 학습, 조절할 수 있다
+(조건화된 면역 반응)
+
+뇌가 면역 반응을 학습시킬 수 있다
+과거 경험 (스트레스 + 질병)이 
+미래 면역 반응을 바꿈
+
+과거 편두통 경험이 뇌에 "위험 패턴"으로 저장되고
+비슷한 상황이 오면
+면역 반응을 먼저 흔들어서 편두통을 유발하는가?
+
+
+뇌가 건강하다는 의미는 무엇인까?
+정신이 건강하다는 의미는 무엇인가?
+
+사람은 완벽할 수 없다. "감정"이라는 요인을 가지고 있기 때문에
+그럼 사람을 정상과 비정상으로 구분할 수 있나? -->]]></content><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Brain and Immune System"]]></summary></entry><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2025-12-20-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2025-12-20T00:00:00-05:00</published><updated>2026-02-08T14:14:04-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2025-12-20-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} -->
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Use a desktop browser to view the interactive table of contents.
@@ -7,6 +40,7 @@
 <ul class="large-only" id="markdown-toc">
   <li><a href="#how-to-mathematically-optimize-drug-regimens-using-optimal-control" id="markdown-toc-how-to-mathematically-optimize-drug-regimens-using-optimal-control">How to mathematically optimize drug regimens using optimal control</a>    <ul>
       <li><a href="#week-1" id="markdown-toc-week-1">Week 1</a></li>
+      <li><a href="#week-2" id="markdown-toc-week-2">Week 2</a></li>
     </ul>
   </li>
 </ul>
@@ -42,7 +76,12 @@
       <li>Take a look at the outline in figure 1. What questions or comments about it can you come up with?</li>
     </ol>
   </li>
-</ul>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-14T10:09:32-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
+</ul>
+
+<h3 id="week-2">Week 2</h3>
+<ul>
+  <li>Guided Questions</li>
+</ul>]]></content><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-14T10:09:32-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
 
 <blockquote>
   <p>🔬 Chandler Castillon, <strong>Lauren Song</strong>, Amanda Martin, Shriya Anand, Samia Khan, Riya Pandey, Praval Ghanta</p>
@@ -454,7 +493,7 @@
 
 <p>To improve outcomes, future research should explore the effectiveness and cost-efficiency of hybrid models-such as using MI-sDNA as an initial screen followed by colonoscopy for positive results.</p>
 
-<p>Ultimately, personalized and evidence-based screening strategies offer the greatest promise in reducing preventable CRC deaths worldwide.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00-04:00</published><updated>2026-01-08T02:46:18-05:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p>Manufacturing Education Robots</p>
+<p>Ultimately, personalized and evidence-based screening strategies offer the greatest promise in reducing preventable CRC deaths worldwide.</p>]]></content><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my second research project with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Education Robot</title><link href="http://localhost:4000/projects/2024-04-28-educationrobot/" rel="alternate" type="text/html" title="Education Robot" /><published>2024-04-28T00:00:00-04:00</published><updated>2026-01-15T13:42:16-05:00</updated><id>http://localhost:4000/projects/educationrobot</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-28-educationrobot/"><![CDATA[<p>Manufacturing Education Robots</p>
 
 <blockquote>
   <p>🔬 [Project Lead] Fabian Martin, [Hardware Lead] Robert Tortolo, [Software Lead] RC Wyatte, [Test Lead] Erik Langschwager, <strong>[Design Lead] Lauren Song</strong></p>
@@ -559,12 +598,37 @@
 <h2 id="software-development">Software development</h2>
 
 <h2 id="prototype-testing">Prototype testing</h2>
+<p><img src="/assets/img/educationrobot/final_design-real.png" alt="final-design-real" /></p>
+
+<p><br /></p>
+
+<p><img src="/assets/img/educationrobot/final_design.png" alt="final-design" /></p>
+
+<p><br /></p>
+
+<p><img src="/assets/img/educationrobot/final-cad-design.png" alt="final-cad-design" /></p>
+
+<p><br /></p>
+
+<p><img src="/assets/img/educationrobot/fabrication-2.png" alt="fabrication-2" /></p>
+
+<p><br /></p>
+
+<p><img src="/assets/img/educationrobot/fabrication-3.png" alt="fabrication-3" /></p>
+
+<p><br /></p>
+
+<p><img src="/assets/img/educationrobot/fabrication-4.gif" alt="fabrication-4" /></p>
+
+<p><br /></p>
+
+<p><img src="/assets/img/educationrobot/fabrication-5.png" alt="fabrication-5" /></p>
 
 <h2 id="recommendations">Recommendations</h2>
 
 <h2 id="conclusions">Conclusions</h2>
 
-<h2 id="references">References</h2>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[EGN 3000L]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00-04:00</published><updated>2026-01-13T18:57:13-05:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally</p>
+<h2 id="references">References</h2>]]></content><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[EGN 3000L]]></summary></entry><entry><title type="html">Telehealth</title><link href="http://localhost:4000/projects/2024-04-12-telehealth/" rel="alternate" type="text/html" title="Telehealth" /><published>2024-04-12T00:00:00-04:00</published><updated>2026-01-13T18:57:13-05:00</updated><id>http://localhost:4000/projects/telehealth</id><content type="html" xml:base="http://localhost:4000/projects/2024-04-12-telehealth/"><![CDATA[<p>The Potential Role and Effectiveness of Telehealth for Healthcare-deprived or Low-resource Communities Globally</p>
 
 <blockquote>
   <p>🔬 Maribel Serracin, Giang Ha, Chelsea Gabarron, Maria Hanna, Maddie Jarzabek, Archana Rao, <strong>Lauren Song</strong>, Gayathri Mannem</p>
@@ -909,7 +973,7 @@
 <h3 id="conclusions">Conclusions</h3>
 <p>Telehealth initiatives have demonstrated significant strides in extending their reach to underserved populations, including within developing nations where technology adoption remains sparse. Health care professionals advocate for Telehealth, asserting that the caliber of care delivered via this digital platform is commensurate with that of traditional in-person consultations. Its applicability ranges from chronic disease management to acute emergency situations, enhancing accessibility and quality of healthcare services. Moreover, with the improved accessbility of medical information through research programs like INvest clinical trials and initiatives like GIVE, remote healthcare services are expanding. For example, a study conducted revealed that more than half of children who suffer from asthma fail to attend their in-person medical appointments due to transportation difficulties.</p>
 
-<p>Telehealth has played a crucial role in overcoming these financial and logistical obstacles, enabling families globally to access medical care from a physician without the burdens that traditionally hinder patient care. The findings from scholarly articles provide insightful and quantitative evidence on Telehealth’s positive effect on various communities, such as low-income families and the elderly.</p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my first research at the University of South Florida with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Notes</title><link href="http://localhost:4000/projects/2022-05-04-notes/" rel="alternate" type="text/html" title="Notes" /><published>2022-05-04T00:00:00-04:00</published><updated>2026-01-14T10:06:32-05:00</updated><id>http://localhost:4000/projects/notes</id><content type="html" xml:base="http://localhost:4000/projects/2022-05-04-notes/"><![CDATA[<p>Check out interesting articles!</p>
+<p>Telehealth has played a crucial role in overcoming these financial and logistical obstacles, enabling families globally to access medical care from a physician without the burdens that traditionally hinder patient care. The findings from scholarly articles provide insightful and quantitative evidence on Telehealth’s positive effect on various communities, such as low-income families and the elderly.</p>]]></content><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Hi! This is my first research at the University of South Florida with Undergraduate Research Society.]]></summary></entry><entry><title type="html">Notes</title><link href="http://localhost:4000/projects/2022-05-04-notes/" rel="alternate" type="text/html" title="Notes" /><published>2022-05-04T00:00:00-04:00</published><updated>2026-02-08T14:14:04-05:00</updated><id>http://localhost:4000/projects/notes</id><content type="html" xml:base="http://localhost:4000/projects/2022-05-04-notes/"><![CDATA[<p>Check out interesting articles!</p>
 
 <!-- <span class="icon-twitter-old"></span> → <span class="icon-twitter"></span>
 {:.larger} -->
@@ -927,4 +991,29 @@ Happy New Year! `2026`.
 Youth is not forever, the engine of our lives is immune system.
 
 
-I've been interested in immune system since I was young, however, it gets bigger since I moved all around the world. Depends on my immune system and each different environemnt gave me special occaision disease. The medical settings can be easily to understand when you are in the situations, and experiences how the small amount of different from normal life can affect your life big. -->]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Documenting sincce 2022.]]></summary></entry></feed>
+I've been interested in immune system since I was young, however, it gets bigger since I moved all around the world. Depends on my immune system and each different environemnt gave me special occaision disease. The medical settings can be easily to understand when you are in the situations, and experiences how the small amount of different from normal life can affect your life big. -->
+
+<!-- 
+Relationship between Neuro-immune memory, Neuroinflammation, and Brain Tumors.
+
+Does the brain remember sickness? the dobule-edged sword of neuro-immune memory?
+
+We often think of the brain as a hard drive of memories
+**strong faces, facts, and feelings**. 
+
+But recent neuroscience suggests it also "remembers" our body's phycial battles.
+Through a phenomenon called Neuro-immune memory, the brain records past inflammatory events to prepare for future threats.
+
+But if the brain is such a great protector, why do we still suffer from brain inflammatioin or brain tumors?
+
+1. The brain's private security: Microglia
+While the rest of your body relies on white blood cells, the brain has its own elite security team: Microglia.
+
+* The Memory: When the body gets sick, areas like the Insular Cortex record the inflammatory signal.
+* The glitch (Priminig): If these cells become "over-primed" due to chronic stress or repeated infection, they don't just fight enemies, they start damaging heaelthy neurons. This "overreaction" is what we called Neuroinflammation, a key driver of depression and dementia.
+
+2. Why the shield fails: Inflammation and Cancer
+If the brain "remembers" immunity, how do diseases like tumors slip through?
+* The invisible fire (neuroinflammation): unlike a swollen ankle, brain inflammation is chemical. Microglia release toxic cytokines that disrupt neural circuits. Because the brain remembers these states, even minor stress can re-trigger a massive inflammatory response.
+
+* The great deception (brain tumors): cancer cells are masters of manipulation. They "brainwash" the local microglia, turning them from soldiers into "nurses" that help the tumor grow. By exploiting the blood-brain barrier, tumors hide in a sanctuary where the body's general immune system can't easily reach them. -->]]></content><author><name>A Hyeon (Lauren) Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA[Documenting sincce 2022.]]></summary></entry></feed>
