@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Neuroimmunology
 # image: 
@@ -97,4 +97,4 @@ delayed feedback models
 
 Q. how ready these diseases are for optimal-control model?
 Q. why constant therapy can worson long-term neuro outcomes?
-Q. how many differ neuro and hiv?
+Q. how many differ neuro and hiv? -->
