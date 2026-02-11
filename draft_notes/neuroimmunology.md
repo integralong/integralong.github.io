@@ -9,7 +9,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-Brain-to-Immune Signaling as a Trigger for Migraine
+Brain-to-Immune Signaling as a Trigger for Migraine -->
 
 <!-- 뇌 -> 면역
 스트레스
@@ -44,7 +44,7 @@ HRV 얼마나 떨어지면?
 사람은 완벽할 수 없다. "감정"이라는 요인을 가지고 있기 때문에
 그럼 사람을 정상과 비정상으로 구분할 수 있나? -->
 
-Related to the Week 2, DRP program, I wonder how these concepts can be applied to neuroimmunology.
+<!-- Related to the Week 2, DRP program, I wonder how these concepts can be applied to neuroimmunology.
 
 **Constant vs Optimal therapy in neuroimmunology**
 A. Constant therapy (traditional)
