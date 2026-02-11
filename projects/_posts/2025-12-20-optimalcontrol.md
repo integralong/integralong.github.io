@@ -31,7 +31,7 @@ Directed Reading Program (DRP) is mentoring initiative designed to give motivate
 
 **Institution:** University of Florida
 
-**Semester:** Sprint 2026
+**Semester:** Spring 2026
 
 ## Reading Materials
 * [DRP Reading.pdf](/assets/img/drp/DRP-Reading.pdf)
@@ -87,3 +87,29 @@ Date: February 3rd, 2026
 
 
 ![Semi-mechanistic dynamical systems models of diseases](/assets/img/drp/week4-image.png)
+
+
+
+### Week 5
+Date: Feburary 10th, 2026
+
+**Practice drawing a model diagram, given the equations**
+
+![equations to diagram](/assets/img/drp/week5-image.png)
+
+
+
+**Ways to model growth**
+
+Understanding Immune Dynamics in Liver Transplant Through Mahtematical Modeling
+
+![figure 1](/assets/img/drp/weeek5-Model-Diagram-Dynamics-of-Graft-Rejection-in-Liver-Transplantation-a-Visualization-of.png)
+
+
+This is the model diagram, dynamics of graft rejection in liver transplantation. 
+
+[Click link to read full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12276165/)
+
+
+
+**Equation 4 models**
