@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-02-24T12:36:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A Hyeon Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2026-01-12-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2026-01-12T00:00:00-05:00</published><updated>2026-02-24T11:58:23-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2026-01-12-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-02-24T12:54:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A Hyeon Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2026-01-12-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2026-01-12T00:00:00-05:00</published><updated>2026-02-24T12:37:37-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2026-01-12-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} -->
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Use a desktop browser to view the interactive table of contents.
@@ -191,6 +191,67 @@ While it has applications for beyond machine learning; it is used for several ke
 <p><a href="https://www.cs.toronto.edu/~mbrubake/teaching/C11/Handouts/LagrangeMultipliers.pdf">Lagrange Multipliers with Computer Science</a></p>
 
 <p><img src="/assets/img/drp/mindmap-LM.png" alt="diagram" /></p>
+
+<ol>
+  <li>The core idea: optimization with rules
+Normally, to find the peack of a hill (your objective function, E(x)), you look for the spot where the ground is flat. However, if you are told you must stay on a specific path (your constrint, g(x) = 0), the peack of the hill might not be on that path.</li>
+</ol>
+
+<p>The “easy way” to solve this is to look for the point on your path where the hill’s slope and the path’s direction align in a specific way.</p>
+
+<ol>
+  <li>The trick: parallel gradients
+imagine the path you must follow is a circle on a map.</li>
+</ol>
+
+<ul>
+  <li>∇ E (The Hill’s Slope): this is the direction that takes you most steeply uphill.</li>
+  <li>∇ g (The Path’s Direction): This is the direction perpendicular to your path</li>
+</ul>
+
+<p>At the best possible point on your path, the gradient of the hill and the gradient of the path must be parallel. This means that any move you make that stays on the path won’t change your height on the hill.</p>
+
+<p>Mathematically, ∇ E + λ ∇ g = 0</p>
+
+<p>where lambda(λ) is arbitrary number called the Lagrange Miltiplier.</p>
+
+<ol>
+  <li>The Lagrangian
+Instead of dealiing with the hill an dthe path separately, you combine them into one single formula called the Lagrangian.</li>
+</ol>
+
+<p>L(x,λ)=E(x) + λg(x), by creating this new function, you turn a “constrained” problem into a standard “unconstrained” problem.</p>
+
+<ol>
+  <li>How to solve it?
+To find the answer, you simply find where this new function L is “flat” by taking derivatives and setting them to zero.</li>
+</ol>
+
+<ul>
+  <li>with respect to x: this ensures the slopes are parallel.</li>
+  <li>with respect to λ: this ensures you are actually standing on the path (g(x) = 0).</li>
+</ul>
+
+<ol>
+  <li>Example: Minimizing on a circle
+if you want to find the lowest point on the plane x + y while staying on the circle  x^2 + y^2 = 1, you create the Lagrangian:</li>
+</ol>
+
+<p>L = x + y + λ(x^2+y^2-1)</p>
+
+<p>By settig the derivatives to zero, the math naturally reveals that the best points are where x = y (specifically at x = y = -1sqrt(2) for the minimum).</p>
+
+<blockquote>
+  <p>E(x,y) = x + y : this is your objective function. In this specific geometric example, the goal is to find the minimum (the lowest point) of this function.
+g(x,y) = x^2+y^2-1 : this is your constraint. it represents the requirement that any solution must stay on the unit circle (where x^2+y^2 = 1)</p>
+</blockquote>
+
+<ol>
+  <li>Why use this?
+In machine learning, this “easy way” is used for complex tasks like Principal Component Analysis (PCA) to find the direction of maximum variance while keeping the scale of the vectors concistent, or for estimating probability distributions where all probabilities must add up to exactly 1.</li>
+</ol>
+
+<p>​</p>
 
 <p><a href="https://www.sciencedirect.com/topics/engineering/lagrange-multiplier-method">Lagrange Multipliers with Biomathematics</a></p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-14T10:09:32-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
 

@@ -154,5 +154,52 @@ While it has applications for beyond machine learning; it is used for several ke
 ![diagram](/assets/img/drp/mindmap-LM.png)
 
 
+1. The core idea: optimization with rules
+Normally, to find the peack of a hill (your objective function, E(x)), you look for the spot where the ground is flat. However, if you are told you must stay on a specific path (your constrint, g(x) = 0), the peack of the hill might not be on that path.
+
+The "easy way" to solve this is to look for the point on your path where the hill's slope and the path's direction align in a specific way.
+
+2. The trick: parallel gradients
+imagine the path you must follow is a circle on a map.
+
+
+* ∇ E (The Hill's Slope): this is the direction that takes you most steeply uphill.
+* ∇ g (The Path's Direction): This is the direction perpendicular to your path
+
+
+At the best possible point on your path, the gradient of the hill and the gradient of the path must be parallel. This means that any move you make that stays on the path won't change your height on the hill.
+
+Mathematically, ∇ E + λ ∇ g = 0
+
+where lambda(λ) is arbitrary number called the Lagrange Miltiplier.
+
+3. The Lagrangian
+Instead of dealiing with the hill an dthe path separately, you combine them into one single formula called the Lagrangian.
+
+L(x,λ)=E(x) + λg(x), by creating this new function, you turn a "constrained" problem into a standard "unconstrained" problem.
+
+4. How to solve it?
+To find the answer, you simply find where this new function L is "flat" by taking derivatives and setting them to zero.
+
+* with respect to x: this ensures the slopes are parallel.
+* with respect to λ: this ensures you are actually standing on the path (g(x) = 0).
+
+5. Example: Minimizing on a circle
+if you want to find the lowest point on the plane x + y while staying on the circle  x^2 + y^2 = 1, you create the Lagrangian:
+
+L = x + y + λ(x^2+y^2-1)
+
+By settig the derivatives to zero, the math naturally reveals that the best points are where x = y (specifically at x = y = -1sqrt(2) for the minimum).
+
+> E(x,y) = x + y : this is your objective function. In this specific geometric example, the goal is to find the minimum (the lowest point) of this function.
+> g(x,y) = x^2+y^2-1 : this is your constraint. it represents the requirement that any solution must stay on the unit circle (where x^2+y^2 = 1)
+
+
+6. Why use this?
+In machine learning, this "easy way" is used for complex tasks like Principal Component Analysis (PCA) to find the direction of maximum variance while keeping the scale of the vectors concistent, or for estimating probability distributions where all probabilities must add up to exactly 1.
+
+​	
+  
+
 
 [Lagrange Multipliers with Biomathematics](https://www.sciencedirect.com/topics/engineering/lagrange-multiplier-method)
