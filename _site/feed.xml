@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-02-11T22:26:52-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A Hyeon Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2026-01-12-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2026-01-12T00:00:00-05:00</published><updated>2026-02-11T17:08:23-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2026-01-12-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-02-24T12:36:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">A Hyeon Song</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><entry><title type="html">DRP | Optimal Control</title><link href="http://localhost:4000/projects/2026-01-12-optimalcontrol/" rel="alternate" type="text/html" title="DRP | Optimal Control" /><published>2026-01-12T00:00:00-05:00</published><updated>2026-02-24T11:58:23-05:00</updated><id>http://localhost:4000/projects/optimalcontrol</id><content type="html" xml:base="http://localhost:4000/projects/2026-01-12-optimalcontrol/"><![CDATA[<!-- Version 9 is the most complete version of Hydejack yet.
 {:.lead} -->
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note: Use a desktop browser to view the interactive table of contents.
@@ -11,6 +11,8 @@
       <li><a href="#week-2" id="markdown-toc-week-2">Week 2</a></li>
       <li><a href="#week-4" id="markdown-toc-week-4">Week 4</a></li>
       <li><a href="#week-5" id="markdown-toc-week-5">Week 5</a></li>
+      <li><a href="#week-6" id="markdown-toc-week-6">Week 6</a></li>
+      <li><a href="#week-7" id="markdown-toc-week-7">Week 7</a></li>
     </ul>
   </li>
 </ul>
@@ -175,7 +177,22 @@ c242.7,-294.7,395.3,-681.7,458,-1161c21.3,-164.7,33.3,-350.7,36,-558
 l0,-744c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
 -470,-1265c-4.7,-6,-9.7,-11.7,-15,-17c-0.7,-0.7,-6.7,-1,-18,-1z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.85em;"><span></span></span></span></span></span></span></span></span></span></span></p>
 
-<hr />]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-14T10:09:32-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
+<hr />
+
+<h3 id="week-6">Week 6</h3>
+<p>Date: Feburary 17th, 2026</p>
+
+<h3 id="week-7">Week 7</h3>
+<p>Date: February 24th, 2026</p>
+
+<p><strong>Lagrange Multipliers</strong> solve constrined optimization problems. That is, it’s a technique for finding maximum or minium values of a function subject to some contraint.
+While it has applications for beyond machine learning; it is used for several key derivations in machine learning.</p>
+
+<p><a href="https://www.cs.toronto.edu/~mbrubake/teaching/C11/Handouts/LagrangeMultipliers.pdf">Lagrange Multipliers with Computer Science</a></p>
+
+<p><img src="/assets/img/drp/mindmap-LM.png" alt="diagram" /></p>
+
+<p><a href="https://www.sciencedirect.com/topics/engineering/lagrange-multiplier-method">Lagrange Multipliers with Biomathematics</a></p>]]></content><author><name>Lauren Song</name><email>ahyeonsong@ufl.edu</email></author><category term="projects" /><summary type="html"><![CDATA["Direct Reading Program in Mathematics at University of Florida"]]></summary></entry><entry><title type="html">Cologuard vs. Colonoscopy</title><link href="http://localhost:4000/projects/2025-04-23-coloncancer/" rel="alternate" type="text/html" title="Cologuard vs. Colonoscopy" /><published>2025-04-23T00:00:00-04:00</published><updated>2026-01-14T10:09:32-05:00</updated><id>http://localhost:4000/projects/coloncancer</id><content type="html" xml:base="http://localhost:4000/projects/2025-04-23-coloncancer/"><![CDATA[<p>Assessing the Clinical Effectiveness of Cologuard vs. Colonoscopy in Early Detection of Colorectal Cancer.</p>
 
 <blockquote>
   <p>🔬 Chandler Castillon, <strong>Lauren Song</strong>, Amanda Martin, Shriya Anand, Samia Khan, Riya Pandey, Praval Ghanta</p>

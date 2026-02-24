@@ -136,3 +136,23 @@ $$
 
 ---
 
+### Week 6
+Date: Feburary 17th, 2026
+
+
+
+
+
+### Week 7
+Date: February 24th, 2026
+
+**Lagrange Multipliers** solve constrined optimization problems. That is, it's a technique for finding maximum or minium values of a function subject to some contraint.
+While it has applications for beyond machine learning; it is used for several key derivations in machine learning.
+
+[Lagrange Multipliers with Computer Science](https://www.cs.toronto.edu/~mbrubake/teaching/C11/Handouts/LagrangeMultipliers.pdf)
+
+![diagram](/assets/img/drp/mindmap-LM.png)
+
+
+
+[Lagrange Multipliers with Biomathematics](https://www.sciencedirect.com/topics/engineering/lagrange-multiplier-method)
