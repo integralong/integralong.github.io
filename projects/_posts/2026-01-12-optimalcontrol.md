@@ -112,4 +112,27 @@ This is the model diagram, dynamics of graft rejection in liver transplantation.
 
 
 
-**Equation 4 models**
+**Equation 5 models**
+
+{:.note}
+Equation (5) models the rate of change of Tregs with respect to time. We assume a constant source rate of Tregs being recruited from outside of our model (pathway v). The factor z represents the natural loss of Tregs. The factor u, which is less than or equal to one, represents the lifespan-lengthening effect IL-2 has on tregs. We use a Michaelis-Menten term to ensure a bound on this effect size.
+
+
+
+---
+'
+$$
+\frac{dT_R}{dt}
+=
+\overbrace{\bar{s}_R}^{v}
+-
+\overbrace{\delta_R T_R}^{z}
+\left(
+1
+-
+\overbrace{\frac{\alpha_{IR} I}{\beta_{IR}+I}}^{u}
+\right)
+$$
+
+---
+
