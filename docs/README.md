@@ -32,8 +32,7 @@ permalink: /docs/
 
 
 ---
-
-Stay tuned for more course notes! 🐊
+🐊
 {:.note}
 
 

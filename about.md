@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/img/logo/gator-profile.JPG
+image: /assets/img/about/profile.JPG
 description: >
   A boutique Jekyll theme for hackers, nerds, and academics,
   with a focus on personal sites that are meant to impress.
@@ -12,11 +12,12 @@ redirect_from:
 
 # About
 
+<!-- ![profile](/assets/img/logo/gator-profile.JPG) -->
 <!--author-->
 
 
 ### More about me
-
+I like swimming, figure skating and skiing!
 
 
 ### Contact 
