@@ -24,7 +24,7 @@ I like winter sports: skiing, snowboarding, and figure skating!
 ⚲ Gainesville, FL, USA
 * <span class="icon-mail"></span> : [**Email**](mailto:ahyeonsong@ufl.edu)
 * <span class="icon-github"></span> : [**GitHub**](https://github.com/integralong)
-* <span class="icon-linkedin2"></span> : [**LinkedIn**](https://www.linkedin.com/in/lauren-song-b467b22a1/)
+* <span class="icon-linkedin2"></span> : [**LinkedIn**](https://www.linkedin.com/in/a-hyeon-song-b467b22a1/)
 
 > 📄 **[Download My CV (PDF)](/assets/img/logo/A Hyeon(Lauren) Song-CV.pdf)**
 

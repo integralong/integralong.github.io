@@ -11,7 +11,7 @@ permalink: /docs/
 <!-- Stay tuned for upcoming math courses notes!
 {:.note} -->
 
-<!-- **❗️Notice: This page is currently being updated as I migrate my academic archieves to this new platform. Some links or sections may be temporarily unavailable.** -->
+**❗️Notice: This page is currently being updated as I migrate my academic archieves to this new platform. Some links or sections may be temporarily unavailable.**
 
 ## Linear Algebra 
 
@@ -70,7 +70,7 @@ MIT OpenCourseWare has bunch of course notes helped me a lot and it's free!
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
 {:.related-posts.faded} -->
 
-[Vector Space]: /docs/linearalgebra/vs/
+[Vector Space]: /docs/linearalgebra/vs./
 [Linear Transformations and Matrices]: /docs/ltam/
 [Elementary Matrix Operations and Systems of Linear Equations]: /docs/emoasole./
 [Determinants]: /docs/determinants./
