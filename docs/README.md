@@ -15,7 +15,7 @@ permalink: /docs/
 
 ## Linear Algebra 
 
-Extra material which help me a lot: 
+Extra materials which helped me a lot: 
 
 [Georgia Technology University - Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/overview.html)
 
@@ -39,8 +39,8 @@ Extra material which help me a lot:
 
 
 ---
-## Complex Variable
-Extra materials which help me a lot:
+## Complex Variables
+Extra materials which helped me a lot:
 
 * [Interactive Complex Analysis](https://complex-analysis.com/content/table_of_contents.html)
 
