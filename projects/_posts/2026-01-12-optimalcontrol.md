@@ -27,7 +27,7 @@ Directed Reading Program (DRP) is mentoring initiative designed to give motivate
 
 
 ## How to mathematically optimize drug regimens using optimal control
-> 🔬 Kyle Adams, Julia Bruner, Alexandra Haddad, Drew Nelson, **Lauren Song**, Kayla Adams
+> 🔬 Kyle Adams, Julia Bruner, Alexandra Haddad, Drew Nelson, **A Hyeon Lauren Song**, Kayla Adams
 
 **Institution:** University of Florida
 
@@ -117,89 +117,149 @@ This is the model diagram, dynamics of graft rejection in liver transplantation.
 {:.note}
 Equation (5) models the rate of change of Tregs with respect to time. We assume a constant source rate of Tregs being recruited from outside of our model (pathway v). The factor z represents the natural loss of Tregs. The factor u, which is less than or equal to one, represents the lifespan-lengthening effect IL-2 has on tregs. We use a Michaelis-Menten term to ensure a bound on this effect size.
 
-
-
----
-'
-$$
-\frac{dT_R}{dt}
-=
-\overbrace{\bar{s}_R}^{v}
--
-\overbrace{\delta_R T_R}^{z}
-\left(
-1
--
-\overbrace{\frac{\alpha_{IR} I}{\beta_{IR}+I}}^{u}
-\right)
-$$
-
 ---
 
 ### Week 6
 Date: Feburary 17th, 2026
 
+**Reading the ODE for T_R (Regulatory T Cells)**
+
+$$\frac{dT_R}{dt} = \underbrace{s_R}_{v} - \underbrace{\delta_R T_R \left(1 - \frac{\alpha_{IR} I}{\beta_{IR} + I}\right)}_{z, \; u}$$
+
+Breaking down each term:
+
+- **v — `s_R`:** A constant source term. Regulatory T cells are produced at a baseline rate `s_R`, independent of other populations.
+- **z — `δ_R T_R`:** Natural death/loss of T_R cells, proportional to current population size. `δ_R` is the death rate.
+- **u — `(1 - α_IR·I / (β_IR + I))`:** A Michaelis-Menten style inhibition term. The cytokine `I` modulates the death rate — as `I` increases, this factor decreases, meaning `I` *suppresses* the loss of T_R cells.
+
+> **Key question from the slides:** *What type of equation is this? What does its graph look like?*
+> The term `αX / (β + X)` is a **saturating (hyperbolic) function** — it rises steeply at first and levels off at a maximum value of α. This is the hallmark of Michaelis-Menten dynamics.
+
+**Reading the ODE for T_C (Cytotoxic T Cells)**
+
+$$\frac{dT_C}{dt} = \overbrace{\frac{\alpha_{HC} T_H}{\beta_{HC} + T_H}}^{k,l} + \overbrace{\gamma_C T_C \left(1 - \frac{T_C}{K_C}\right)}^{p} \left(\overbrace{-\frac{\alpha_{IC} I}{\beta_{IC} + I}}^{q}\right) - \overbrace{\delta_C T_C}^{t}$$
+
+Breaking down each term:
+
+- **k, l — `α_HC · T_H / (β_HC + T_H)`:** Helper T cells (T_H) drive the activation/recruitment of cytotoxic T cells via Michaelis-Menten dynamics. The maximum activation rate is `α_HC` and the half-saturation threshold is `β_HC`.
+- **p — `γ_C · T_C · (1 - T_C / K_C)`:** Logistic proliferation of T_C cells. The population grows at rate `γ_C` but is self-limited by the carrying capacity `K_C`.
+- **q — `(-α_IC · I / (β_IC + I))`:** Inhibition by cytokine `I`. This Michaelis-Menten term reduces proliferation — representing immune suppression.
+- **t — `δ_C · T_C`:** Natural death of cytotoxic T cells at rate `δ_C`.
+
+**The Michaelis-Menten Function**
+
+A central building block for modeling saturating biological interactions is:
+
+$$\frac{dY}{dt} = \frac{\alpha X}{\beta + X}$$
+
+where **α** and **β** are constants, and **X**, **Y** are variables (e.g., cell populations or cytokine concentrations).
+
+**Exploring the parameters:**
+
+**As X → ∞ (limit at infinity):**
+
+$$\lim_{X \to \infty} \frac{\alpha X}{\beta + X} = \alpha$$
+
+The rate saturates at **α** — no matter how much X you add, the effect on Y cannot exceed α. This is why **α is the maximum boosting effect X can have on Y**.
+
+**When X = β (half-saturation point):**
+
+$$\frac{\alpha \cdot \beta}{\beta + \beta} = \frac{\alpha}{2}$$
+
+At `X = β`, the rate is exactly half its maximum. This is why **β is the threshold for half of the maximum boosting effect** — it tells you how much X is needed to achieve 50% of the maximum response.
 
 
 
+**Michaelis-Menten Dynamics vs. Mass Action**
+
+These are two fundamentally different ways to model how one cell population affects another.
+
+| | Michaelis-Menten | Mass Action |
+|---|---|---|
+| **Form** | `αX / (β + X)` | `c · X · Y` |
+| **Behavior** | Saturates at maximum α | Grows unboundedly with X and Y |
+| **Shape** | Concave, asymptotic curve | Linear/superlinear growth |
+| **Biological interpretation** | Receptor saturation; diminishing returns | Proportional to encounter rate between two populations |
+| **When to use** | When there's a biological maximum (e.g., receptor binding) | When interaction scales freely with both populations |
+
+**Michaelis-Menten** is appropriate when a biological process is rate-limited — for example, when receptors become saturated and adding more ligand produces diminishing returns. The curve starts steep and flattens toward α.
+
+**Mass Action** assumes interactions are proportional to the *product* of two populations (`c·XY`). This can grow without bound and is more appropriate when physical encounter rates drive the interaction (e.g., predator-prey dynamics).
+
+---
 
 ### Week 7
 Date: February 24th, 2026
 
-**Lagrange Multipliers** solve constrined optimization problems. That is, it's a technique for finding maximum or minium values of a function subject to some contraint.
-While it has applications for beyond machine learning; it is used for several key derivations in machine learning.
+**Lagrange Multipliers** are a technique for solving *constrained optimization problems* — that is, finding the maximum or minimum values of a function subject to some constraint. While the method has applications far beyond machine learning, it underpins several key derivations in the field.
 
-[Lagrange Multipliers with Computer Science](https://www.cs.toronto.edu/~mbrubake/teaching/C11/Handouts/LagrangeMultipliers.pdf)
+[Lagrange Multipliers with Computer Science (University of Toronto)](https://www.cs.toronto.edu/~mbrubake/teaching/C11/Handouts/LagrangeMultipliers.pdf)
 
-![diagram](/assets/img/drp/mindmap-LM.png)
+1. The Core Idea: Optimization With Rules
 
+Normally, to find the peak of a hill (your objective function, `E(x)`), you simply look for the spot where the gradient is zero. But if you are told you **must stay on a specific path** (your constraint, `g(x) = 0`), the unconstrained peak might not lie on that path.
 
-1. The core idea: optimization with rules
-Normally, to find the peack of a hill (your objective function, E(x)), you look for the spot where the ground is flat. However, if you are told you must stay on a specific path (your constrint, g(x) = 0), the peack of the hill might not be on that path.
+The key insight is to look for the point on the path where the hill's slope and the path's direction align in a very specific way.
 
-The "easy way" to solve this is to look for the point on your path where the hill's slope and the path's direction align in a specific way.
+2. The Trick: Parallel Gradients
 
-2. The trick: parallel gradients
-imagine the path you must follow is a circle on a map.
+Imagine the constraint is a circle drawn on a map. At any point on this circle, two gradients matter:
 
+- **∇E** *(The Hill's Slope)*: the direction of steepest ascent on the objective function.
+- **∇g** *(The Path's Direction)*: the direction perpendicular to your constraint curve.
 
-* ∇ E (The Hill's Slope): this is the direction that takes you most steeply uphill.
-* ∇ g (The Path's Direction): This is the direction perpendicular to your path
+At the optimal point on the path, these two gradients must be **parallel**. This means that any infinitesimal move you make that stays on the path won't change your value on the objective function — you've found the best possible point.
 
+Mathematically, this condition is expressed as:
 
-At the best possible point on your path, the gradient of the hill and the gradient of the path must be parallel. This means that any move you make that stays on the path won't change your height on the hill.
+$$\nabla E + \lambda \nabla g = 0$$
 
-Mathematically, ∇ E + λ ∇ g = 0
+where **λ (lambda)** is an arbitrary scalar called the **Lagrange Multiplier**.
 
-where lambda(λ) is arbitrary number called the Lagrange Miltiplier.
 
 3. The Lagrangian
-Instead of dealiing with the hill an dthe path separately, you combine them into one single formula called the Lagrangian.
 
-L(x,λ)=E(x) + λg(x), by creating this new function, you turn a "constrained" problem into a standard "unconstrained" problem.
+Instead of handling the objective and constraint separately, we combine them into a single function called the **Lagrangian**:
 
-4. How to solve it?
-To find the answer, you simply find where this new function L is "flat" by taking derivatives and setting them to zero.
+$$\mathcal{L}(x, \lambda) = E(x) + \lambda g(x)$$
 
-* with respect to x: this ensures the slopes are parallel.
-* with respect to λ: this ensures you are actually standing on the path (g(x) = 0).
-
-5. Example: Minimizing on a circle
-if you want to find the lowest point on the plane x + y while staying on the circle  x^2 + y^2 = 1, you create the Lagrangian:
-
-L = x + y + λ(x^2+y^2-1)
-
-By settig the derivatives to zero, the math naturally reveals that the best points are where x = y (specifically at x = y = -1sqrt(2) for the minimum).
-
-> E(x,y) = x + y : this is your objective function. In this specific geometric example, the goal is to find the minimum (the lowest point) of this function.
-> g(x,y) = x^2+y^2-1 : this is your constraint. it represents the requirement that any solution must stay on the unit circle (where x^2+y^2 = 1)
+By constructing this new function, we elegantly transform a constrained optimization problem into a standard **unconstrained** one — which is much easier to solve with standard calculus.
 
 
-6. Why use this?
-In machine learning, this "easy way" is used for complex tasks like Principal Component Analysis (PCA) to find the direction of maximum variance while keeping the scale of the vectors concistent, or for estimating probability distributions where all probabilities must add up to exactly 1.
+4. How to Solve It
 
-​	
-  
+To find the optimal point, we set the partial derivatives of `L` to zero:
+
+- **With respect to x** → ensures the gradients of `E` and `g` are parallel (the core optimality condition).
+- **With respect to λ** → enforces `g(x) = 0`, guaranteeing the solution actually lies on the constraint.
+
+Solving this system of equations gives you the constrained optimum.
 
 
-[Lagrange Multipliers with Biomathematics](https://www.sciencedirect.com/topics/engineering/lagrange-multiplier-method)
+5. Worked Example: Minimizing on a Circle
+
+**Goal:** Find the minimum of `E(x, y) = x + y` subject to the constraint `g(x, y) = x² + y² - 1 = 0` (i.e., staying on the unit circle).
+
+We form the Lagrangian:
+
+$$\mathcal{L} = x + y + \lambda(x^2 + y^2 - 1)$$
+
+Setting partial derivatives to zero and solving reveals that the optimum occurs where `x = y`, specifically at:
+
+$$x = y = -\frac{1}{\sqrt{2}} \quad \text{(the minimum)}$$
+
+> **`E(x, y) = x + y`** — the objective function. Here we want to find its minimum value.
+>
+> **`g(x, y) = x² + y² - 1 = 0`** — the constraint, requiring all solutions to lie on the unit circle.
+
+
+6. Why Does This Matter for Machine Learning?
+
+Lagrange Multipliers appear throughout machine learning wherever optimization meets hard constraints. Two prominent examples:
+
+- **Principal Component Analysis (PCA):** Finding the direction of maximum variance while constraining component vectors to unit length.
+- **Probability Distribution Estimation:** Deriving distributions (e.g., maximum entropy models) where all probabilities must sum to exactly 1.
+
+Understanding this technique provides a solid foundation for the mathematical machinery behind many ML algorithms.
+
+[Lagrange Multipliers with Biomathematics (ScienceDirect)](https://www.sciencedirect.com/topics/engineering/lagrange-multiplier-method)
