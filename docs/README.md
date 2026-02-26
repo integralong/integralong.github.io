@@ -11,9 +11,16 @@ permalink: /docs/
 <!-- Stay tuned for upcoming math courses notes!
 {:.note} -->
 
-**❗️Notice: This page is currently being updated as I migrate my academic archieves to this new platform. Some links or sections may be temporarily unavailable.**
+<!-- **❗️Notice: This page is currently being updated as I migrate my academic archieves to this new platform. Some links or sections may be temporarily unavailable.** -->
 
 ## Linear Algebra 
+
+Extra material which help me a lot: 
+
+[Georgia Technology University - Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/overview.html)
+
+
+### Study Guide
 
 **Textbook**: Linear Algebra (4th edition) - Arnold Insel, Lawrence E. Spence, and Stephen H. Friedberg
 {:.description.smaller}
@@ -32,6 +39,16 @@ permalink: /docs/
 
 
 ---
+## Complex Variable
+Extra materials which help me a lot:
+
+* [Interactive Complex Analysis](https://complex-analysis.com/content/table_of_contents.html)
+
+* [MIT OpenCourseWare - Complex Variables with Applications](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/)
+
+MIT OpenCourseWare has bunch of course notes helped me a lot and it's free!
+
+
 🐊
 {:.note}
 
@@ -53,8 +70,8 @@ permalink: /docs/
 * [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
 {:.related-posts.faded} -->
 
-[Vector Space]: /docs/linearalgebra/vs./
-[Linear Transformations and Matrices]: /docs/ltam./
+[Vector Space]: /docs/linearalgebra/vs/
+[Linear Transformations and Matrices]: /docs/ltam/
 [Elementary Matrix Operations and Systems of Linear Equations]: /docs/emoasole./
 [Determinants]: /docs/determinants./
 [Diagonalizations]: /docs/diagonalizations./

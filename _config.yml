@@ -42,7 +42,7 @@ logo:                  /assets/img/logo/∫ONG_Logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Lauren Song #<Lauren> <Song>
+  name:                A Hyeon Song #<Lauren> <Song>
   email:               ahyeonsong@ufl.edu #<ahyeonsong@ufl.edu>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>

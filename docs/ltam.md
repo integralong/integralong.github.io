@@ -12,18 +12,18 @@ sitemap: false
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-Before upgrading to v7+, make sure you've read the [CHANGELOG](../CHANGELOG.md){:.heading.flip-title},
-especially the part about the [license change](../CHANGELOG.md#license-change)!
-{:.note}
+Download this file!
+[Download pdf.ver](/assets/img/linearalgebra/Chapter2_Study_Guide.pdf)
 
-## Free version
+
+## Linear Transformations, Null Spaces, and Range
 Upgrading the free version of the theme is as easy as running
 
 ```bash
 bundle update jekyll-theme-hydejack
 ```
 
-## PRO Version
+## The Matrix Representation of a Linear Transformation
 
 In v9, the structure of Hydejack PRO sites has changed. If you're looking to upgrade from v8 or earlier, 
 check out [Installation for existing sites](./install.md#existing-sites) instead.
@@ -54,7 +54,7 @@ Note that you can also define a git dependency based on a branch, which removes 
 gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", branch: "pro/v9"
 ~~~
 
-## GitHub Pages
+## Composition of Linear Transformations and Matrix Multiplication
 When building on GitHub Pages, upgrading Hydejack is as simple as setting the `remote_theme` key in `_config.yml` to the desired version.
 
 ```yml
@@ -67,6 +67,9 @@ This setting only works with the Free Version of Hydejack.
 **PRO Customers** must carefully merge contents of the `starter-kit-gh-pages` folder in the downloaded zip with their existing files. See [Deploy](./deploy.md){:.heading.flip-title} for a better way to use GitHub Pages, which also works with the PRO version.
 {:.note}
 
+## Invertibility and Isomorphisms
 
+
+## The Change of Coordinate Matrix
 Continue with [Elementary Matrix Operations and Systems of Linear Equations](/docs/emoasole/){:.heading.flip-title}
 {:.read-more}
