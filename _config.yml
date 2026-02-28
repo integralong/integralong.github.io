@@ -10,7 +10,7 @@ url:                   https://integralong.github.io
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 # baseurl:               '/hydejack-starter-kit'
-
+google_analytics: G-8CJR1RG3Y6
 
 # General settings
 # ---------------------------------------------------------------------------------------
