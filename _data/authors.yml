@@ -20,9 +20,9 @@ author1:
     path:            /assets/img/about/maple-profile.png
   
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            /assets/img/logo/gator-profile.JPG
-      2x:            /assets/img/logo/gator-profile.JPG
+    # srcset:
+    #   1x:            /assets/img/logo/gator-profile.JPG
+    #   2x:            /assets/img/logo/gator-profile.JPG
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
