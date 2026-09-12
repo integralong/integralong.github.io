@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>∫ong</title>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --text: #000;
+      --muted: #888;
+      --page: #fff;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--page);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .about-page {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 60px 40px 140px;
+    }
+
+    .back-link {
+      display: inline-block;
+      font-size: 0.875rem;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      margin-bottom: 80px;
+      transition: opacity 0.15s ease;
+    }
+
+    .back-link:hover {
+      opacity: 0.5;
+    }
+
+    .about-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 80px;
+    }
+
+    .about-header h1 {
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: 600;
+    }
+
+    .about-mark {
+      font-size: 0.875rem;
+      color: var(--muted);
+      user-select: none;
+    }
+
+    .about-writing {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .about-writing .lead {
+      font-size: 1.45rem;
+      line-height: 1.55;
+      margin-bottom: 48px;
+    }
+
+    .about-writing p {
+      font-size: 1rem;
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+
+    .about-writing h2 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-top: 72px;
+      margin-bottom: 18px;
+    }
+
+    .about-writing a {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .about-writing a:hover {
+      opacity: 0.5;
+    }
+
+    @media (max-width: 700px) {
+      .about-page {
+        padding: 40px 24px 100px;
+      }
+
+      .back-link {
+        margin-bottom: 60px;
+      }
+
+      .about-header {
+        margin-bottom: 40px;
+      }
+
+      .about-header h1 {
+        font-size: 1.65rem;
+      }
+
+      .about-writing .lead {
+        font-size: 1.2rem;
+        margin-bottom: 36px;
+      }
+
+      .about-writing p {
+        font-size: 0.9375rem;
+      }
+
+      .about-writing h2 {
+        margin-top: 58px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="about-page">
+    <a href="../index.html" class="back-link">← Back</a>
+
+    <header class="about-header">
+      <h1>About Me</h1>
+      <span class="about-mark">∫ONG</span>
+    </header>
+
+    <section class="about-writing">
+
+      <p>
+        Hi, I'm A Hyeon (Lauren) Song.
+        I am currently a senior mathematics student at the University of Florida. 🐊
+      </p>
+      <p>
+        Outside of mathematics, I prototype and make art - often starting with ambiguous
+        ideas and turning them into things that can exist, be experienced, or interacted with
+        in the real world. Also, I really love winter sports - basically anything involving snow!
+      </p>
+
+      <p>
+        This space is an evolving collection of
+        research, images, references, notes,
+        and things I've kept along the way.
+      </p>
+
+      <h2>Contact Me</h2>
+            <nav class="links">
+        <a href="ahyeonsong@ufl.edu">Email</a>
+        <a href="https://www.linkedin.com/in/lauren-song-b467b22a1/" target="_blank">LinkedIn</a>
+        <a href="https://github.io" target="_blank">Github</a>
+      </nav>
+    </section>
+  </main>
+
+</body>
+
+</html>

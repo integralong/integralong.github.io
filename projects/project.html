@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Project</title>
+
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- Markdown renderer -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
+  </script>
+
+  <!-- MathJax configuration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [
+          ['\\(', '\\)'],
+          ['$', '$']
+        ],
+        displayMath: [
+          ['\\[', '\\]'],
+          ['$$', '$$']
+        ]
+      }
+    };
+  </script>
+
+  <!-- MathJax -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+  <!-- Project loader -->
+  <script defer src="project.js"></script>
+</head>
+
+<body class="project-page">
+
+  <a href="../index.html" class="back-link">← Back</a>
+
+  <div class="project-layout">
+
+    <article
+      id="markdown-content"
+      class="markdown-content">
+    </article>
+
+    <aside class="project-toc">
+      <div class="toc-title">Table of Contents</div>
+      <nav id="toc"></nav>
+    </aside>
+
+  </div>
+
+</body>
+</html>

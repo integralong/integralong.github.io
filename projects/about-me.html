@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>∫ong</title>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --text: #000;
+      --muted: #888;
+      --page: #fff;
+      --album-height: clamp(184px, 31vh, 292px);
+      --album-depth: 11px;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--page);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .about-page {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 60px 40px 140px;
+    }
+
+    .back-link {
+      display: inline-block;
+      font-size: 0.875rem;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      margin-bottom: 80px;
+      transition: opacity 0.15s ease;
+    }
+
+    .back-link:hover {
+      opacity: 0.5;
+    }
+
+    .about-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 28px;
+    }
+
+    .about-header h1 {
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: 600;
+    }
+
+    .about-mark {
+      font-size: 0.875rem;
+      color: var(--muted);
+      user-select: none;
+    }
+
+    .album-section {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      margin-bottom: 110px;
+    }
+
+    .album-stage {
+      position: relative;
+      width: 100%;
+      height: 520px;
+      padding: 0 120px 0 108px;
+      overflow: hidden;
+      cursor: grab;
+      user-select: none;
+      touch-action: none;
+    }
+
+    .album-stage.is-dragging {
+      cursor: grabbing;
+    }
+
+    .album-world {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      perspective: 1600px;
+      perspective-origin: 50% 48%;
+      transform-style: preserve-3d;
+    }
+
+    .album {
+      position: absolute;
+      top: 42%;
+      left: 50%;
+      width: max-content;
+      height: auto;
+      transform-origin: center center;
+      transform-style: preserve-3d;
+      cursor: pointer;
+    }
+
+    .album-case {
+      position: relative;
+      width: max-content;
+      height: max-content;
+      transform-style: preserve-3d;
+      box-shadow: 0 28px 24px -12px rgba(0, 0, 0, 0.28);
+    }
+
+    .album-front {
+      position: relative;
+      display: block;
+      line-height: 0;
+      transform: translateZ(calc(var(--album-depth) / 2));
+    }
+
+    .album-front img {
+      display: block;
+      height: var(--album-height);
+      width: auto;
+      max-width: none;
+      object-fit: unset;
+      pointer-events: none;
+      -webkit-user-drag: none;
+    }
+
+    .album-spine {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: var(--album-depth);
+      height: 100%;
+      overflow: hidden;
+      transform-origin: left center;
+      transform: rotateY(-90deg);
+    }
+
+    .album-spine img {
+      display: block;
+      height: 100%;
+      width: auto;
+      max-width: none;
+      object-fit: cover;
+      object-position: left center;
+      filter: brightness(0.78);
+      pointer-events: none;
+      -webkit-user-drag: none;
+    }
+
+    .album-spine::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.28),
+          rgba(255, 255, 255, 0.08) 45%,
+          rgba(0, 0, 0, 0.18)
+        );
+      pointer-events: none;
+    }
+
+    .album-reflection {
+      position: absolute;
+      top: calc(100% + 12px);
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      transform: scaleY(-1);
+      -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.22), transparent);
+      mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.22), transparent);
+      pointer-events: none;
+      opacity: 0.4;
+      z-index: -1;
+    }
+
+    .album-reflection img {
+      display: block;
+      width: 100%;
+      height: auto;
+      pointer-events: none;
+      -webkit-user-drag: none;
+    }
+
+    .album.is-active .album-reflection {
+      opacity: 0;
+    }
+
+    .album-caption {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1280px;
+      margin: 8px auto 0;
+      padding: 0 40px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .about-writing {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .about-writing .lead {
+      font-size: 1.45rem;
+      line-height: 1.55;
+      margin-bottom: 48px;
+    }
+
+    .about-writing p {
+      font-size: 1rem;
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+
+    .about-writing h2 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-top: 72px;
+      margin-bottom: 18px;
+    }
+
+    .about-writing a {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .about-writing a:hover {
+      opacity: 0.5;
+    }
+
+    @media (max-width: 700px) {
+      :root {
+        --album-height: 168px;
+      }
+
+      .about-page {
+        padding: 40px 24px 100px;
+      }
+
+      .back-link {
+        margin-bottom: 60px;
+      }
+
+      .about-header {
+        margin-bottom: 18px;
+      }
+
+      .about-header h1 {
+        font-size: 1.65rem;
+      }
+
+      .album-stage {
+        height: 390px;
+        padding: 0 64px 0 56px;
+      }
+
+      .album-caption {
+        padding: 0 24px;
+        font-size: 0.6875rem;
+      }
+
+      .album-section {
+        margin-bottom: 72px;
+      }
+
+      .about-writing .lead {
+        font-size: 1.2rem;
+        margin-bottom: 36px;
+      }
+
+      .about-writing p {
+        font-size: 0.9375rem;
+      }
+
+      .about-writing h2 {
+        margin-top: 58px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="about-page">
+    <a href="../index.html" class="back-link">← Back</a>
+
+    <header class="about-header">
+      <h1>About Me</h1>
+      <span class="about-mark">∫ONG</span>
+    </header>
+
+    <section class="album-section">
+      <div class="album-stage" id="album-stage">
+        <div class="album-world" id="album-world"></div>
+      </div>
+
+      <div class="album-caption">
+        <span>collections</span>
+        <span>drag / scroll</span>
+      </div>
+    </section>
+
+    <section class="about-writing">
+      <p class="lead">Hi, I'm Lauren.</p>
+
+      <p>
+        My name is A Hyeon Song, but you can call me Lauren.
+        I am currently a senior mathematics student at the University of Florida.
+      </p>
+      <p>
+        Outside of mathematics, I prototype and make art - often starting with ambiguous
+        ideas and turning them into things that can exist, be experienced, or interacted with
+        in the real world. Also, I really love winter sports - basically anything involving snow!
+      </p>
+
+      <p>
+        This space is an evolving collection of
+        research, images, references, notes,
+        and things I've kept along the way.
+      </p>
+
+      <h2>Contact</h2>
+            <nav class="links">
+        <a href="ahyeonsong@ufl.edu">Email</a>
+        <a href="https://www.linkedin.com/in/lauren-song-b467b22a1/" target="_blank">LinkedIn</a>
+        <a href="https://github.io" target="_blank">Github</a>
+      </nav>
+    </section>
+  </main>
+
+  <!-- <script>
+    const params = new URLSearchParams(window.location.search);
+    const title = params.get("title");
+    if (title) document.title = title;
+
+    const covers = [
+      {
+        src: "../images/logo/∫ONG_Logo.png",
+        title: "∫",
+        spine: "#243044",
+        ink: "#f4f6f8"
+      },
+      {
+        src: "../images/about/gator.png",
+        title: "O",
+        spine: "#c9b08a",
+        ink: "#3a2c1c"
+      },
+      {
+        src: "../images/about/moffitt.jpg",
+        title: "N",
+        spine: "#8ACE00",
+        ink: "#111"
+      },
+      {
+        src: "../images/about/URS.JPG",
+        title: "G",
+        spine: "#1a1a1a",
+        ink: "#f2f2f2"
+      },
+
+      {
+        src: "../images/logo/profile.png",
+        title: "∫",
+        spine: "#243044",
+        ink: "#f4f6f8"
+      }
+    ];
+
+    const COUNT = covers.length;
+    const VISIBLE = 4;
+    const TILT = 68;
+    const stage = document.getElementById("album-stage");
+    const world = document.getElementById("album-world");
+    const albums = [];
+
+    let scroll = 0;
+    let target = 0;
+    let hoverIndex = null;
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragStartScroll = 0;
+    let ticking = false;
+    let wheelTimer;
+
+    function waitForImages() {
+      const images = Array.from(world.querySelectorAll(".album-front img"));
+      return Promise.all(
+        images.map(img => {
+          if (img.complete) return Promise.resolve();
+          return new Promise(resolve => {
+            img.addEventListener("load", resolve, { once: true });
+            img.addEventListener("error", resolve, { once: true });
+          });
+        })
+      );
+    }
+
+    function rebuild() {
+      world.innerHTML = "";
+      albums.length = 0;
+
+      covers.forEach(cover => {
+        const album = document.createElement("article");
+        album.className = "album";
+        album.innerHTML = `
+          <div class="album-case">
+            <div class="album-front">
+              <img src="${cover.src}" alt="${cover.title}">
+            </div>
+            <div class="album-spine">
+              <img src="${cover.src}" alt="">
+            </div>
+          </div>
+          <div class="album-reflection" aria-hidden="true">
+            <img src="${cover.src}" alt="">
+          </div>
+        `;
+        world.appendChild(album);
+        albums.push(album);
+      });
+
+      waitForImages().then(layout);
+    }
+
+    function itemMetrics() {
+      const tilt = 40 * Math.PI / 180;
+      const gap = 56;
+      return albums.map(album => {
+        const width = album.offsetWidth || 200;
+        const height = album.offsetHeight || 260;
+        return {
+          album,
+          width,
+          height,
+          projected: width * Math.cos(tilt) + gap
+        };
+      });
+    }
+
+    function clampScroll(value) {
+      const items = itemMetrics();
+      const total = items.reduce((sum, item) => sum + item.projected, 0);
+      const room = Math.max(0, (total - stage.clientWidth * 0.7) / 2 / (items[0] ? items[0].projected : 200));
+      return Math.max(-room, Math.min(room, value));
+    }
+
+    function layout() {
+      if (!albums.length) return;
+
+      const items = itemMetrics();
+      const total = items.reduce((sum, item) => sum + item.projected, 0);
+      const avg = total / items.length;
+      let cursor = -total / 2 - scroll * avg;
+      const center = (COUNT - 1) / 2;
+      const open = 1 - Math.cos(40 * Math.PI / 180);
+
+      items.forEach((item, index) => {
+        const album = item.album;
+        const d = index - center - scroll;
+        const rotation = d < 0 ? 40 : -40;
+        const isOpen = hoverIndex === index && !isDragging;
+        const extra = isOpen ? item.width * open / 2 + 20 : 0;
+
+        cursor += extra;
+        const x = cursor + item.projected / 2;
+        cursor += item.projected + extra;
+
+        album.style.marginLeft = `${-item.width / 2}px`;
+        album.style.marginTop = `${-item.height / 2}px`;
+        album.dataset.x = String(x);
+
+        let rot = rotation;
+        let tz = -Math.abs(d) * 12;
+        let scale = 1;
+
+        if (isOpen) {
+          rot = 0;
+          tz = 40;
+        }
+
+        album.classList.toggle(
+          "is-active",
+          hoverIndex === index && !isDragging
+        );
+
+        album.style.transform = `
+          translateX(${x}px)
+          translateZ(${tz}px)
+          rotateY(${rot}deg)
+          scale(${scale})
+        `;
+        album.style.zIndex = hoverIndex === index
+          ? "80"
+          : String(20 - Math.abs(d));
+      });
+    }
+
+    function startLoop() {
+      if (ticking) return;
+      ticking = true;
+      tick();
+    }
+
+    function tick() {
+      if (!isDragging) {
+        scroll += (target - scroll) * 0.18;
+        if (Math.abs(target - scroll) < 0.002) {
+          scroll = target;
+          ticking = false;
+          layout();
+          return;
+        }
+      }
+
+      layout();
+      requestAnimationFrame(tick);
+    }
+
+    function nearestIndex(clientX) {
+      const mid = stage.getBoundingClientRect().left + stage.clientWidth / 2;
+      const px = clientX - mid;
+      let best = 0;
+      let bestDist = Infinity;
+
+      albums.forEach((album, index) => {
+        const x = Number(album.dataset.x || 0);
+        const dist = Math.abs(x - px);
+        if (dist < bestDist) {
+          bestDist = dist;
+          best = index;
+        }
+      });
+
+      return best;
+    }
+
+    stage.addEventListener("pointerdown", event => {
+      if (event.pointerType === "mouse" && event.button !== 0) return;
+      isDragging = true;
+      hoverIndex = null;
+      dragStartX = event.clientX;
+      dragStartScroll = scroll;
+      target = scroll;
+      stage.classList.add("is-dragging");
+      stage.setPointerCapture(event.pointerId);
+      startLoop();
+    });
+
+    stage.addEventListener("pointermove", event => {
+      if (isDragging) {
+        const items = itemMetrics();
+        const avg = items.reduce((sum, item) => sum + item.projected, 0) / items.length;
+        scroll = clampScroll(
+          dragStartScroll - (event.clientX - dragStartX) / avg
+        );
+        target = scroll;
+        return;
+      }
+
+      if (event.pointerType === "touch") return;
+      const next = nearestIndex(event.clientX);
+      if (next !== hoverIndex) {
+        hoverIndex = next;
+        layout();
+      }
+    });
+
+    function stopDragging() {
+      if (!isDragging) return;
+      isDragging = false;
+      stage.classList.remove("is-dragging");
+      target = clampScroll(Math.round(scroll));
+      startLoop();
+    }
+
+    stage.addEventListener("pointerup", stopDragging);
+    stage.addEventListener("pointercancel", stopDragging);
+
+    stage.addEventListener("pointerleave", () => {
+      if (isDragging) return;
+      hoverIndex = null;
+      layout();
+    });
+
+    stage.addEventListener(
+      "wheel",
+      event => {
+        const absX = Math.abs(event.deltaX);
+        const absY = Math.abs(event.deltaY);
+        if (absX <= absY) return;
+
+        hoverIndex = null;
+        target = clampScroll(target + event.deltaX / 420);
+        startLoop();
+        event.preventDefault();
+
+        clearTimeout(wheelTimer);
+        wheelTimer = setTimeout(() => {
+          target = clampScroll(Math.round(target));
+          startLoop();
+        }, 140);
+      },
+      { passive: false }
+    );
+
+    window.addEventListener("keydown", event => {
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        target = clampScroll(Math.round(target) + 1);
+        startLoop();
+      }
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        target = clampScroll(Math.round(target) - 1);
+        startLoop();
+      }
+    });
+
+    window.addEventListener("resize", layout);
+    rebuild();
+  </script>
+</body>
+
+</html> -->
