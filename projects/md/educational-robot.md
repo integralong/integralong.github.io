@@ -21,5 +21,5 @@ By integrating various features such as sensors, motors, and interactive LCD scr
 ![Process](../images/education-robot/3d-printing-process.gif)
 ### 3D printing process (Manufacturing)
 ![Process](../images/education-robot/3d-printing.png)
-### 3D printing process 
+### 3D printing process (Fabrication)
 ![Process](../images/education-robot/fabrication_timeline.gif)
