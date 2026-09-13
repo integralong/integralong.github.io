@@ -447,47 +447,33 @@ body.about-page {
 
 /* ── MOBILE ── */
 
-@media (max-width: 600px) {
-  body {
+@media (max-width: 900px) {
+
+  body.project-page {
     padding: 40px 24px 80px;
   }
 
-  .site-header {
+  .project-layout {
     grid-template-columns: 1fr;
   }
 
-  .projects-header,
-  .project-item > a {
-    grid-template-columns: 1fr;
-  }
-
-  .projects-header span:nth-child(2),
-  .projects-header span:nth-child(3),
-  .project-context,
-  .project-date {
+  .project-toc {
     display: none;
   }
 
-  .inline-preview.open {
-    max-height: 200px;
-    overflow-x: 200px;
-    overflow-y: hidden;
-    pointer-events: auto;
-    -webkit-overflow-scrolling: touch;
+  .project-page .back-link {
+    margin-bottom: 60px;
   }
 
-  .preview-inner {
-    width: max-content;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+  .markdown-content h1 {
+    font-size: 1.7rem;
+  }
+  .markdown-content table{
+    min-width: 1000px;
   }
 
-  .preview-inner img,
-  .preview-inner video {
-    width: auto;
-    height: 180px;
-  }
 }
+
 
 
 
@@ -525,7 +511,7 @@ body.about-page {
 
 
  /* swap */
-/* #name-hover {
+#name-hover {
   cursor: default;
   display: block;
   margin-bottom: 36px;
@@ -560,75 +546,15 @@ body.about-page {
 }
 
 #name-hover:hover #name-text { opacity: 0; }
-#name-hover:hover #name-img  { opacity: 1; } */
+#name-hover:hover #name-img  { opacity: 1; }
 
 
 
-/* ── 푸터 ──
+/* ── 푸터 ── */
 .site-footer-bottom {
   margin-top: 200px;
   padding-bottom: 40px;
   font-size: 0.8125rem;
   color: var(--color-muted);
   text-align: right;
-} */
-
-/* ── 이름 ↔ 이미지 전환 ── */
-#name-hover {
-  cursor: pointer;
-  display: block;
-  margin-bottom: 36px;
-  max-height: 2rem;
-  overflow: hidden;
-  transition: max-height 0.35s ease;
-  touch-action: manipulation;
-}
-
-#name-text {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: 700;
-  transition: opacity 0.2s ease;
-}
-
-#name-img {
-  display: block;
-  width: auto;
-  height: 200px;
-  max-width: 100%;
-  object-fit: contain;
-  object-position: left;
-  border: none;
-  margin-top: 0;
-  opacity: 0;
-  transition: opacity 0.2s ease 0.1s;
-  pointer-events: none;
-}
-
-/* 클릭/탭으로 열린 상태 */
-#name-hover.is-open {
-  max-height: 220px;
-}
-
-#name-hover.is-open #name-text {
-  opacity: 0;
-}
-
-#name-hover.is-open #name-img {
-  opacity: 1;
-}
-
-/* 마우스가 있는 기기에서만 hover 적용 */
-@media (hover: hover) and (pointer: fine) {
-  #name-hover:hover {
-    max-height: 220px;
-  }
-
-  #name-hover:hover #name-text {
-    opacity: 0;
-  }
-
-  #name-hover:hover #name-img {
-    opacity: 1;
-  }
 }
