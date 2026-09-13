@@ -510,6 +510,7 @@ body.about-page {
 }
 
 
+
 /* ── 이름 ↔ 이미지 스왑 ── */
 #name-hover {
   cursor: default;
@@ -549,11 +550,44 @@ body.about-page {
 #name-hover:hover #name-text { opacity: 0; }
 #name-hover:hover #name-img  { opacity: 1; }
 
-/* ── 푸터 ── */
+/* ── footer ── */
 .site-footer-bottom {
   margin-top: 200px;
   padding-bottom: 40px;
   font-size: 0.8125rem;
   color: var(--color-muted);
   text-align: right;
+}
+
+/* 모바일: 프로젝트 이미지를 손가락으로 좌우 스크롤 */
+@media (hover: none), (pointer: coarse) {
+  .inline-preview.open {
+    max-height: 180px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    pointer-events: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+
+    /* 스크롤바 숨기기 */
+    scrollbar-width: none;
+  }
+
+  .inline-preview.open::-webkit-scrollbar {
+    display: none;
+  }
+
+  .preview-inner {
+    width: max-content;
+
+    /* 데스크톱 마우스 이동 효과를 모바일에서 해제 */
+    transform: none !important;
+  }
+
+  .preview-inner img,
+  .preview-inner video {
+    flex: 0 0 auto;
+    width: auto;
+    height: 180px;
+  }
 }
