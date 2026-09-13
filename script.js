@@ -14,7 +14,7 @@ document.addEventListener('mousemove', e => {
 
   const rect = preview.getBoundingClientRect();
 
-  // 미리보기 영역 기준: 왼쪽 0, 오른쪽 1
+
   mouseRatio = (e.clientX - rect.left) / rect.width;
   mouseRatio = Math.max(0, Math.min(1, mouseRatio));
 
@@ -51,7 +51,7 @@ function openPreview(item) {
   const inner = document.createElement('div');
   inner.className = 'preview-inner';
 
-  // ↓ 여기만 이미지 + 영상 지원 코드로 변경
+
   srcs.forEach(src => {
     const isVideo = /\.(mp4|webm|mov)$/i.test(src);
 

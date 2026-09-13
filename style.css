@@ -22,7 +22,7 @@ body {
 a { color: inherit; text-decoration: none; }
 
 
-/* ── 헤더 ── */
+
 .site-header {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -39,7 +39,7 @@ a { color: inherit; text-decoration: none; }
 .links a:hover { opacity: 0.5; }
 .profile-img { width: 160px; height: 200px; object-fit: cover; border: none; display: block; }
 
-/* ── 테이블 헤더 ── */
+
 .projects-header {
   display: grid;
   grid-template-columns: 1fr 220px 80px;
@@ -53,7 +53,7 @@ a { color: inherit; text-decoration: none; }
   text-align: right;
 }
 
-/* ── 리스트 ── */
+
 .projects-list { list-style: none; }
 .project-item { border-bottom: 1px solid var(--color-border); }
 .project-item.is-hovered { border-bottom: none; }
@@ -69,13 +69,13 @@ a { color: inherit; text-decoration: none; }
 .project-context { font-size: 0.9375rem; }
 .project-date   { font-size: 0.9375rem; text-align: right; }
 
-/* hover 시 나머지 흐리게 */
+
 .projects-list.has-hover .project-item:not(.is-hovered) > a { opacity: 0.3; }
 
-/* ── 인라인 프리뷰 컨테이너 (overflow hidden) ── */
+
 .inline-preview {
   overflow: hidden;
-  pointer-events: none; /* ★ 이미지 영역은 hover 이벤트 무시 */
+  pointer-events: none;
   max-height: 0;
   opacity: 0;
   transition:
@@ -83,7 +83,7 @@ a { color: inherit; text-decoration: none; }
     opacity 0.2s ease;
 }
 .inline-preview.open {
-  max-height: 260px; /* 이미지 height + 여유 */
+  max-height: 260px; 
   opacity: 1;
   border-bottom: 1px solid var(--color-border);
   margin-bottom: -1px;
@@ -91,7 +91,7 @@ a { color: inherit; text-decoration: none; }
 
 .preview-inner {
   display: flex;
-  gap: 14px;              /* 사진/영상 사이 간격 */
+  gap: 14px;              
   align-items: stretch;
   transition: transform 0.05s linear;
   will-change: transform;
@@ -100,9 +100,9 @@ a { color: inherit; text-decoration: none; }
 .preview-inner img,
 .preview-inner video {
   flex: 0 0 auto;
-  height: 240px;          /* 모든 media 높이 동일 */
-  width: auto;            /* 너비는 비율에 따라 자유롭게 */
-  object-fit: contain;      /* 잘라도 꽉 차게 : cover*/
+  height: 240px;          
+  width: auto;           
+  object-fit: contain;     
   display: block;
 }
 
@@ -145,7 +145,7 @@ body.project-page {
 }
 
 
-/* 전체 레이아웃 */
+/* Layout */
 .project-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 250px;
@@ -154,7 +154,7 @@ body.project-page {
 }
 
 
-/* ── Markdown 본문 ── */
+/* ── Markdown ── */
 
 .markdown-content {
   min-width: 0;
@@ -168,7 +168,7 @@ body.project-page {
   border: 1px solid #dcdcdc;
 }
 
-/* Markdown 표 */
+/* Markdown table */
 .markdown-content table {
   width: 100%;
   min-width: 1200px;
@@ -194,7 +194,7 @@ body.project-page {
   white-space: nowrap;
 }
 
-/* 각 열 너비 */
+
 .markdown-content th:nth-child(1),
 .markdown-content td:nth-child(1) {
   min-width: 130px;
@@ -226,7 +226,7 @@ body.project-page {
   min-width: 400px;
 }
 
-/* 제목 */
+/* title */
 .markdown-content h1 {
   font-size: 2rem;
   line-height: 1.15;
@@ -272,7 +272,7 @@ body.project-page {
 }
 
 
-/* 링크 */
+
 .markdown-content a {
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -301,7 +301,7 @@ body.project-page {
 }
 
 
-/* 리스트 */
+
 .markdown-content ul,
 .markdown-content ol {
   padding-left: 22px;
@@ -315,7 +315,7 @@ body.project-page {
 }
 
 
-/* 이미지 */
+
 .markdown-content img {
   display: block;
   width: 100%;
@@ -325,7 +325,6 @@ body.project-page {
 }
 
 
-/* 수식 */
 .markdown-content .katex-display {
   margin: 32px 0;
   overflow-x: auto;
@@ -477,7 +476,7 @@ body.about-page {
 
 
 
-/* ── 반응형 ── */
+
 @media (max-width: 600px) {
   body {
     padding: 40px 24px 80px;
@@ -487,13 +486,13 @@ body.about-page {
     grid-template-columns: 1fr;
   }
 
-  /* Project 한 칸만 */
+
   .projects-header,
   .project-item > a {
     grid-template-columns: 1fr;
   }
 
-  /* Context + Date 숨기기 */
+
   .projects-header span:nth-child(2),
   .projects-header span:nth-child(3),
   .project-context,
@@ -501,7 +500,6 @@ body.about-page {
     display: none;
   }
 
-  /* 모바일 preview */
   .preview-inner img,
   .preview-inner video {
     height: 180px;
@@ -511,12 +509,10 @@ body.about-page {
 
 
 
-/* ── 이름 ↔ 이미지 스왑 ── */
 #name-hover {
   cursor: default;
   display: block;
   margin-bottom: 36px;
-  /* 평소: 텍스트 높이만큼 */
   max-height: 2rem;
   overflow: hidden;
   transition: max-height 0.35s ease;
@@ -559,7 +555,6 @@ body.about-page {
   text-align: right;
 }
 
-/* 모바일: 프로젝트 이미지를 손가락으로 좌우 스크롤 */
 @media (hover: none), (pointer: coarse) {
   .inline-preview.open {
     max-height: 180px;
@@ -569,7 +564,6 @@ body.about-page {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
 
-    /* 스크롤바 숨기기 */
     scrollbar-width: none;
   }
 
@@ -580,7 +574,6 @@ body.about-page {
   .preview-inner {
     width: max-content;
 
-    /* 데스크톱 마우스 이동 효과를 모바일에서 해제 */
     transform: none !important;
   }
 
