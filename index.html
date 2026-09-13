@@ -6,6 +6,7 @@
   <title>∫ONG</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <header class="site-header">
@@ -102,5 +103,12 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+  const nameHover = document.querySelector("#name-hover");
+
+  nameHover?.addEventListener("click", () => {
+    nameHover.classList.toggle("is-open");
+  });
+</script>
 </body>
 </html>

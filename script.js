@@ -94,9 +94,15 @@ function forceClose(item) {
   if (currentItem === item) currentItem = null;
 }
 
+const isTouchDevice = window.matchMedia(
+  '(hover: none), (pointer: coarse)'
+).matches;
+
 items.forEach(item => {
-  const row = item.querySelector('a');
+  const row = item.querySelector(':scope > a');
   const title = item.querySelector('.project-title')?.textContent.trim();
+
+  if (!row) return;
 
   if (title) {
     const url = new URL(row.href);
@@ -104,18 +110,48 @@ items.forEach(item => {
     row.href = url.href;
   }
 
+  /* 데스크톱: 기존 hover 동작 */
   row.addEventListener('mouseenter', () => {
+    if (isTouchDevice) return;
+
     clearTimeout(closeTimer);
     openPreview(item);
   });
 
-  item.addEventListener('mouseleave', e => {
-    if (item.contains(e.relatedTarget)) return;
+  item.addEventListener('mouseleave', event => {
+    if (isTouchDevice) return;
+    if (item.contains(event.relatedTarget)) return;
+
     closeTimer = setTimeout(() => {
       forceClose(item);
       list.classList.remove('has-hover');
     }, 60);
   });
 
-  item.addEventListener('mouseenter', () => clearTimeout(closeTimer));
+  item.addEventListener('mouseenter', () => {
+    if (!isTouchDevice) {
+      clearTimeout(closeTimer);
+    }
+  });
+
+  /* 모바일: 첫 탭은 프리뷰, 두 번째 탭은 링크 이동 */
+  row.addEventListener('click', event => {
+    if (!isTouchDevice) return;
+
+    const preview = item.querySelector('.inline-preview');
+    const isOpen = preview?.classList.contains('open');
+
+    if (!isOpen) {
+      event.preventDefault();
+      openPreview(item);
+    }
+    // 이미 열려 있으면 preventDefault 하지 않으므로 링크로 이동
+  });
+});
+document.addEventListener('click', event => {
+  if (!isTouchDevice || !currentItem) return;
+  if (currentItem.contains(event.target)) return;
+
+  forceClose(currentItem);
+  list.classList.remove('has-hover');
 });
