@@ -17,7 +17,9 @@ Out project's main goal is to optimize the final design candidate, Wheelie, for 
 By integrating various features such as sensors, motors, and interactive LCD screens that display emoji expressions, Wheelie provides hands-on learning experiences that encourage curiosity and exploration. Through the aseembly process, we aim to make engineering learning enjoyable and easily accesbile, while encouraging students to interactively explore concepts in robotics engineering.
 
 
-
+### 3D printing process (Design)
 ![Process](../images/education-robot/3d-printing-process.gif)
+### 3D printing process (Manufacturing)
 ![Process](../images/education-robot/3d-printing.png)
+### 3D printing process 
 ![Process](../images/education-robot/fabrication_timeline.gif)
