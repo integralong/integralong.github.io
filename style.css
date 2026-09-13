@@ -477,7 +477,7 @@ body.about-page {
 
 
 
-/* ── Reactive ── */
+/* ── 반응형 ── */
 @media (max-width: 600px) {
   body {
     padding: 40px 24px 80px;
@@ -487,7 +487,7 @@ body.about-page {
     grid-template-columns: 1fr;
   }
 
-  /* Project one block */
+  /* Project 한 칸만 */
   .projects-header,
   .project-item > a {
     grid-template-columns: 1fr;
@@ -501,7 +501,7 @@ body.about-page {
     display: none;
   }
 
-  /* mobile preview */
+  /* 모바일 preview */
   .preview-inner img,
   .preview-inner video {
     height: 180px;
@@ -510,11 +510,12 @@ body.about-page {
 }
 
 
- /* swap */
+/* ── 이름 ↔ 이미지 스왑 ── */
 #name-hover {
   cursor: default;
   display: block;
   margin-bottom: 36px;
+  /* 평소: 텍스트 높이만큼 */
   max-height: 2rem;
   overflow: hidden;
   transition: max-height 0.35s ease;
@@ -547,8 +548,6 @@ body.about-page {
 
 #name-hover:hover #name-text { opacity: 0; }
 #name-hover:hover #name-img  { opacity: 1; }
-
-
 
 /* ── 푸터 ── */
 .site-footer-bottom {
