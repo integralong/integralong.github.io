@@ -7,20 +7,22 @@
 
 Directed Reading Program (DRP) is a mentoring initiative designed to give motivated undergraduates an opportunity to explore advanced mathematics topics under the guidance of a graduate student mentor.
 
-[Learn more about DRP ↗](https://example.com)
+[Learn more about DRP ↗](https://math.ufl.edu/drp/)
 
 **Members:**
 
 Mentor : Kyle Adams
 
-MD student : Julia Bruner
+Medical student : Julia Bruner
 
-Undergrad : Alexandra Haddad, **Lauren Song**, Drew Nelson, Kayla Adams
+Undergraduate students : Alexandra Haddad, **Lauren Song**, Drew Nelson, Kayla Adams
 
 **Institution:** University of Florida  
 **Semester:** Spring 2026
+
+
 **Reading Materials** 
-- [DRP Reaing](https://link.springer.com/article/10.1007/s10928-018-9568-y)
+- [DRP Reaing - Helen Moore's Paper: How to mathematically optimize drug regimens using optimal control](https://link.springer.com/article/10.1007/s10928-018-9568-y)
 
 Meetings: Every Tuesday Period 7 (1:55-2:45) in LIT 368
 
