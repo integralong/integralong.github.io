@@ -12,7 +12,7 @@
 > Note: Use a desktop browser to view the interactive table of contents.
 
 
-The papers is still updating. Stay tuned!
+The project is still updating. Stay tuned!
 
 
 
