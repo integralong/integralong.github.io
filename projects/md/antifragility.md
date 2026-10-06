@@ -12,8 +12,11 @@
 > Note: Use a desktop browser to view the interactive table of contents.
 
 
-The project is still updating. Stay tuned!
 
+
+
+**Manuscript in preparation**
+The project is still updating. Stay tuned!
 
 
 
