@@ -12,10 +12,18 @@
 > Note: Use a desktop browser to view the interactive table of contents.
 
 
-
-
-
-**Manuscript in preparation**
 The project is still updating. Stay tuned!
 
 
+### Curvature-based schedule ordering is preserved in homogeneous and heterogeneous tumors
+Subject are: Cancer Biology
+
+
+Link:
+[https://www.biorxiv.org/content/10.64898/2026.11.08.765156v1](https://www.biorxiv.org/content/10.64898/2026.11.08.765156v1)
+
+
+
+
+
+Updated: Nov 11th, 2026
